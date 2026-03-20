@@ -328,6 +328,296 @@ Your App (V0)
 
 ---
 
+## 🔌 OPENCLAW INTEGRATION (CRITICAL)
+
+Your app (Vercel) needs to communicate with OpenClaw (localhost) for:
+- Order deployment status updates
+- Real-time equity/BP changes
+- Market learning cycles
+- System health checks
+
+### Connectivity Architecture
+
+```
+┌─────────────────────────────────────────────────┐
+│ VERCEL (Cloud)                                  │
+│ Your V0 App (React)                             │
+│ ├─ Leads Screen                                 │
+│ ├─ Trading Dashboard                           │
+│ └─ Settings Panel                               │
+└─────────────────────┬───────────────────────────┘
+                      │ HTTPS API
+                      ↓
+┌─────────────────────────────────────────────────┐
+│ OPENCLAW (Local: ip-172-31-32-188)              │
+│ ├─ Trading System (running)                     │
+│ ├─ Order Monitor (every 60s)                    │
+│ ├─ Deployment Scripts                           │
+│ ├─ Market Learning (YouTube/RSS)                │
+│ └─ Supabase sync                                │
+└─────────────────────────────────────────────────┘
+```
+
+### OpenClaw Endpoints (Expose these)
+
+Your OpenClaw needs to expose REST API endpoints:
+
+```bash
+# 1. Get current account status
+GET http://localhost:3001/api/account
+Response: {
+  equity: 100562,
+  buying_power: 142066,
+  cash: 45918,
+  positions: [{ symbol: 'ETHE', qty: 1838, entry: 3445 }]
+}
+
+# 2. Get recent orders
+GET http://localhost:3001/api/orders?limit=50
+Response: {
+  orders: [
+    { id: 'xxx', symbol: 'ETHE', qty: 1, side: 'buy', status: 'filled', filled_price: 3445 }
+  ]
+}
+
+# 3. Get batch deployments
+GET http://localhost:3001/api/batches
+Response: {
+  batches: [
+    { batch_num: 1, orders_count: 200, fill_rate: 65, actual_gain: 2100, equity_after: 102700 }
+  ]
+}
+
+# 4. Get market conditions
+GET http://localhost:3001/api/market-conditions
+Response: {
+  market_phase: 'BEARISH',
+  vix: 18.5,
+  youtube_consensus: 75,
+  rss_sentiment: 58,
+  recommended_strategy: 'SHORT_AGGRESSIVE'
+}
+
+# 5. Get system health
+GET http://localhost:3001/api/health
+Response: {
+  deployment_running: true,
+  order_monitor_active: true,
+  stuck_orders: 0,
+  last_update: '2026-03-20T12:43:00Z'
+}
+```
+
+### Setting up OpenClaw API (Node.js Express example)
+
+Create `openclaw-api-server.js` in your OpenClaw workspace:
+
+```javascript
+const express = require('express');
+const cors = require('cors');
+const app = express();
+
+app.use(cors());
+app.use(express.json());
+
+// 1. Account status endpoint
+app.get('/api/account', async (req, res) => {
+  // Fetch from Alpaca API
+  const alpacaResponse = await fetch(
+    'https://paper-api.alpaca.markets/v2/account',
+    { headers: {...} }
+  );
+  const account = await alpacaResponse.json();
+  res.json({
+    equity: account.equity,
+    buying_power: account.buying_power,
+    cash: account.cash,
+    positions: account.positions
+  });
+});
+
+// 2. Orders endpoint
+app.get('/api/orders', async (req, res) => {
+  const limit = req.query.limit || 50;
+  const alpacaResponse = await fetch(
+    `https://paper-api.alpaca.markets/v2/orders?status=all&limit=${limit}`,
+    { headers: {...} }
+  );
+  const orders = await alpacaResponse.json();
+  res.json({ orders });
+});
+
+// 3. Batches endpoint (from Supabase)
+app.get('/api/batches', async (req, res) => {
+  // Fetch from Supabase batch_deployments table
+  const batches = await supabase
+    .from('batch_deployments')
+    .select('*')
+    .order('deployment_time', { ascending: false })
+    .limit(50);
+  res.json({ batches: batches.data });
+});
+
+// 4. Market conditions endpoint (from Supabase)
+app.get('/api/market-conditions', async (req, res) => {
+  const conditions = await supabase
+    .from('market_conditions')
+    .select('*')
+    .order('check_time', { ascending: false })
+    .limit(1)
+    .single();
+  res.json(conditions.data);
+});
+
+// 5. Health check endpoint
+app.get('/api/health', async (req, res) => {
+  res.json({
+    deployment_running: isDeploymentRunning(),
+    order_monitor_active: isOrderMonitorActive(),
+    stuck_orders: getStuckOrdersCount(),
+    last_update: new Date().toISOString()
+  });
+});
+
+app.listen(3001, () => console.log('OpenClaw API on :3001'));
+```
+
+### V0 App: How to Connect
+
+In your `lib/openclaw-client.ts`:
+
+```typescript
+const OPENCLAW_API = process.env.NEXT_PUBLIC_OPENCLAW_URL || 'http://localhost:3001';
+
+export async function getAccountStatus() {
+  const res = await fetch(`${OPENCLAW_API}/api/account`);
+  return res.json();
+}
+
+export async function getRecentOrders(limit = 50) {
+  const res = await fetch(`${OPENCLAW_API}/api/orders?limit=${limit}`);
+  return res.json();
+}
+
+export async function getBatches() {
+  const res = await fetch(`${OPENCLAW_API}/api/batches`);
+  return res.json();
+}
+
+export async function getMarketConditions() {
+  const res = await fetch(`${OPENCLAW_API}/api/market-conditions`);
+  return res.json();
+}
+
+export async function getSystemHealth() {
+  const res = await fetch(`${OPENCLAW_API}/api/health`);
+  return res.json();
+}
+```
+
+In your Trading Screen component:
+
+```typescript
+import { getAccountStatus, getBatches } from '@/lib/openclaw-client';
+
+export default function TradingDashboard() {
+  const [account, setAccount] = useState(null);
+  const [batches, setBatches] = useState([]);
+
+  useEffect(() => {
+    // Poll every 10 seconds
+    const interval = setInterval(async () => {
+      const accData = await getAccountStatus();
+      const batchData = await getBatches();
+      setAccount(accData);
+      setBatches(batchData.batches);
+    }, 10000);
+    return () => clearInterval(interval);
+  }, []);
+
+  return (
+    <div>
+      <AccountCard equity={account?.equity} bp={account?.buying_power} />
+      <BatchTimeline batches={batches} />
+    </div>
+  );
+}
+```
+
+### Environment Variables for OpenClaw Connection
+
+Add to `.env.local`:
+
+```env
+# For localhost development
+NEXT_PUBLIC_OPENCLAW_URL=http://localhost:3001
+
+# For production (Vercel → OpenClaw via VPN/public IP)
+# NEXT_PUBLIC_OPENCLAW_URL=https://your-openclaw-public-url.com
+```
+
+### Deployment Strategy
+
+1. **Local Development** (you):
+   - Run V0 app locally: `npm run dev`
+   - Run OpenClaw API server: `node openclaw-api-server.js`
+   - App calls `http://localhost:3001/api/*`
+   - Everything works ✅
+
+2. **Vercel Deployment**:
+   - App deployed to Vercel (cloud)
+   - OpenClaw stays local (but needs public endpoint)
+   - Options:
+     a) Expose OpenClaw via ngrok/Cloudflare tunnel
+     b) Use VPN (Tailscale) to connect Vercel → Local
+     c) Use Supabase as bridge (bidirectional sync)
+
+3. **Recommended: Supabase as Bridge**
+   - OpenClaw writes to Supabase (batches, orders, conditions)
+   - V0 app reads from Supabase
+   - No need to expose OpenClaw publicly
+   - More secure ✅
+
+---
+
+## OpenClaw Sync to Supabase (Recommended)
+
+Create `openclaw-sync.py` in OpenClaw that writes data to Supabase:
+
+```python
+import supabase_client
+from datetime import datetime
+
+def sync_batch_to_supabase(batch_data):
+    supabase.table('batch_deployments').insert({
+        'batch_num': batch_data['batch_num'],
+        'deployment_time': datetime.now(),
+        'strategy': 'SHORT_AGGRESSIVE',
+        'orders_count': batch_data['orders'],
+        'fill_rate_percent': batch_data['fill_rate'],
+        'actual_gain': batch_data['gain'],
+        'equity_after': batch_data['equity']
+    })
+
+def sync_account_to_supabase(account_data):
+    supabase.table('trading_accounts').update({
+        'current_equity': account_data['equity'],
+        'buying_power': account_data['bp']
+    }).eq('account_id', 'PA320EPZBPGV')
+```
+
+Then V0 app just reads from Supabase:
+
+```typescript
+// Much simpler - no polling local API
+const { data: batches } = await supabase
+  .from('batch_deployments')
+  .select('*')
+  .order('deployment_time', { ascending: false });
+```
+
+---
+
 ## 📌 CRITICAL NOTES
 
 1. **ZIP is production-ready** - Don't break it
