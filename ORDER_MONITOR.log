@@ -1,0 +1,5463 @@
+/home/ubuntu/.openclaw/workspace/ORDER_MONITOR_CLEANUP.py:93: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  now = datetime.utcnow().replace(tzinfo=None)
+[21:48:37] 🚀 ORDER MONITOR STARTED
+[21:48:37]    Max order age: 15 min
+[21:48:37]    Min buying power alert: $20,000
+[21:48:37] 
+[21:48:37] 📊 CYCLE 1
+[21:48:38]   Equity: $101,129 | BP: $2,431 | Cash: $45,918
+[21:48:38]   ⚠️ LOW BUYING POWER ($2,431)
+[21:48:38]   Pending orders: 13
+[21:48:38]   Checking for old orders...
+[21:48:39]   ✗ Canceled old GBTC order (age: 16 min)
+[21:48:39]   ✗ Canceled old ETHE order (age: 16 min)
+[21:48:40]   ✗ Canceled old GBTC order (age: 16 min)
+[21:48:40]   ✗ Canceled old ETHE order (age: 16 min)
+[21:48:40]   ✗ Canceled old GBTC order (age: 18 min)
+[21:48:41]   ✗ Canceled old ETHE order (age: 18 min)
+[21:48:41]   ✓ Cleaned: 6 orders canceled, 7 kept
+[21:48:41]   ⏳ Next check in 60s...
+[21:48:41] 
+[21:49:41] 📊 CYCLE 2
+[21:49:41]   Equity: $101,129 | BP: $142,632 | Cash: $45,918
+[21:49:41]   Pending orders: 0
+[21:49:41]   Checking for old orders...
+[21:49:42]   ✓ All orders OK (0 pending)
+[21:49:42]   ⏳ Next check in 60s...
+[21:49:42] 
+[21:50:42] 📊 CYCLE 3
+[21:50:42]   Equity: $101,129 | BP: $142,632 | Cash: $45,918
+[21:50:43]   Pending orders: 0
+[21:50:43]   Checking for old orders...
+[21:50:43]   ✓ All orders OK (0 pending)
+[21:50:43]   ⏳ Next check in 60s...
+[21:50:43] 
+[21:51:43] 📊 CYCLE 4
+[21:51:43]   Equity: $101,129 | BP: $142,632 | Cash: $45,918
+[21:51:44]   Pending orders: 0
+[21:51:44]   Checking for old orders...
+[21:51:44]   ✓ All orders OK (0 pending)
+[21:51:44]   ⏳ Next check in 60s...
+[21:51:44] 
+[21:52:44] 📊 CYCLE 5
+[21:52:44]   Equity: $101,129 | BP: $142,632 | Cash: $45,918
+[21:52:45]   Pending orders: 0
+[21:52:45]   Checking for old orders...
+[21:52:45]   ✓ All orders OK (0 pending)
+[21:52:45]   ⏳ Next check in 60s...
+[21:52:45] 
+[21:53:45] 📊 CYCLE 6
+[21:53:45]   Equity: $101,129 | BP: $142,632 | Cash: $45,918
+[21:53:46]   Pending orders: 0
+[21:53:46]   Checking for old orders...
+[21:53:46]   ✓ All orders OK (0 pending)
+[21:53:46]   ⏳ Next check in 60s...
+[21:53:46] 
+[21:54:46] 📊 CYCLE 7
+[21:54:46]   Equity: $101,129 | BP: $142,632 | Cash: $45,918
+[21:54:47]   Pending orders: 0
+[21:54:47]   Checking for old orders...
+[21:54:47]   ✓ All orders OK (0 pending)
+[21:54:47]   ⏳ Next check in 60s...
+[21:54:47] 
+[21:55:47] 📊 CYCLE 8
+[21:55:48]   Equity: $101,129 | BP: $142,632 | Cash: $45,918
+[21:55:48]   Pending orders: 0
+[21:55:48]   Checking for old orders...
+[21:55:48]   ✓ All orders OK (0 pending)
+[21:55:48]   ⏳ Next check in 60s...
+[21:55:48] 
+[21:56:48] 📊 CYCLE 9
+[21:56:49]   Equity: $101,129 | BP: $142,632 | Cash: $45,918
+[21:56:49]   Pending orders: 0
+[21:56:49]   Checking for old orders...
+[21:56:49]   ✓ All orders OK (0 pending)
+[21:56:49]   ⏳ Next check in 60s...
+[21:56:49] 
+[21:57:49] 📊 CYCLE 10
+[21:57:50]   Equity: $101,129 | BP: $142,632 | Cash: $45,918
+[21:57:50]   Pending orders: 0
+[21:57:50]   Checking for old orders...
+[21:57:50]   ✓ All orders OK (0 pending)
+[21:57:50]   ⏳ Next check in 60s...
+[21:57:50] 
+[21:58:50] 📊 CYCLE 11
+[21:58:51]   Equity: $101,129 | BP: $142,632 | Cash: $45,918
+[21:58:51]   Pending orders: 0
+[21:58:51]   Checking for old orders...
+[21:58:51]   ✓ All orders OK (0 pending)
+[21:58:51]   ⏳ Next check in 60s...
+[21:58:51] 
+[21:59:51] 📊 CYCLE 12
+[21:59:52]   Equity: $101,129 | BP: $142,632 | Cash: $45,918
+[21:59:52]   Pending orders: 0
+[21:59:52]   Checking for old orders...
+[21:59:52]   ✓ All orders OK (0 pending)
+[21:59:52]   ⏳ Next check in 60s...
+[21:59:52] 
+[22:00:52] 📊 CYCLE 13
+[22:00:53]   Equity: $101,129 | BP: $142,632 | Cash: $45,918
+[22:00:53]   Pending orders: 0
+[22:00:53]   Checking for old orders...
+[22:00:54]   ✓ All orders OK (0 pending)
+[22:00:54]   ⏳ Next check in 60s...
+[22:00:54] 
+[22:01:54] 📊 CYCLE 14
+[22:01:54]   Equity: $101,129 | BP: $142,632 | Cash: $45,918
+[22:01:54]   Pending orders: 0
+[22:01:54]   Checking for old orders...
+[22:01:55]   ✓ All orders OK (0 pending)
+[22:01:55]   ⏳ Next check in 60s...
+[22:01:55] 
+[22:02:55] 📊 CYCLE 15
+[22:02:55]   Equity: $101,129 | BP: $142,632 | Cash: $45,918
+[22:02:55]   Pending orders: 0
+[22:02:55]   Checking for old orders...
+[22:02:56]   ✓ All orders OK (0 pending)
+[22:02:56]   ⏳ Next check in 60s...
+[22:02:56] 
+[22:03:56] 📊 CYCLE 16
+[22:03:56]   Equity: $101,091 | BP: $142,595 | Cash: $45,918
+[22:03:56]   Pending orders: 0
+[22:03:56]   Checking for old orders...
+[22:03:57]   ✓ All orders OK (0 pending)
+[22:03:57]   ⏳ Next check in 60s...
+[22:03:57] 
+[22:04:57] 📊 CYCLE 17
+[22:04:57]   Equity: $101,091 | BP: $142,595 | Cash: $45,918
+[22:04:57]   Pending orders: 0
+[22:04:57]   Checking for old orders...
+[22:04:58]   ✓ All orders OK (0 pending)
+[22:04:58]   ⏳ Next check in 60s...
+[22:04:58] 
+[22:05:58] 📊 CYCLE 18
+[22:05:58]   Equity: $101,091 | BP: $142,595 | Cash: $45,918
+[22:05:59]   Pending orders: 0
+[22:05:59]   Checking for old orders...
+[22:05:59]   ✓ All orders OK (0 pending)
+[22:05:59]   ⏳ Next check in 60s...
+[22:05:59] 
+[22:06:59] 📊 CYCLE 19
+[22:06:59]   Equity: $101,091 | BP: $142,595 | Cash: $45,918
+[22:07:00]   Pending orders: 0
+[22:07:00]   Checking for old orders...
+[22:07:00]   ✓ All orders OK (0 pending)
+[22:07:00]   ⏳ Next check in 60s...
+[22:07:00] 
+[22:08:00] 📊 CYCLE 20
+[22:08:00]   Equity: $101,091 | BP: $142,595 | Cash: $45,918
+[22:08:01]   Pending orders: 0
+[22:08:01]   Checking for old orders...
+[22:08:01]   ✓ All orders OK (0 pending)
+[22:08:01]   ⏳ Next check in 60s...
+[22:08:01] 
+[22:09:01] 📊 CYCLE 21
+[22:09:01]   Equity: $101,091 | BP: $142,595 | Cash: $45,918
+[22:09:02]   Pending orders: 0
+[22:09:02]   Checking for old orders...
+[22:09:02]   ✓ All orders OK (0 pending)
+[22:09:02]   ⏳ Next check in 60s...
+[22:09:02] 
+[22:10:02] 📊 CYCLE 22
+[22:10:02]   Equity: $101,091 | BP: $142,595 | Cash: $45,918
+[22:10:03]   Pending orders: 0
+[22:10:03]   Checking for old orders...
+[22:10:03]   ✓ All orders OK (0 pending)
+[22:10:03]   ⏳ Next check in 60s...
+[22:10:03] 
+[22:11:03] 📊 CYCLE 23
+[22:11:03]   Equity: $101,091 | BP: $142,595 | Cash: $45,918
+[22:11:04]   Pending orders: 0
+[22:11:04]   Checking for old orders...
+[22:11:04]   ✓ All orders OK (0 pending)
+[22:11:04]   ⏳ Next check in 60s...
+[22:11:04] 
+[22:12:04] 📊 CYCLE 24
+[22:12:05]   Equity: $101,091 | BP: $142,595 | Cash: $45,918
+[22:12:05]   Pending orders: 0
+[22:12:05]   Checking for old orders...
+[22:12:05]   ✓ All orders OK (0 pending)
+[22:12:05]   ⏳ Next check in 60s...
+[22:12:05] 
+[22:13:05] 📊 CYCLE 25
+[22:13:06]   Equity: $101,091 | BP: $142,595 | Cash: $45,918
+[22:13:06]   Pending orders: 0
+[22:13:06]   Checking for old orders...
+[22:13:06]   ✓ All orders OK (0 pending)
+[22:13:06]   ⏳ Next check in 60s...
+[22:13:06] 
+[22:14:06] 📊 CYCLE 26
+[22:14:07]   Equity: $101,096 | BP: $142,599 | Cash: $45,918
+[22:14:07]   Pending orders: 0
+[22:14:07]   Checking for old orders...
+[22:14:07]   ✓ All orders OK (0 pending)
+[22:14:07]   ⏳ Next check in 60s...
+[22:14:07] 
+[22:15:07] 📊 CYCLE 27
+[22:15:08]   Equity: $100,544 | BP: $142,048 | Cash: $45,918
+[22:15:08]   Pending orders: 0
+[22:15:08]   Checking for old orders...
+[22:15:08]   ✓ All orders OK (0 pending)
+[22:15:08]   ⏳ Next check in 60s...
+[22:15:08] 
+[22:16:08] 📊 CYCLE 28
+[22:16:09]   Equity: $100,544 | BP: $142,048 | Cash: $45,918
+[22:16:09]   Pending orders: 0
+[22:16:09]   Checking for old orders...
+[22:16:09]   ✓ All orders OK (0 pending)
+[22:16:09]   ⏳ Next check in 60s...
+[22:16:09] 
+[22:17:09] 📊 CYCLE 29
+[22:17:10]   Equity: $100,544 | BP: $142,048 | Cash: $45,918
+[22:17:10]   Pending orders: 0
+[22:17:10]   Checking for old orders...
+[22:17:11]   ✓ All orders OK (0 pending)
+[22:17:11]   ⏳ Next check in 60s...
+[22:17:11] 
+[22:18:11] 📊 CYCLE 30
+[22:18:11]   Equity: $100,544 | BP: $142,048 | Cash: $45,918
+[22:18:11]   Pending orders: 0
+[22:18:11]   Checking for old orders...
+[22:18:12]   ✓ All orders OK (0 pending)
+[22:18:12]   ⏳ Next check in 60s...
+[22:18:12] 
+[22:19:12] 📊 CYCLE 31
+[22:19:12]   Equity: $100,544 | BP: $142,048 | Cash: $45,918
+[22:19:12]   Pending orders: 0
+[22:19:12]   Checking for old orders...
+[22:19:13]   ✓ All orders OK (0 pending)
+[22:19:13]   ⏳ Next check in 60s...
+[22:19:13] 
+[22:20:13] 📊 CYCLE 32
+[22:20:13]   Equity: $100,544 | BP: $142,048 | Cash: $45,918
+[22:20:13]   Pending orders: 0
+[22:20:13]   Checking for old orders...
+[22:20:14]   ✓ All orders OK (0 pending)
+[22:20:14]   ⏳ Next check in 60s...
+[22:20:14] 
+[22:21:14] 📊 CYCLE 33
+[22:21:14]   Equity: $100,544 | BP: $142,048 | Cash: $45,918
+[22:21:14]   Pending orders: 0
+[22:21:14]   Checking for old orders...
+[22:21:15]   ✓ All orders OK (0 pending)
+[22:21:15]   ⏳ Next check in 60s...
+[22:21:15] 
+[22:22:15] 📊 CYCLE 34
+[22:22:15]   Equity: $100,544 | BP: $142,048 | Cash: $45,918
+[22:22:15]   Pending orders: 0
+[22:22:15]   Checking for old orders...
+[22:22:16]   ✓ All orders OK (0 pending)
+[22:22:16]   ⏳ Next check in 60s...
+[22:22:16] 
+[22:23:16] 📊 CYCLE 35
+[22:23:16]   Equity: $100,544 | BP: $142,048 | Cash: $45,918
+[22:23:17]   Pending orders: 0
+[22:23:17]   Checking for old orders...
+[22:23:17]   ✓ All orders OK (0 pending)
+[22:23:17]   ⏳ Next check in 60s...
+[22:23:17] 
+[22:24:17] 📊 CYCLE 36
+[22:24:17]   Equity: $100,544 | BP: $142,048 | Cash: $45,918
+[22:24:18]   Pending orders: 0
+[22:24:18]   Checking for old orders...
+[22:24:18]   ✓ All orders OK (0 pending)
+[22:24:18]   ⏳ Next check in 60s...
+[22:24:18] 
+[22:25:18] 📊 CYCLE 37
+[22:25:18]   Equity: $100,544 | BP: $142,048 | Cash: $45,918
+[22:25:19]   Pending orders: 0
+[22:25:19]   Checking for old orders...
+[22:25:19]   ✓ All orders OK (0 pending)
+[22:25:19]   ⏳ Next check in 60s...
+[22:25:19] 
+[22:26:19] 📊 CYCLE 38
+[22:26:19]   Equity: $100,544 | BP: $142,048 | Cash: $45,918
+[22:26:20]   Pending orders: 0
+[22:26:20]   Checking for old orders...
+[22:26:20]   ✓ All orders OK (0 pending)
+[22:26:20]   ⏳ Next check in 60s...
+[22:26:20] 
+[22:27:20] 📊 CYCLE 39
+[22:27:20]   Equity: $100,544 | BP: $142,048 | Cash: $45,918
+[22:27:21]   Pending orders: 0
+[22:27:21]   Checking for old orders...
+[22:27:21]   ✓ All orders OK (0 pending)
+[22:27:21]   ⏳ Next check in 60s...
+[22:27:21] 
+[22:28:21] 📊 CYCLE 40
+[22:28:21]   Equity: $100,544 | BP: $142,048 | Cash: $45,918
+[22:28:22]   Pending orders: 0
+[22:28:22]   Checking for old orders...
+[22:28:22]   ✓ All orders OK (0 pending)
+[22:28:22]   ⏳ Next check in 60s...
+[22:28:22] 
+[22:29:22] 📊 CYCLE 41
+[22:29:23]   Equity: $100,544 | BP: $142,048 | Cash: $45,918
+[22:29:23]   Pending orders: 0
+[22:29:23]   Checking for old orders...
+[22:29:23]   ✓ All orders OK (0 pending)
+[22:29:23]   ⏳ Next check in 60s...
+[22:29:23] 
+[22:30:23] 📊 CYCLE 42
+[22:30:24]   Equity: $100,406 | BP: $141,909 | Cash: $45,918
+[22:30:24]   Pending orders: 0
+[22:30:24]   Checking for old orders...
+[22:30:24]   ✓ All orders OK (0 pending)
+[22:30:24]   ⏳ Next check in 60s...
+[22:30:24] 
+[22:31:24] 📊 CYCLE 43
+[22:31:25]   Equity: $100,412 | BP: $141,915 | Cash: $45,918
+[22:31:25]   Pending orders: 0
+[22:31:25]   Checking for old orders...
+[22:31:25]   ✓ All orders OK (0 pending)
+[22:31:25]   ⏳ Next check in 60s...
+[22:31:25] 
+[22:32:25] 📊 CYCLE 44
+[22:32:26]   Equity: $100,412 | BP: $141,915 | Cash: $45,918
+[22:32:26]   Pending orders: 0
+[22:32:26]   Checking for old orders...
+[22:32:26]   ✓ All orders OK (0 pending)
+[22:32:26]   ⏳ Next check in 60s...
+[22:32:26] 
+[22:33:26] 📊 CYCLE 45
+[22:33:27]   Equity: $100,494 | BP: $141,998 | Cash: $45,918
+[22:33:27]   Pending orders: 0
+[22:33:27]   Checking for old orders...
+[22:33:28]   ✓ All orders OK (0 pending)
+[22:33:28]   ⏳ Next check in 60s...
+[22:33:28] 
+[22:34:28] 📊 CYCLE 46
+[22:34:28]   Equity: $100,494 | BP: $141,998 | Cash: $45,918
+[22:34:28]   Pending orders: 0
+[22:34:28]   Checking for old orders...
+[22:34:29]   ✓ All orders OK (0 pending)
+[22:34:29]   ⏳ Next check in 60s...
+[22:34:29] 
+[22:35:29] 📊 CYCLE 47
+[22:35:29]   Equity: $100,494 | BP: $141,998 | Cash: $45,918
+[22:35:29]   Pending orders: 0
+[22:35:29]   Checking for old orders...
+[22:35:30]   ✓ All orders OK (0 pending)
+[22:35:30]   ⏳ Next check in 60s...
+[22:35:30] 
+[22:36:30] 📊 CYCLE 48
+[22:36:30]   Equity: $100,439 | BP: $141,943 | Cash: $45,918
+[22:36:30]   Pending orders: 0
+[22:36:30]   Checking for old orders...
+[22:36:31]   ✓ All orders OK (0 pending)
+[22:36:31]   ⏳ Next check in 60s...
+[22:36:31] 
+[22:37:31] 📊 CYCLE 49
+[22:37:31]   Equity: $100,439 | BP: $141,943 | Cash: $45,918
+[22:37:31]   Pending orders: 0
+[22:37:31]   Checking for old orders...
+[22:37:32]   ✓ All orders OK (0 pending)
+[22:37:32]   ⏳ Next check in 60s...
+[22:37:32] 
+[22:38:32] 📊 CYCLE 50
+[22:38:32]   Equity: $100,406 | BP: $141,910 | Cash: $45,918
+[22:38:32]   Pending orders: 0
+[22:38:32]   Checking for old orders...
+[22:38:33]   ✓ All orders OK (0 pending)
+[22:38:33]   ⏳ Next check in 60s...
+[22:38:33] 
+[22:39:33] 📊 CYCLE 51
+[22:39:33]   Equity: $100,406 | BP: $141,910 | Cash: $45,918
+[22:39:34]   Pending orders: 0
+[22:39:34]   Checking for old orders...
+[22:39:34]   ✓ All orders OK (0 pending)
+[22:39:34]   ⏳ Next check in 60s...
+[22:39:34] 
+[22:40:34] 📊 CYCLE 52
+[22:40:34]   Equity: $100,406 | BP: $141,910 | Cash: $45,918
+[22:40:35]   Pending orders: 0
+[22:40:35]   Checking for old orders...
+[22:40:35]   ✓ All orders OK (0 pending)
+[22:40:35]   ⏳ Next check in 60s...
+[22:40:35] 
+[22:41:35] 📊 CYCLE 53
+[22:41:35]   Equity: $100,406 | BP: $141,910 | Cash: $45,918
+[22:41:36]   Pending orders: 0
+[22:41:36]   Checking for old orders...
+[22:41:36]   ✓ All orders OK (0 pending)
+[22:41:36]   ⏳ Next check in 60s...
+[22:41:36] 
+[22:42:36] 📊 CYCLE 54
+[22:42:36]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[22:42:37]   Pending orders: 0
+[22:42:37]   Checking for old orders...
+[22:42:37]   ✓ All orders OK (0 pending)
+[22:42:37]   ⏳ Next check in 60s...
+[22:42:37] 
+[22:43:37] 📊 CYCLE 55
+[22:43:37]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[22:43:38]   Pending orders: 0
+[22:43:38]   Checking for old orders...
+[22:43:38]   ✓ All orders OK (0 pending)
+[22:43:38]   ⏳ Next check in 60s...
+[22:43:38] 
+[22:44:38] 📊 CYCLE 56
+[22:44:39]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[22:44:39]   Pending orders: 0
+[22:44:39]   Checking for old orders...
+[22:44:39]   ✓ All orders OK (0 pending)
+[22:44:39]   ⏳ Next check in 60s...
+[22:44:39] 
+[22:45:39] 📊 CYCLE 57
+[22:45:40]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[22:45:40]   Pending orders: 0
+[22:45:40]   Checking for old orders...
+[22:45:40]   ✓ All orders OK (0 pending)
+[22:45:40]   ⏳ Next check in 60s...
+[22:45:40] 
+[22:46:40] 📊 CYCLE 58
+[22:46:41]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[22:46:41]   Pending orders: 0
+[22:46:41]   Checking for old orders...
+[22:46:41]   ✓ All orders OK (0 pending)
+[22:46:41]   ⏳ Next check in 60s...
+[22:46:41] 
+[22:47:41] 📊 CYCLE 59
+[22:47:42]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[22:47:42]   Pending orders: 0
+[22:47:42]   Checking for old orders...
+[22:47:42]   ✓ All orders OK (0 pending)
+[22:47:42]   ⏳ Next check in 60s...
+[22:47:42] 
+[22:48:42] 📊 CYCLE 60
+[22:48:43]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[22:48:43]   Pending orders: 0
+[22:48:43]   Checking for old orders...
+[22:48:43]   ✓ All orders OK (0 pending)
+[22:48:43]   ⏳ Next check in 60s...
+[22:48:43] 
+[22:49:43] 📊 CYCLE 61
+[22:49:44]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[22:49:44]   Pending orders: 0
+[22:49:44]   Checking for old orders...
+[22:49:45]   ✓ All orders OK (0 pending)
+[22:49:45]   ⏳ Next check in 60s...
+[22:49:45] 
+[22:50:45] 📊 CYCLE 62
+[22:50:45]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[22:50:45]   Pending orders: 0
+[22:50:45]   Checking for old orders...
+[22:50:46]   ✓ All orders OK (0 pending)
+[22:50:46]   ⏳ Next check in 60s...
+[22:50:46] 
+[22:51:46] 📊 CYCLE 63
+[22:51:46]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[22:51:46]   Pending orders: 0
+[22:51:46]   Checking for old orders...
+[22:51:47]   ✓ All orders OK (0 pending)
+[22:51:47]   ⏳ Next check in 60s...
+[22:51:47] 
+[22:52:47] 📊 CYCLE 64
+[22:52:47]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[22:52:47]   Pending orders: 0
+[22:52:47]   Checking for old orders...
+[22:52:48]   ✓ All orders OK (0 pending)
+[22:52:48]   ⏳ Next check in 60s...
+[22:52:48] 
+[22:53:48] 📊 CYCLE 65
+[22:53:48]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[22:53:48]   Pending orders: 0
+[22:53:48]   Checking for old orders...
+[22:53:49]   ✓ All orders OK (0 pending)
+[22:53:49]   ⏳ Next check in 60s...
+[22:53:49] 
+[22:54:49] 📊 CYCLE 66
+[22:54:49]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[22:54:49]   Pending orders: 0
+[22:54:49]   Checking for old orders...
+[22:54:50]   ✓ All orders OK (0 pending)
+[22:54:50]   ⏳ Next check in 60s...
+[22:54:50] 
+[22:55:50] 📊 CYCLE 67
+[22:55:50]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[22:55:51]   Pending orders: 0
+[22:55:51]   Checking for old orders...
+[22:55:51]   ✓ All orders OK (0 pending)
+[22:55:51]   ⏳ Next check in 60s...
+[22:55:51] 
+[22:56:51] 📊 CYCLE 68
+[22:56:51]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[22:56:52]   Pending orders: 0
+[22:56:52]   Checking for old orders...
+[22:56:52]   ✓ All orders OK (0 pending)
+[22:56:52]   ⏳ Next check in 60s...
+[22:56:52] 
+[22:57:52] 📊 CYCLE 69
+[22:57:52]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[22:57:53]   Pending orders: 0
+[22:57:53]   Checking for old orders...
+[22:57:53]   ✓ All orders OK (0 pending)
+[22:57:53]   ⏳ Next check in 60s...
+[22:57:53] 
+[22:58:53] 📊 CYCLE 70
+[22:58:53]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[22:58:54]   Pending orders: 0
+[22:58:54]   Checking for old orders...
+[22:58:54]   ✓ All orders OK (0 pending)
+[22:58:54]   ⏳ Next check in 60s...
+[22:58:54] 
+[22:59:54] 📊 CYCLE 71
+[22:59:54]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[22:59:55]   Pending orders: 0
+[22:59:55]   Checking for old orders...
+[22:59:55]   ✓ All orders OK (0 pending)
+[22:59:55]   ⏳ Next check in 60s...
+[22:59:55] 
+[23:00:55] 📊 CYCLE 72
+[23:00:55]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[23:00:56]   Pending orders: 0
+[23:00:56]   Checking for old orders...
+[23:00:56]   ✓ All orders OK (0 pending)
+[23:00:56]   ⏳ Next check in 60s...
+[23:00:56] 
+[23:01:56] 📊 CYCLE 73
+[23:01:57]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[23:01:57]   Pending orders: 0
+[23:01:57]   Checking for old orders...
+[23:01:57]   ✓ All orders OK (0 pending)
+[23:01:57]   ⏳ Next check in 60s...
+[23:01:57] 
+[23:02:57] 📊 CYCLE 74
+[23:02:58]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[23:02:58]   Pending orders: 0
+[23:02:58]   Checking for old orders...
+[23:02:58]   ✓ All orders OK (0 pending)
+[23:02:58]   ⏳ Next check in 60s...
+[23:02:58] 
+[23:03:58] 📊 CYCLE 75
+[23:03:59]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[23:03:59]   Pending orders: 0
+[23:03:59]   Checking for old orders...
+[23:04:00]   ✓ All orders OK (0 pending)
+[23:04:00]   ⏳ Next check in 60s...
+[23:04:00] 
+[23:05:00] 📊 CYCLE 76
+[23:05:00]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[23:05:00]   Pending orders: 0
+[23:05:00]   Checking for old orders...
+[23:05:01]   ✓ All orders OK (0 pending)
+[23:05:01]   ⏳ Next check in 60s...
+[23:05:01] 
+[23:06:01] 📊 CYCLE 77
+[23:06:01]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[23:06:01]   Pending orders: 0
+[23:06:01]   Checking for old orders...
+[23:06:02]   ✓ All orders OK (0 pending)
+[23:06:02]   ⏳ Next check in 60s...
+[23:06:02] 
+[23:07:02] 📊 CYCLE 78
+[23:07:02]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[23:07:02]   Pending orders: 0
+[23:07:02]   Checking for old orders...
+[23:07:03]   ✓ All orders OK (0 pending)
+[23:07:03]   ⏳ Next check in 60s...
+[23:07:03] 
+[23:08:03] 📊 CYCLE 79
+[23:08:03]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[23:08:03]   Pending orders: 0
+[23:08:03]   Checking for old orders...
+[23:08:04]   ✓ All orders OK (0 pending)
+[23:08:04]   ⏳ Next check in 60s...
+[23:08:04] 
+[23:09:04] 📊 CYCLE 80
+[23:09:04]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[23:09:05]   Pending orders: 0
+[23:09:05]   Checking for old orders...
+[23:09:05]   ✓ All orders OK (0 pending)
+[23:09:05]   ⏳ Next check in 60s...
+[23:09:05] 
+[23:10:05] 📊 CYCLE 81
+[23:10:05]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[23:10:06]   Pending orders: 0
+[23:10:06]   Checking for old orders...
+[23:10:06]   ✓ All orders OK (0 pending)
+[23:10:06]   ⏳ Next check in 60s...
+[23:10:06] 
+[23:11:06] 📊 CYCLE 82
+[23:11:06]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[23:11:07]   Pending orders: 0
+[23:11:07]   Checking for old orders...
+[23:11:07]   ✓ All orders OK (0 pending)
+[23:11:07]   ⏳ Next check in 60s...
+[23:11:07] 
+[23:12:07] 📊 CYCLE 83
+[23:12:07]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[23:12:08]   Pending orders: 0
+[23:12:08]   Checking for old orders...
+[23:12:08]   ✓ All orders OK (0 pending)
+[23:12:08]   ⏳ Next check in 60s...
+[23:12:08] 
+[23:13:08] 📊 CYCLE 84
+[23:13:08]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[23:13:09]   Pending orders: 0
+[23:13:09]   Checking for old orders...
+[23:13:09]   ✓ All orders OK (0 pending)
+[23:13:09]   ⏳ Next check in 60s...
+[23:13:09] 
+[23:14:09] 📊 CYCLE 85
+[23:14:10]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[23:14:10]   Pending orders: 0
+[23:14:10]   Checking for old orders...
+[23:14:10]   ✓ All orders OK (0 pending)
+[23:14:10]   ⏳ Next check in 60s...
+[23:14:10] 
+[23:15:10] 📊 CYCLE 86
+[23:15:11]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[23:15:11]   Pending orders: 0
+[23:15:11]   Checking for old orders...
+[23:15:11]   ✓ All orders OK (0 pending)
+[23:15:11]   ⏳ Next check in 60s...
+[23:15:11] 
+[23:16:11] 📊 CYCLE 87
+[23:16:12]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[23:16:12]   Pending orders: 0
+[23:16:12]   Checking for old orders...
+[23:16:12]   ✓ All orders OK (0 pending)
+[23:16:12]   ⏳ Next check in 60s...
+[23:16:12] 
+[23:17:12] 📊 CYCLE 88
+[23:17:13]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[23:17:13]   Pending orders: 0
+[23:17:13]   Checking for old orders...
+[23:17:13]   ✓ All orders OK (0 pending)
+[23:17:13]   ⏳ Next check in 60s...
+[23:17:13] 
+[23:18:13] 📊 CYCLE 89
+[23:18:14]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[23:18:14]   Pending orders: 0
+[23:18:14]   Checking for old orders...
+[23:18:15]   ✓ All orders OK (0 pending)
+[23:18:15]   ⏳ Next check in 60s...
+[23:18:15] 
+[23:19:15] 📊 CYCLE 90
+[23:19:15]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[23:19:15]   Pending orders: 0
+[23:19:15]   Checking for old orders...
+[23:19:16]   ✓ All orders OK (0 pending)
+[23:19:16]   ⏳ Next check in 60s...
+[23:19:16] 
+[23:20:16] 📊 CYCLE 91
+[23:20:16]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[23:20:16]   Pending orders: 0
+[23:20:16]   Checking for old orders...
+[23:20:17]   ✓ All orders OK (0 pending)
+[23:20:17]   ⏳ Next check in 60s...
+[23:20:17] 
+[23:21:17] 📊 CYCLE 92
+[23:21:17]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[23:21:17]   Pending orders: 0
+[23:21:17]   Checking for old orders...
+[23:21:18]   ✓ All orders OK (0 pending)
+[23:21:18]   ⏳ Next check in 60s...
+[23:21:18] 
+[23:22:18] 📊 CYCLE 93
+[23:22:18]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[23:22:18]   Pending orders: 0
+[23:22:18]   Checking for old orders...
+[23:22:19]   ✓ All orders OK (0 pending)
+[23:22:19]   ⏳ Next check in 60s...
+[23:22:19] 
+[23:23:19] 📊 CYCLE 94
+[23:23:19]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[23:23:20]   Pending orders: 0
+[23:23:20]   Checking for old orders...
+[23:23:20]   ✓ All orders OK (0 pending)
+[23:23:20]   ⏳ Next check in 60s...
+[23:23:20] 
+[23:24:20] 📊 CYCLE 95
+[23:24:20]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[23:24:21]   Pending orders: 0
+[23:24:21]   Checking for old orders...
+[23:24:21]   ✓ All orders OK (0 pending)
+[23:24:21]   ⏳ Next check in 60s...
+[23:24:21] 
+[23:25:21] 📊 CYCLE 96
+[23:25:21]   Equity: $100,396 | BP: $141,899 | Cash: $45,918
+[23:25:22]   Pending orders: 0
+[23:25:22]   Checking for old orders...
+[23:25:22]   ✓ All orders OK (0 pending)
+[23:25:22]   ⏳ Next check in 60s...
+[23:25:22] 
+[23:26:22] 📊 CYCLE 97
+[23:26:22]   Equity: $100,616 | BP: $142,120 | Cash: $45,918
+[23:26:23]   Pending orders: 0
+[23:26:23]   Checking for old orders...
+[23:26:23]   ✓ All orders OK (0 pending)
+[23:26:23]   ⏳ Next check in 60s...
+[23:26:23] 
+[23:27:23] 📊 CYCLE 98
+[23:27:23]   Equity: $100,616 | BP: $142,120 | Cash: $45,918
+[23:27:24]   Pending orders: 0
+[23:27:24]   Checking for old orders...
+[23:27:24]   ✓ All orders OK (0 pending)
+[23:27:24]   ⏳ Next check in 60s...
+[23:27:24] 
+[23:28:24] 📊 CYCLE 99
+[23:28:24]   Equity: $100,640 | BP: $142,144 | Cash: $45,918
+[23:28:25]   Pending orders: 0
+[23:28:25]   Checking for old orders...
+[23:28:25]   ✓ All orders OK (0 pending)
+[23:28:25]   ⏳ Next check in 60s...
+[23:28:25] 
+[23:29:25] 📊 CYCLE 100
+[23:29:26]   Equity: $100,640 | BP: $142,144 | Cash: $45,918
+[23:29:26]   Pending orders: 0
+[23:29:26]   Checking for old orders...
+[23:29:26]   ✓ All orders OK (0 pending)
+[23:29:26]   ⏳ Next check in 60s...
+[23:29:26] 
+[23:30:26] 📊 CYCLE 101
+[23:30:27]   Equity: $100,640 | BP: $142,144 | Cash: $45,918
+[23:30:27]   Pending orders: 0
+[23:30:27]   Checking for old orders...
+[23:30:27]   ✓ All orders OK (0 pending)
+[23:30:27]   ⏳ Next check in 60s...
+[23:30:27] 
+[23:31:27] 📊 CYCLE 102
+[23:31:28]   Equity: $100,640 | BP: $142,144 | Cash: $45,918
+[23:31:28]   Pending orders: 0
+[23:31:28]   Checking for old orders...
+[23:31:28]   ✓ All orders OK (0 pending)
+[23:31:28]   ⏳ Next check in 60s...
+[23:31:28] 
+[23:32:28] 📊 CYCLE 103
+[23:32:29]   Equity: $100,640 | BP: $142,144 | Cash: $45,918
+[23:32:29]   Pending orders: 0
+[23:32:29]   Checking for old orders...
+[23:32:29]   ✓ All orders OK (0 pending)
+[23:32:29]   ⏳ Next check in 60s...
+[23:32:29] 
+[23:33:29] 📊 CYCLE 104
+[23:33:30]   Equity: $100,640 | BP: $142,144 | Cash: $45,918
+[23:33:30]   Pending orders: 0
+[23:33:30]   Checking for old orders...
+[23:33:31]   ✓ All orders OK (0 pending)
+[23:33:31]   ⏳ Next check in 60s...
+[23:33:31] 
+[23:34:31] 📊 CYCLE 105
+[23:34:31]   Equity: $100,640 | BP: $142,144 | Cash: $45,918
+[23:34:31]   Pending orders: 0
+[23:34:31]   Checking for old orders...
+[23:34:32]   ✓ All orders OK (0 pending)
+[23:34:32]   ⏳ Next check in 60s...
+[23:34:32] 
+[23:35:32] 📊 CYCLE 106
+[23:35:32]   Equity: $100,640 | BP: $142,144 | Cash: $45,918
+[23:35:32]   Pending orders: 0
+[23:35:32]   Checking for old orders...
+[23:35:33]   ✓ All orders OK (0 pending)
+[23:35:33]   ⏳ Next check in 60s...
+[23:35:33] 
+[23:36:33] 📊 CYCLE 107
+[23:36:33]   Equity: $100,640 | BP: $142,144 | Cash: $45,918
+[23:36:33]   Pending orders: 0
+[23:36:33]   Checking for old orders...
+[23:36:34]   ✓ All orders OK (0 pending)
+[23:36:34]   ⏳ Next check in 60s...
+[23:36:34] 
+[23:37:34] 📊 CYCLE 108
+[23:37:34]   Equity: $100,640 | BP: $142,144 | Cash: $45,918
+[23:37:34]   Pending orders: 0
+[23:37:34]   Checking for old orders...
+[23:37:35]   ✓ All orders OK (0 pending)
+[23:37:35]   ⏳ Next check in 60s...
+[23:37:35] 
+[23:38:35] 📊 CYCLE 109
+[23:38:35]   Equity: $100,640 | BP: $142,144 | Cash: $45,918
+[23:38:36]   Pending orders: 0
+[23:38:36]   Checking for old orders...
+[23:38:36]   ✓ All orders OK (0 pending)
+[23:38:36]   ⏳ Next check in 60s...
+[23:38:36] 
+[23:39:36] 📊 CYCLE 110
+[23:39:36]   Equity: $100,640 | BP: $142,144 | Cash: $45,918
+[23:39:37]   Pending orders: 0
+[23:39:37]   Checking for old orders...
+[23:39:37]   ✓ All orders OK (0 pending)
+[23:39:37]   ⏳ Next check in 60s...
+[23:39:37] 
+[23:40:37] 📊 CYCLE 111
+[23:40:37]   Equity: $100,346 | BP: $141,850 | Cash: $45,918
+[23:40:38]   Pending orders: 0
+[23:40:38]   Checking for old orders...
+[23:40:38]   ✓ All orders OK (0 pending)
+[23:40:38]   ⏳ Next check in 60s...
+[23:40:38] 
+[23:41:38] 📊 CYCLE 112
+[23:41:38]   Equity: $100,346 | BP: $141,850 | Cash: $45,918
+[23:41:39]   Pending orders: 0
+[23:41:39]   Checking for old orders...
+[23:41:39]   ✓ All orders OK (0 pending)
+[23:41:39]   ⏳ Next check in 60s...
+[23:41:39] 
+[23:42:39] 📊 CYCLE 113
+[23:42:39]   Equity: $100,346 | BP: $141,850 | Cash: $45,918
+[23:42:40]   Pending orders: 0
+[23:42:40]   Checking for old orders...
+[23:42:40]   ✓ All orders OK (0 pending)
+[23:42:40]   ⏳ Next check in 60s...
+[23:42:40] 
+[23:43:40] 📊 CYCLE 114
+[23:43:40]   Equity: $100,346 | BP: $141,850 | Cash: $45,918
+[23:43:41]   Pending orders: 0
+[23:43:41]   Checking for old orders...
+[23:43:41]   ✓ All orders OK (0 pending)
+[23:43:41]   ⏳ Next check in 60s...
+[23:43:41] 
+[23:44:41] 📊 CYCLE 115
+[23:44:41]   Equity: $100,346 | BP: $141,850 | Cash: $45,918
+[23:44:42]   Pending orders: 0
+[23:44:42]   Checking for old orders...
+[23:44:42]   ✓ All orders OK (0 pending)
+[23:44:42]   ⏳ Next check in 60s...
+[23:44:42] 
+[23:45:42] 📊 CYCLE 116
+[23:45:43]   Equity: $100,346 | BP: $141,850 | Cash: $45,918
+[23:45:43]   Pending orders: 0
+[23:45:43]   Checking for old orders...
+[23:45:43]   ✓ All orders OK (0 pending)
+[23:45:43]   ⏳ Next check in 60s...
+[23:45:43] 
+[23:46:43] 📊 CYCLE 117
+[23:46:44]   Equity: $100,346 | BP: $141,850 | Cash: $45,918
+[23:46:44]   Pending orders: 0
+[23:46:44]   Checking for old orders...
+[23:46:44]   ✓ All orders OK (0 pending)
+[23:46:44]   ⏳ Next check in 60s...
+[23:46:44] 
+[23:47:44] 📊 CYCLE 118
+[23:47:45]   Equity: $100,346 | BP: $141,850 | Cash: $45,918
+[23:47:45]   Pending orders: 0
+[23:47:45]   Checking for old orders...
+[23:47:45]   ✓ All orders OK (0 pending)
+[23:47:45]   ⏳ Next check in 60s...
+[23:47:45] 
+[23:48:45] 📊 CYCLE 119
+[23:48:46]   Equity: $100,346 | BP: $141,850 | Cash: $45,918
+[23:48:46]   Pending orders: 0
+[23:48:46]   Checking for old orders...
+[23:48:46]   ✓ All orders OK (0 pending)
+[23:48:46]   ⏳ Next check in 60s...
+[23:48:46] 
+[23:49:46] 📊 CYCLE 120
+[23:49:47]   Equity: $100,346 | BP: $141,850 | Cash: $45,918
+[23:49:47]   Pending orders: 0
+[23:49:47]   Checking for old orders...
+[23:49:47]   ✓ All orders OK (0 pending)
+[23:49:47]   ⏳ Next check in 60s...
+[23:49:47] 
+[23:50:47] 📊 CYCLE 121
+[23:50:48]   Equity: $100,346 | BP: $141,850 | Cash: $45,918
+[23:50:48]   Pending orders: 0
+[23:50:48]   Checking for old orders...
+[23:50:48]   ✓ All orders OK (0 pending)
+[23:50:48]   ⏳ Next check in 60s...
+[23:50:48] 
+[23:51:48] 📊 CYCLE 122
+[23:51:49]   Equity: $100,346 | BP: $141,850 | Cash: $45,918
+[23:51:49]   Pending orders: 0
+[23:51:49]   Checking for old orders...
+[23:51:50]   ✓ All orders OK (0 pending)
+[23:51:50]   ⏳ Next check in 60s...
+[23:51:50] 
+[23:52:50] 📊 CYCLE 123
+[23:52:50]   Equity: $100,346 | BP: $141,850 | Cash: $45,918
+[23:52:50]   Pending orders: 0
+[23:52:50]   Checking for old orders...
+[23:52:51]   ✓ All orders OK (0 pending)
+[23:52:51]   ⏳ Next check in 60s...
+[23:52:51] 
+[23:53:51] 📊 CYCLE 124
+[23:53:51]   Equity: $100,346 | BP: $141,850 | Cash: $45,918
+[23:53:51]   Pending orders: 0
+[23:53:51]   Checking for old orders...
+[23:53:52]   ✓ All orders OK (0 pending)
+[23:53:52]   ⏳ Next check in 60s...
+[23:53:52] 
+[23:54:52] 📊 CYCLE 125
+[23:54:52]   Equity: $100,346 | BP: $141,850 | Cash: $45,918
+[23:54:52]   Pending orders: 0
+[23:54:52]   Checking for old orders...
+[23:54:53]   ✓ All orders OK (0 pending)
+[23:54:53]   ⏳ Next check in 60s...
+[23:54:53] 
+[23:55:53] 📊 CYCLE 126
+[23:55:53]   Equity: $100,518 | BP: $142,022 | Cash: $45,918
+[23:55:53]   Pending orders: 0
+[23:55:53]   Checking for old orders...
+[23:55:54]   ✓ All orders OK (0 pending)
+[23:55:54]   ⏳ Next check in 60s...
+[23:55:54] 
+[23:56:54] 📊 CYCLE 127
+[23:56:54]   Equity: $100,518 | BP: $142,022 | Cash: $45,918
+[23:56:54]   Pending orders: 0
+[23:56:54]   Checking for old orders...
+[23:56:55]   ✓ All orders OK (0 pending)
+[23:56:55]   ⏳ Next check in 60s...
+[23:56:55] 
+[23:57:55] 📊 CYCLE 128
+[23:57:55]   Equity: $100,518 | BP: $142,022 | Cash: $45,918
+[23:57:56]   Pending orders: 0
+[23:57:56]   Checking for old orders...
+[23:57:56]   ✓ All orders OK (0 pending)
+[23:57:56]   ⏳ Next check in 60s...
+[23:57:56] 
+[23:58:56] 📊 CYCLE 129
+[23:58:56]   Equity: $100,518 | BP: $142,022 | Cash: $45,918
+[23:58:57]   Pending orders: 0
+[23:58:57]   Checking for old orders...
+[23:58:57]   ✓ All orders OK (0 pending)
+[23:58:57]   ⏳ Next check in 60s...
+[23:58:57] 
+[23:59:57] 📊 CYCLE 130
+[23:59:57]   Equity: $100,518 | BP: $142,022 | Cash: $45,918
+[23:59:58]   Pending orders: 0
+[23:59:58]   Checking for old orders...
+[23:59:58]   ✓ All orders OK (0 pending)
+[23:59:58]   ⏳ Next check in 60s...
+[23:59:58] 
+[00:00:58] 📊 CYCLE 131
+[00:00:58]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:00:59]   Pending orders: 0
+[00:00:59]   Checking for old orders...
+[00:00:59]   ✓ All orders OK (0 pending)
+[00:00:59]   ⏳ Next check in 60s...
+[00:00:59] 
+[00:01:59] 📊 CYCLE 132
+[00:01:59]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:02:00]   Pending orders: 0
+[00:02:00]   Checking for old orders...
+[00:02:00]   ✓ All orders OK (0 pending)
+[00:02:00]   ⏳ Next check in 60s...
+[00:02:00] 
+[00:03:00] 📊 CYCLE 133
+[00:03:00]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:03:01]   Pending orders: 0
+[00:03:01]   Checking for old orders...
+[00:03:01]   ✓ All orders OK (0 pending)
+[00:03:01]   ⏳ Next check in 60s...
+[00:03:01] 
+[00:04:01] 📊 CYCLE 134
+[00:04:02]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:04:02]   Pending orders: 0
+[00:04:02]   Checking for old orders...
+[00:04:02]   ✓ All orders OK (0 pending)
+[00:04:02]   ⏳ Next check in 60s...
+[00:04:02] 
+[00:05:02] 📊 CYCLE 135
+[00:05:03]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:05:03]   Pending orders: 0
+[00:05:03]   Checking for old orders...
+[00:05:03]   ✓ All orders OK (0 pending)
+[00:05:03]   ⏳ Next check in 60s...
+[00:05:03] 
+[00:06:03] 📊 CYCLE 136
+[00:06:04]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:06:04]   Pending orders: 0
+[00:06:04]   Checking for old orders...
+[00:06:04]   ✓ All orders OK (0 pending)
+[00:06:04]   ⏳ Next check in 60s...
+[00:06:04] 
+[00:07:04] 📊 CYCLE 137
+[00:07:05]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:07:05]   Pending orders: 0
+[00:07:05]   Checking for old orders...
+[00:07:05]   ✓ All orders OK (0 pending)
+[00:07:05]   ⏳ Next check in 60s...
+[00:07:05] 
+[00:08:05] 📊 CYCLE 138
+[00:08:06]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:08:06]   Pending orders: 0
+[00:08:06]   Checking for old orders...
+[00:08:06]   ✓ All orders OK (0 pending)
+[00:08:06]   ⏳ Next check in 60s...
+[00:08:06] 
+[00:09:06] 📊 CYCLE 139
+[00:09:07]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:09:07]   Pending orders: 0
+[00:09:07]   Checking for old orders...
+[00:09:08]   ✓ All orders OK (0 pending)
+[00:09:08]   ⏳ Next check in 60s...
+[00:09:08] 
+[00:10:08] 📊 CYCLE 140
+[00:10:08]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:10:08]   Pending orders: 0
+[00:10:08]   Checking for old orders...
+[00:10:09]   ✓ All orders OK (0 pending)
+[00:10:09]   ⏳ Next check in 60s...
+[00:10:09] 
+[00:11:09] 📊 CYCLE 141
+[00:11:09]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:11:09]   Pending orders: 0
+[00:11:09]   Checking for old orders...
+[00:11:10]   ✓ All orders OK (0 pending)
+[00:11:10]   ⏳ Next check in 60s...
+[00:11:10] 
+[00:12:10] 📊 CYCLE 142
+[00:12:10]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:12:10]   Pending orders: 0
+[00:12:10]   Checking for old orders...
+[00:12:11]   ✓ All orders OK (0 pending)
+[00:12:11]   ⏳ Next check in 60s...
+[00:12:11] 
+[00:13:11] 📊 CYCLE 143
+[00:13:11]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:13:11]   Pending orders: 0
+[00:13:11]   Checking for old orders...
+[00:13:12]   ✓ All orders OK (0 pending)
+[00:13:12]   ⏳ Next check in 60s...
+[00:13:12] 
+[00:14:12] 📊 CYCLE 144
+[00:14:12]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:14:12]   Pending orders: 0
+[00:14:12]   Checking for old orders...
+[00:14:13]   ✓ All orders OK (0 pending)
+[00:14:13]   ⏳ Next check in 60s...
+[00:14:13] 
+[00:15:13] 📊 CYCLE 145
+[00:15:13]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:15:13]   Pending orders: 0
+[00:15:13]   Checking for old orders...
+[00:15:14]   ✓ All orders OK (0 pending)
+[00:15:14]   ⏳ Next check in 60s...
+[00:15:14] 
+[00:16:14] 📊 CYCLE 146
+[00:16:14]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:16:15]   Pending orders: 0
+[00:16:15]   Checking for old orders...
+[00:16:15]   ✓ All orders OK (0 pending)
+[00:16:15]   ⏳ Next check in 60s...
+[00:16:15] 
+[00:17:15] 📊 CYCLE 147
+[00:17:15]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:17:16]   Pending orders: 0
+[00:17:16]   Checking for old orders...
+[00:17:16]   ✓ All orders OK (0 pending)
+[00:17:16]   ⏳ Next check in 60s...
+[00:17:16] 
+[00:18:16] 📊 CYCLE 148
+[00:18:16]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:18:17]   Pending orders: 0
+[00:18:17]   Checking for old orders...
+[00:18:17]   ✓ All orders OK (0 pending)
+[00:18:17]   ⏳ Next check in 60s...
+[00:18:17] 
+[00:19:17] 📊 CYCLE 149
+[00:19:17]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:19:18]   Pending orders: 0
+[00:19:18]   Checking for old orders...
+[00:19:18]   ✓ All orders OK (0 pending)
+[00:19:18]   ⏳ Next check in 60s...
+[00:19:18] 
+[00:20:18] 📊 CYCLE 150
+[00:20:18]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:20:19]   Pending orders: 0
+[00:20:19]   Checking for old orders...
+[00:20:19]   ✓ All orders OK (0 pending)
+[00:20:19]   ⏳ Next check in 60s...
+[00:20:19] 
+[00:21:19] 📊 CYCLE 151
+[00:21:19]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:21:20]   Pending orders: 0
+[00:21:20]   Checking for old orders...
+[00:21:20]   ✓ All orders OK (0 pending)
+[00:21:20]   ⏳ Next check in 60s...
+[00:21:20] 
+[00:22:20] 📊 CYCLE 152
+[00:22:20]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:22:21]   Pending orders: 0
+[00:22:21]   Checking for old orders...
+[00:22:21]   ✓ All orders OK (0 pending)
+[00:22:21]   ⏳ Next check in 60s...
+[00:22:21] 
+[00:23:21] 📊 CYCLE 153
+[00:23:22]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:23:22]   Pending orders: 0
+[00:23:22]   Checking for old orders...
+[00:23:22]   ✓ All orders OK (0 pending)
+[00:23:22]   ⏳ Next check in 60s...
+[00:23:22] 
+[00:24:22] 📊 CYCLE 154
+[00:24:23]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:24:23]   Pending orders: 0
+[00:24:23]   Checking for old orders...
+[00:24:23]   ✓ All orders OK (0 pending)
+[00:24:23]   ⏳ Next check in 60s...
+[00:24:23] 
+[00:25:23] 📊 CYCLE 155
+[00:25:24]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:25:24]   Pending orders: 0
+[00:25:24]   Checking for old orders...
+[00:25:24]   ✓ All orders OK (0 pending)
+[00:25:24]   ⏳ Next check in 60s...
+[00:25:24] 
+[00:26:24] 📊 CYCLE 156
+[00:26:25]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:26:25]   Pending orders: 0
+[00:26:25]   Checking for old orders...
+[00:26:25]   ✓ All orders OK (0 pending)
+[00:26:25]   ⏳ Next check in 60s...
+[00:26:25] 
+[00:27:25] 📊 CYCLE 157
+[00:27:26]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:27:26]   Pending orders: 0
+[00:27:26]   Checking for old orders...
+[00:27:26]   ✓ All orders OK (0 pending)
+[00:27:26]   ⏳ Next check in 60s...
+[00:27:26] 
+[00:28:26] 📊 CYCLE 158
+[00:28:27]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:28:27]   Pending orders: 0
+[00:28:27]   Checking for old orders...
+[00:28:28]   ✓ All orders OK (0 pending)
+[00:28:28]   ⏳ Next check in 60s...
+[00:28:28] 
+[00:29:28] 📊 CYCLE 159
+[00:29:28]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:29:28]   Pending orders: 0
+[00:29:28]   Checking for old orders...
+[00:29:29]   ✓ All orders OK (0 pending)
+[00:29:29]   ⏳ Next check in 60s...
+[00:29:29] 
+[00:30:29] 📊 CYCLE 160
+[00:30:29]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:30:29]   Pending orders: 0
+[00:30:29]   Checking for old orders...
+[00:30:30]   ✓ All orders OK (0 pending)
+[00:30:30]   ⏳ Next check in 60s...
+[00:30:30] 
+[00:31:30] 📊 CYCLE 161
+[00:31:30]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:31:30]   Pending orders: 0
+[00:31:30]   Checking for old orders...
+[00:31:31]   ✓ All orders OK (0 pending)
+[00:31:31]   ⏳ Next check in 60s...
+[00:31:31] 
+[00:32:31] 📊 CYCLE 162
+[00:32:31]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:32:31]   Pending orders: 0
+[00:32:31]   Checking for old orders...
+[00:32:32]   ✓ All orders OK (0 pending)
+[00:32:32]   ⏳ Next check in 60s...
+[00:32:32] 
+[00:33:32] 📊 CYCLE 163
+[00:33:32]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:33:32]   Pending orders: 0
+[00:33:32]   Checking for old orders...
+[00:33:33]   ✓ All orders OK (0 pending)
+[00:33:33]   ⏳ Next check in 60s...
+[00:33:33] 
+[00:34:33] 📊 CYCLE 164
+[00:34:33]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:34:34]   Pending orders: 0
+[00:34:34]   Checking for old orders...
+[00:34:34]   ✓ All orders OK (0 pending)
+[00:34:34]   ⏳ Next check in 60s...
+[00:34:34] 
+[00:35:34] 📊 CYCLE 165
+[00:35:34]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:35:35]   Pending orders: 0
+[00:35:35]   Checking for old orders...
+[00:35:35]   ✓ All orders OK (0 pending)
+[00:35:35]   ⏳ Next check in 60s...
+[00:35:35] 
+[00:36:35] 📊 CYCLE 166
+[00:36:35]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:36:36]   Pending orders: 0
+[00:36:36]   Checking for old orders...
+[00:36:36]   ✓ All orders OK (0 pending)
+[00:36:36]   ⏳ Next check in 60s...
+[00:36:36] 
+[00:37:36] 📊 CYCLE 167
+[00:37:36]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:37:37]   Pending orders: 0
+[00:37:37]   Checking for old orders...
+[00:37:37]   ✓ All orders OK (0 pending)
+[00:37:37]   ⏳ Next check in 60s...
+[00:37:37] 
+[00:38:37] 📊 CYCLE 168
+[00:38:37]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:38:38]   Pending orders: 0
+[00:38:38]   Checking for old orders...
+[00:38:38]   ✓ All orders OK (0 pending)
+[00:38:38]   ⏳ Next check in 60s...
+[00:38:38] 
+[00:39:38] 📊 CYCLE 169
+[00:39:39]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:39:39]   Pending orders: 0
+[00:39:39]   Checking for old orders...
+[00:39:39]   ✓ All orders OK (0 pending)
+[00:39:39]   ⏳ Next check in 60s...
+[00:39:39] 
+[00:40:39] 📊 CYCLE 170
+[00:40:40]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:40:40]   Pending orders: 0
+[00:40:40]   Checking for old orders...
+[00:40:40]   ✓ All orders OK (0 pending)
+[00:40:40]   ⏳ Next check in 60s...
+[00:40:40] 
+[00:41:40] 📊 CYCLE 171
+[00:41:41]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:41:41]   Pending orders: 0
+[00:41:41]   Checking for old orders...
+[00:41:41]   ✓ All orders OK (0 pending)
+[00:41:41]   ⏳ Next check in 60s...
+[00:41:41] 
+[00:42:41] 📊 CYCLE 172
+[00:42:42]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:42:42]   Pending orders: 0
+[00:42:42]   Checking for old orders...
+[00:42:42]   ✓ All orders OK (0 pending)
+[00:42:42]   ⏳ Next check in 60s...
+[00:42:42] 
+[00:43:42] 📊 CYCLE 173
+[00:43:43]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:43:43]   Pending orders: 0
+[00:43:43]   Checking for old orders...
+[00:43:43]   ✓ All orders OK (0 pending)
+[00:43:43]   ⏳ Next check in 60s...
+[00:43:43] 
+[00:44:43] 📊 CYCLE 174
+[00:44:44]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:44:44]   Pending orders: 0
+[00:44:44]   Checking for old orders...
+[00:44:45]   ✓ All orders OK (0 pending)
+[00:44:45]   ⏳ Next check in 60s...
+[00:44:45] 
+[00:45:45] 📊 CYCLE 175
+[00:45:45]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:45:45]   Pending orders: 0
+[00:45:45]   Checking for old orders...
+[00:45:46]   ✓ All orders OK (0 pending)
+[00:45:46]   ⏳ Next check in 60s...
+[00:45:46] 
+[00:46:46] 📊 CYCLE 176
+[00:46:46]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:46:46]   Pending orders: 0
+[00:46:46]   Checking for old orders...
+[00:46:47]   ✓ All orders OK (0 pending)
+[00:46:47]   ⏳ Next check in 60s...
+[00:46:47] 
+[00:47:47] 📊 CYCLE 177
+[00:47:47]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:47:47]   Pending orders: 0
+[00:47:47]   Checking for old orders...
+[00:47:48]   ✓ All orders OK (0 pending)
+[00:47:48]   ⏳ Next check in 60s...
+[00:47:48] 
+[00:48:48] 📊 CYCLE 178
+[00:48:48]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:48:48]   Pending orders: 0
+[00:48:48]   Checking for old orders...
+[00:48:49]   ✓ All orders OK (0 pending)
+[00:48:49]   ⏳ Next check in 60s...
+[00:48:49] 
+[00:49:49] 📊 CYCLE 179
+[00:49:49]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:49:49]   Pending orders: 0
+[00:49:49]   Checking for old orders...
+[00:49:50]   ✓ All orders OK (0 pending)
+[00:49:50]   ⏳ Next check in 60s...
+[00:49:50] 
+[00:50:50] 📊 CYCLE 180
+[00:50:50]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:50:51]   Pending orders: 0
+[00:50:51]   Checking for old orders...
+[00:50:51]   ✓ All orders OK (0 pending)
+[00:50:51]   ⏳ Next check in 60s...
+[00:50:51] 
+[00:51:51] 📊 CYCLE 181
+[00:51:51]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:51:52]   Pending orders: 0
+[00:51:52]   Checking for old orders...
+[00:51:52]   ✓ All orders OK (0 pending)
+[00:51:52]   ⏳ Next check in 60s...
+[00:51:52] 
+[00:52:52] 📊 CYCLE 182
+[00:52:52]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:52:53]   Pending orders: 0
+[00:52:53]   Checking for old orders...
+[00:52:53]   ✓ All orders OK (0 pending)
+[00:52:53]   ⏳ Next check in 60s...
+[00:52:53] 
+[00:53:53] 📊 CYCLE 183
+[00:53:53]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:53:54]   Pending orders: 0
+[00:53:54]   Checking for old orders...
+[00:53:54]   ✓ All orders OK (0 pending)
+[00:53:54]   ⏳ Next check in 60s...
+[00:53:54] 
+[00:54:54] 📊 CYCLE 184
+[00:54:54]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:54:55]   Pending orders: 0
+[00:54:55]   Checking for old orders...
+[00:54:55]   ✓ All orders OK (0 pending)
+[00:54:55]   ⏳ Next check in 60s...
+[00:54:55] 
+[00:55:55] 📊 CYCLE 185
+[00:55:55]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:55:56]   Pending orders: 0
+[00:55:56]   Checking for old orders...
+[00:55:56]   ✓ All orders OK (0 pending)
+[00:55:56]   ⏳ Next check in 60s...
+[00:55:56] 
+[00:56:56] 📊 CYCLE 186
+[00:56:57]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:56:57]   Pending orders: 0
+[00:56:57]   Checking for old orders...
+[00:56:57]   ✓ All orders OK (0 pending)
+[00:56:57]   ⏳ Next check in 60s...
+[00:56:57] 
+[00:57:57] 📊 CYCLE 187
+[00:57:58]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:57:58]   Pending orders: 0
+[00:57:58]   Checking for old orders...
+[00:57:58]   ✓ All orders OK (0 pending)
+[00:57:58]   ⏳ Next check in 60s...
+[00:57:58] 
+[00:58:58] 📊 CYCLE 188
+[00:58:59]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[00:58:59]   Pending orders: 0
+[00:58:59]   Checking for old orders...
+[00:58:59]   ✓ All orders OK (0 pending)
+[00:58:59]   ⏳ Next check in 60s...
+[00:58:59] 
+[00:59:59] 📊 CYCLE 189
+[01:00:00]   Equity: $100,752 | BP: $142,255 | Cash: $45,918
+[01:00:00]   Pending orders: 0
+[01:00:00]   Checking for old orders...
+[01:00:01]   ✓ All orders OK (0 pending)
+[01:00:01]   ⏳ Next check in 60s...
+[01:00:01] 
+[01:01:01] 📊 CYCLE 190
+[01:01:01]   Equity: $100,513 | BP: $142,016 | Cash: $45,918
+[01:01:01]   Pending orders: 0
+[01:01:01]   Checking for old orders...
+[01:01:02]   ✓ All orders OK (0 pending)
+[01:01:02]   ⏳ Next check in 60s...
+[01:01:02] 
+[01:02:02] 📊 CYCLE 191
+[01:02:02]   Equity: $100,504 | BP: $142,007 | Cash: $45,918
+[01:02:02]   Pending orders: 0
+[01:02:02]   Checking for old orders...
+[01:02:03]   ✓ All orders OK (0 pending)
+[01:02:03]   ⏳ Next check in 60s...
+[01:02:03] 
+[01:03:03] 📊 CYCLE 192
+[01:03:03]   Equity: $100,504 | BP: $142,007 | Cash: $45,918
+[01:03:03]   Pending orders: 0
+[01:03:03]   Checking for old orders...
+[01:03:04]   ✓ All orders OK (0 pending)
+[01:03:04]   ⏳ Next check in 60s...
+[01:03:04] 
+[01:04:04] 📊 CYCLE 193
+[01:04:04]   Equity: $100,504 | BP: $142,007 | Cash: $45,918
+[01:04:04]   Pending orders: 0
+[01:04:04]   Checking for old orders...
+[01:04:05]   ✓ All orders OK (0 pending)
+[01:04:05]   ⏳ Next check in 60s...
+[01:04:05] 
+[01:05:05] 📊 CYCLE 194
+[01:05:05]   Equity: $100,504 | BP: $142,007 | Cash: $45,918
+[01:05:05]   Pending orders: 0
+[01:05:05]   Checking for old orders...
+[01:05:06]   ✓ All orders OK (0 pending)
+[01:05:06]   ⏳ Next check in 60s...
+[01:05:06] 
+[01:06:06] 📊 CYCLE 195
+[01:06:06]   Equity: $100,504 | BP: $142,007 | Cash: $45,918
+[01:06:07]   Pending orders: 0
+[01:06:07]   Checking for old orders...
+[01:06:07]   ✓ All orders OK (0 pending)
+[01:06:07]   ⏳ Next check in 60s...
+[01:06:07] 
+[01:07:07] 📊 CYCLE 196
+[01:07:07]   Equity: $100,504 | BP: $142,007 | Cash: $45,918
+[01:07:08]   Pending orders: 0
+[01:07:08]   Checking for old orders...
+[01:07:08]   ✓ All orders OK (0 pending)
+[01:07:08]   ⏳ Next check in 60s...
+[01:07:08] 
+[01:08:08] 📊 CYCLE 197
+[01:08:08]   Equity: $100,504 | BP: $142,007 | Cash: $45,918
+[01:08:09]   Pending orders: 0
+[01:08:09]   Checking for old orders...
+[01:08:09]   ✓ All orders OK (0 pending)
+[01:08:09]   ⏳ Next check in 60s...
+[01:08:09] 
+[01:09:09] 📊 CYCLE 198
+[01:09:09]   Equity: $100,504 | BP: $142,007 | Cash: $45,918
+[01:09:10]   Pending orders: 0
+[01:09:10]   Checking for old orders...
+[01:09:10]   ✓ All orders OK (0 pending)
+[01:09:10]   ⏳ Next check in 60s...
+[01:09:10] 
+[01:10:10] 📊 CYCLE 199
+[01:10:10]   Equity: $100,504 | BP: $142,007 | Cash: $45,918
+[01:10:11]   Pending orders: 0
+[01:10:11]   Checking for old orders...
+[01:10:11]   ✓ All orders OK (0 pending)
+[01:10:11]   ⏳ Next check in 60s...
+[01:10:11] 
+[01:11:11] 📊 CYCLE 200
+[01:11:11]   Equity: $100,504 | BP: $142,007 | Cash: $45,918
+[01:11:12]   Pending orders: 0
+[01:11:12]   Checking for old orders...
+[01:11:12]   ✓ All orders OK (0 pending)
+[01:11:12]   ⏳ Next check in 60s...
+[01:11:12] 
+[01:12:12] 📊 CYCLE 201
+[01:12:13]   Equity: $100,504 | BP: $142,007 | Cash: $45,918
+[01:12:13]   Pending orders: 0
+[01:12:13]   Checking for old orders...
+[01:12:13]   ✓ All orders OK (0 pending)
+[01:12:13]   ⏳ Next check in 60s...
+[01:12:13] 
+[01:13:13] 📊 CYCLE 202
+[01:13:14]   Equity: $100,504 | BP: $142,007 | Cash: $45,918
+[01:13:14]   Pending orders: 0
+[01:13:14]   Checking for old orders...
+[01:13:14]   ✓ All orders OK (0 pending)
+[01:13:14]   ⏳ Next check in 60s...
+[01:13:14] 
+[01:14:14] 📊 CYCLE 203
+[01:14:15]   Equity: $100,600 | BP: $142,103 | Cash: $45,918
+[01:14:15]   Pending orders: 0
+[01:14:15]   Checking for old orders...
+[01:14:15]   ✓ All orders OK (0 pending)
+[01:14:15]   ⏳ Next check in 60s...
+[01:14:15] 
+[01:15:15] 📊 CYCLE 204
+[01:15:16]   Equity: $100,600 | BP: $142,103 | Cash: $45,918
+[01:15:16]   Pending orders: 0
+[01:15:16]   Checking for old orders...
+[01:15:16]   ✓ All orders OK (0 pending)
+[01:15:16]   ⏳ Next check in 60s...
+[01:15:16] 
+[01:16:16] 📊 CYCLE 205
+[01:16:17]   Equity: $100,618 | BP: $142,122 | Cash: $45,918
+[01:16:17]   Pending orders: 0
+[01:16:17]   Checking for old orders...
+[01:16:17]   ✓ All orders OK (0 pending)
+[01:16:17]   ⏳ Next check in 60s...
+[01:16:17] 
+[01:17:17] 📊 CYCLE 206
+[01:17:18]   Equity: $100,618 | BP: $142,122 | Cash: $45,918
+[01:17:18]   Pending orders: 0
+[01:17:18]   Checking for old orders...
+[01:17:19]   ✓ All orders OK (0 pending)
+[01:17:19]   ⏳ Next check in 60s...
+[01:17:19] 
+[01:18:19] 📊 CYCLE 207
+[01:18:19]   Equity: $100,618 | BP: $142,122 | Cash: $45,918
+[01:18:19]   Pending orders: 0
+[01:18:19]   Checking for old orders...
+[01:18:20]   ✓ All orders OK (0 pending)
+[01:18:20]   ⏳ Next check in 60s...
+[01:18:20] 
+[01:19:20] 📊 CYCLE 208
+[01:19:20]   Equity: $100,618 | BP: $142,122 | Cash: $45,918
+[01:19:20]   Pending orders: 0
+[01:19:20]   Checking for old orders...
+[01:19:21]   ✓ All orders OK (0 pending)
+[01:19:21]   ⏳ Next check in 60s...
+[01:19:21] 
+[01:20:21] 📊 CYCLE 209
+[01:20:21]   Equity: $100,618 | BP: $142,122 | Cash: $45,918
+[01:20:21]   Pending orders: 0
+[01:20:21]   Checking for old orders...
+[01:20:22]   ✓ All orders OK (0 pending)
+[01:20:22]   ⏳ Next check in 60s...
+[01:20:22] 
+[01:21:22] 📊 CYCLE 210
+[01:21:22]   Equity: $100,618 | BP: $142,122 | Cash: $45,918
+[01:21:22]   Pending orders: 0
+[01:21:22]   Checking for old orders...
+[01:21:23]   ✓ All orders OK (0 pending)
+[01:21:23]   ⏳ Next check in 60s...
+[01:21:23] 
+[01:22:23] 📊 CYCLE 211
+[01:22:23]   Equity: $100,618 | BP: $142,122 | Cash: $45,918
+[01:22:23]   Pending orders: 0
+[01:22:23]   Checking for old orders...
+[01:22:24]   ✓ All orders OK (0 pending)
+[01:22:24]   ⏳ Next check in 60s...
+[01:22:24] 
+[01:23:24] 📊 CYCLE 212
+[01:23:24]   Equity: $100,618 | BP: $142,122 | Cash: $45,918
+[01:23:24]   Pending orders: 0
+[01:23:24]   Checking for old orders...
+[01:23:25]   ✓ All orders OK (0 pending)
+[01:23:25]   ⏳ Next check in 60s...
+[01:23:25] 
+[01:24:25] 📊 CYCLE 213
+[01:24:25]   Equity: $100,618 | BP: $142,122 | Cash: $45,918
+[01:24:26]   Pending orders: 0
+[01:24:26]   Checking for old orders...
+[01:24:26]   ✓ All orders OK (0 pending)
+[01:24:26]   ⏳ Next check in 60s...
+[01:24:26] 
+[01:25:26] 📊 CYCLE 214
+[01:25:26]   Equity: $100,618 | BP: $142,122 | Cash: $45,918
+[01:25:27]   Pending orders: 0
+[01:25:27]   Checking for old orders...
+[01:25:27]   ✓ All orders OK (0 pending)
+[01:25:27]   ⏳ Next check in 60s...
+[01:25:27] 
+[01:26:27] 📊 CYCLE 215
+[01:26:27]   Equity: $100,618 | BP: $142,122 | Cash: $45,918
+[01:26:28]   Pending orders: 0
+[01:26:28]   Checking for old orders...
+[01:26:28]   ✓ All orders OK (0 pending)
+[01:26:28]   ⏳ Next check in 60s...
+[01:26:28] 
+[01:27:28] 📊 CYCLE 216
+[01:27:28]   Equity: $100,618 | BP: $142,122 | Cash: $45,918
+[01:27:29]   Pending orders: 0
+[01:27:29]   Checking for old orders...
+[01:27:29]   ✓ All orders OK (0 pending)
+[01:27:29]   ⏳ Next check in 60s...
+[01:27:29] 
+[01:28:29] 📊 CYCLE 217
+[01:28:29]   Equity: $100,618 | BP: $142,122 | Cash: $45,918
+[01:28:30]   Pending orders: 0
+[01:28:30]   Checking for old orders...
+[01:28:30]   ✓ All orders OK (0 pending)
+[01:28:30]   ⏳ Next check in 60s...
+[01:28:30] 
+[01:29:30] 📊 CYCLE 218
+[01:29:30]   Equity: $100,618 | BP: $142,122 | Cash: $45,918
+[01:29:31]   Pending orders: 0
+[01:29:31]   Checking for old orders...
+[01:29:31]   ✓ All orders OK (0 pending)
+[01:29:31]   ⏳ Next check in 60s...
+[01:29:31] 
+[01:30:31] 📊 CYCLE 219
+[01:30:32]   Equity: $100,618 | BP: $142,122 | Cash: $45,918
+[01:30:32]   Pending orders: 0
+[01:30:32]   Checking for old orders...
+[01:30:32]   ✓ All orders OK (0 pending)
+[01:30:32]   ⏳ Next check in 60s...
+[01:30:32] 
+[01:31:32] 📊 CYCLE 220
+[01:31:33]   Equity: $100,613 | BP: $142,117 | Cash: $45,918
+[01:31:33]   Pending orders: 0
+[01:31:33]   Checking for old orders...
+[01:31:33]   ✓ All orders OK (0 pending)
+[01:31:33]   ⏳ Next check in 60s...
+[01:31:33] 
+[01:32:33] 📊 CYCLE 221
+[01:32:34]   Equity: $100,613 | BP: $142,117 | Cash: $45,918
+[01:32:34]   Pending orders: 0
+[01:32:34]   Checking for old orders...
+[01:32:34]   ✓ All orders OK (0 pending)
+[01:32:34]   ⏳ Next check in 60s...
+[01:32:34] 
+[01:33:34] 📊 CYCLE 222
+[01:33:35]   Equity: $100,613 | BP: $142,117 | Cash: $45,918
+[01:33:35]   Pending orders: 0
+[01:33:35]   Checking for old orders...
+[01:33:35]   ✓ All orders OK (0 pending)
+[01:33:35]   ⏳ Next check in 60s...
+[01:33:35] 
+[01:34:35] 📊 CYCLE 223
+[01:34:36]   Equity: $100,613 | BP: $142,117 | Cash: $45,918
+[01:34:36]   Pending orders: 0
+[01:34:36]   Checking for old orders...
+[01:34:36]   ✓ All orders OK (0 pending)
+[01:34:36]   ⏳ Next check in 60s...
+[01:34:36] 
+[01:35:36] 📊 CYCLE 224
+[01:35:37]   Equity: $100,613 | BP: $142,117 | Cash: $45,918
+[01:35:37]   Pending orders: 0
+[01:35:37]   Checking for old orders...
+[01:35:38]   ✓ All orders OK (0 pending)
+[01:35:38]   ⏳ Next check in 60s...
+[01:35:38] 
+[01:36:38] 📊 CYCLE 225
+[01:36:38]   Equity: $100,613 | BP: $142,117 | Cash: $45,918
+[01:36:38]   Pending orders: 0
+[01:36:38]   Checking for old orders...
+[01:36:39]   ✓ All orders OK (0 pending)
+[01:36:39]   ⏳ Next check in 60s...
+[01:36:39] 
+[01:37:39] 📊 CYCLE 226
+[01:37:39]   Equity: $100,613 | BP: $142,117 | Cash: $45,918
+[01:37:39]   Pending orders: 0
+[01:37:39]   Checking for old orders...
+[01:37:40]   ✓ All orders OK (0 pending)
+[01:37:40]   ⏳ Next check in 60s...
+[01:37:40] 
+[01:38:40] 📊 CYCLE 227
+[01:38:40]   Equity: $100,613 | BP: $142,117 | Cash: $45,918
+[01:38:40]   Pending orders: 0
+[01:38:40]   Checking for old orders...
+[01:38:41]   ✓ All orders OK (0 pending)
+[01:38:41]   ⏳ Next check in 60s...
+[01:38:41] 
+[01:39:41] 📊 CYCLE 228
+[01:39:41]   Equity: $100,613 | BP: $142,117 | Cash: $45,918
+[01:39:41]   Pending orders: 0
+[01:39:41]   Checking for old orders...
+[01:39:42]   ✓ All orders OK (0 pending)
+[01:39:42]   ⏳ Next check in 60s...
+[01:39:42] 
+[01:40:42] 📊 CYCLE 229
+[01:40:42]   Equity: $100,613 | BP: $142,117 | Cash: $45,918
+[01:40:42]   Pending orders: 0
+[01:40:42]   Checking for old orders...
+[01:40:43]   ✓ All orders OK (0 pending)
+[01:40:43]   ⏳ Next check in 60s...
+[01:40:43] 
+[01:41:43] 📊 CYCLE 230
+[01:41:43]   Equity: $100,613 | BP: $142,117 | Cash: $45,918
+[01:41:44]   Pending orders: 0
+[01:41:44]   Checking for old orders...
+[01:41:44]   ✓ All orders OK (0 pending)
+[01:41:44]   ⏳ Next check in 60s...
+[01:41:44] 
+[01:42:44] 📊 CYCLE 231
+[01:42:44]   Equity: $100,633 | BP: $142,137 | Cash: $45,918
+[01:42:45]   Pending orders: 0
+[01:42:45]   Checking for old orders...
+[01:42:45]   ✓ All orders OK (0 pending)
+[01:42:45]   ⏳ Next check in 60s...
+[01:42:45] 
+[01:43:45] 📊 CYCLE 232
+[01:43:45]   Equity: $100,633 | BP: $142,137 | Cash: $45,918
+[01:43:46]   Pending orders: 0
+[01:43:46]   Checking for old orders...
+[01:43:46]   ✓ All orders OK (0 pending)
+[01:43:46]   ⏳ Next check in 60s...
+[01:43:46] 
+[01:44:46] 📊 CYCLE 233
+[01:44:46]   Equity: $100,633 | BP: $142,137 | Cash: $45,918
+[01:44:47]   Pending orders: 0
+[01:44:47]   Checking for old orders...
+[01:44:47]   ✓ All orders OK (0 pending)
+[01:44:47]   ⏳ Next check in 60s...
+[01:44:47] 
+[01:45:47] 📊 CYCLE 234
+[01:45:47]   Equity: $100,633 | BP: $142,137 | Cash: $45,918
+[01:45:48]   Pending orders: 0
+[01:45:48]   Checking for old orders...
+[01:45:48]   ✓ All orders OK (0 pending)
+[01:45:48]   ⏳ Next check in 60s...
+[01:45:48] 
+[01:46:48] 📊 CYCLE 235
+[01:46:48]   Equity: $100,633 | BP: $142,137 | Cash: $45,918
+[01:46:49]   Pending orders: 0
+[01:46:49]   Checking for old orders...
+[01:46:49]   ✓ All orders OK (0 pending)
+[01:46:49]   ⏳ Next check in 60s...
+[01:46:49] 
+[01:47:49] 📊 CYCLE 236
+[01:47:50]   Equity: $100,688 | BP: $142,192 | Cash: $45,918
+[01:47:50]   Pending orders: 0
+[01:47:50]   Checking for old orders...
+[01:47:50]   ✓ All orders OK (0 pending)
+[01:47:50]   ⏳ Next check in 60s...
+[01:47:50] 
+[01:48:50] 📊 CYCLE 237
+[01:48:51]   Equity: $100,688 | BP: $142,192 | Cash: $45,918
+[01:48:51]   Pending orders: 0
+[01:48:51]   Checking for old orders...
+[01:48:51]   ✓ All orders OK (0 pending)
+[01:48:51]   ⏳ Next check in 60s...
+[01:48:51] 
+[01:49:51] 📊 CYCLE 238
+[01:49:52]   Equity: $100,688 | BP: $142,192 | Cash: $45,918
+[01:49:52]   Pending orders: 0
+[01:49:52]   Checking for old orders...
+[01:49:52]   ✓ All orders OK (0 pending)
+[01:49:52]   ⏳ Next check in 60s...
+[01:49:52] 
+[01:50:52] 📊 CYCLE 239
+[01:50:53]   Equity: $100,688 | BP: $142,192 | Cash: $45,918
+[01:50:53]   Pending orders: 0
+[01:50:53]   Checking for old orders...
+[01:50:53]   ✓ All orders OK (0 pending)
+[01:50:53]   ⏳ Next check in 60s...
+[01:50:53] 
+[01:51:53] 📊 CYCLE 240
+[01:51:54]   Equity: $100,676 | BP: $142,180 | Cash: $45,918
+[01:51:54]   Pending orders: 0
+[01:51:54]   Checking for old orders...
+[01:51:54]   ✓ All orders OK (0 pending)
+[01:51:54]   ⏳ Next check in 60s...
+[01:51:54] 
+[01:52:54] 📊 CYCLE 241
+[01:52:55]   Equity: $100,676 | BP: $142,180 | Cash: $45,918
+[01:52:55]   Pending orders: 0
+[01:52:55]   Checking for old orders...
+[01:52:56]   ✓ All orders OK (0 pending)
+[01:52:56]   ⏳ Next check in 60s...
+[01:52:56] 
+[01:53:56] 📊 CYCLE 242
+[01:53:56]   Equity: $100,676 | BP: $142,180 | Cash: $45,918
+[01:53:56]   Pending orders: 0
+[01:53:56]   Checking for old orders...
+[01:53:57]   ✓ All orders OK (0 pending)
+[01:53:57]   ⏳ Next check in 60s...
+[01:53:57] 
+[01:54:57] 📊 CYCLE 243
+[01:54:57]   Equity: $100,676 | BP: $142,180 | Cash: $45,918
+[01:54:57]   Pending orders: 0
+[01:54:57]   Checking for old orders...
+[01:54:58]   ✓ All orders OK (0 pending)
+[01:54:58]   ⏳ Next check in 60s...
+[01:54:58] 
+[01:55:58] 📊 CYCLE 244
+[01:55:58]   Equity: $100,676 | BP: $142,180 | Cash: $45,918
+[01:55:58]   Pending orders: 0
+[01:55:58]   Checking for old orders...
+[01:55:59]   ✓ All orders OK (0 pending)
+[01:55:59]   ⏳ Next check in 60s...
+[01:55:59] 
+[01:56:59] 📊 CYCLE 245
+[01:56:59]   Equity: $100,676 | BP: $142,180 | Cash: $45,918
+[01:56:59]   Pending orders: 0
+[01:56:59]   Checking for old orders...
+[01:57:00]   ✓ All orders OK (0 pending)
+[01:57:00]   ⏳ Next check in 60s...
+[01:57:00] 
+[01:58:00] 📊 CYCLE 246
+[01:58:00]   Equity: $100,676 | BP: $142,180 | Cash: $45,918
+[01:58:01]   Pending orders: 0
+[01:58:01]   Checking for old orders...
+[01:58:01]   ✓ All orders OK (0 pending)
+[01:58:01]   ⏳ Next check in 60s...
+[01:58:01] 
+[01:59:01] 📊 CYCLE 247
+[01:59:01]   Equity: $100,584 | BP: $142,088 | Cash: $45,918
+[01:59:02]   Pending orders: 0
+[01:59:02]   Checking for old orders...
+[01:59:02]   ✓ All orders OK (0 pending)
+[01:59:02]   ⏳ Next check in 60s...
+[01:59:02] 
+[02:00:02] 📊 CYCLE 248
+[02:00:02]   Equity: $100,584 | BP: $142,088 | Cash: $45,918
+[02:00:03]   Pending orders: 0
+[02:00:03]   Checking for old orders...
+[02:00:03]   ✓ All orders OK (0 pending)
+[02:00:03]   ⏳ Next check in 60s...
+[02:00:03] 
+[02:01:03] 📊 CYCLE 249
+[02:01:04]   Equity: $100,584 | BP: $142,088 | Cash: $45,918
+[02:01:04]   Pending orders: 0
+[02:01:04]   Checking for old orders...
+[02:01:04]   ✓ All orders OK (0 pending)
+[02:01:04]   ⏳ Next check in 60s...
+[02:01:04] 
+[02:02:04] 📊 CYCLE 250
+[02:02:05]   Equity: $100,584 | BP: $142,088 | Cash: $45,918
+[02:02:05]   Pending orders: 0
+[02:02:05]   Checking for old orders...
+[02:02:05]   ✓ All orders OK (0 pending)
+[02:02:05]   ⏳ Next check in 60s...
+[02:02:05] 
+[02:03:05] 📊 CYCLE 251
+[02:03:06]   Equity: $100,584 | BP: $142,088 | Cash: $45,918
+[02:03:06]   Pending orders: 0
+[02:03:06]   Checking for old orders...
+[02:03:06]   ✓ All orders OK (0 pending)
+[02:03:06]   ⏳ Next check in 60s...
+[02:03:06] 
+[02:04:06] 📊 CYCLE 252
+[02:04:07]   Equity: $100,584 | BP: $142,088 | Cash: $45,918
+[02:04:07]   Pending orders: 0
+[02:04:07]   Checking for old orders...
+[02:04:07]   ✓ All orders OK (0 pending)
+[02:04:07]   ⏳ Next check in 60s...
+[02:04:07] 
+[02:05:07] 📊 CYCLE 253
+[02:05:08]   Equity: $100,584 | BP: $142,088 | Cash: $45,918
+[02:05:08]   Pending orders: 0
+[02:05:08]   Checking for old orders...
+[02:05:08]   ✓ All orders OK (0 pending)
+[02:05:08]   ⏳ Next check in 60s...
+[02:05:08] 
+[02:06:08] 📊 CYCLE 254
+[02:06:09]   Equity: $100,584 | BP: $142,088 | Cash: $45,918
+[02:06:09]   Pending orders: 0
+[02:06:09]   Checking for old orders...
+[02:06:10]   ✓ All orders OK (0 pending)
+[02:06:10]   ⏳ Next check in 60s...
+[02:06:10] 
+[02:07:10] 📊 CYCLE 255
+[02:07:10]   Equity: $100,583 | BP: $142,086 | Cash: $45,918
+[02:07:10]   Pending orders: 0
+[02:07:10]   Checking for old orders...
+[02:07:11]   ✓ All orders OK (0 pending)
+[02:07:11]   ⏳ Next check in 60s...
+[02:07:11] 
+[02:08:11] 📊 CYCLE 256
+[02:08:11]   Equity: $100,583 | BP: $142,086 | Cash: $45,918
+[02:08:11]   Pending orders: 0
+[02:08:11]   Checking for old orders...
+[02:08:12]   ✓ All orders OK (0 pending)
+[02:08:12]   ⏳ Next check in 60s...
+[02:08:12] 
+[02:09:12] 📊 CYCLE 257
+[02:09:12]   Equity: $100,583 | BP: $142,086 | Cash: $45,918
+[02:09:12]   Pending orders: 0
+[02:09:12]   Checking for old orders...
+[02:09:13]   ✓ All orders OK (0 pending)
+[02:09:13]   ⏳ Next check in 60s...
+[02:09:13] 
+[02:10:13] 📊 CYCLE 258
+[02:10:13]   Equity: $100,583 | BP: $142,086 | Cash: $45,918
+[02:10:13]   Pending orders: 0
+[02:10:13]   Checking for old orders...
+[02:10:14]   ✓ All orders OK (0 pending)
+[02:10:14]   ⏳ Next check in 60s...
+[02:10:14] 
+[02:11:14] 📊 CYCLE 259
+[02:11:14]   Equity: $100,583 | BP: $142,086 | Cash: $45,918
+[02:11:15]   Pending orders: 0
+[02:11:15]   Checking for old orders...
+[02:11:15]   ✓ All orders OK (0 pending)
+[02:11:15]   ⏳ Next check in 60s...
+[02:11:15] 
+[02:12:15] 📊 CYCLE 260
+[02:12:15]   Equity: $100,509 | BP: $142,013 | Cash: $45,918
+[02:12:16]   Pending orders: 0
+[02:12:16]   Checking for old orders...
+[02:12:16]   ✓ All orders OK (0 pending)
+[02:12:16]   ⏳ Next check in 60s...
+[02:12:16] 
+[02:13:16] 📊 CYCLE 261
+[02:13:16]   Equity: $100,509 | BP: $142,013 | Cash: $45,918
+[02:13:17]   Pending orders: 0
+[02:13:17]   Checking for old orders...
+[02:13:17]   ✓ All orders OK (0 pending)
+[02:13:17]   ⏳ Next check in 60s...
+[02:13:17] 
+[02:14:17] 📊 CYCLE 262
+[02:14:17]   Equity: $100,509 | BP: $142,013 | Cash: $45,918
+[02:14:18]   Pending orders: 0
+[02:14:18]   Checking for old orders...
+[02:14:18]   ✓ All orders OK (0 pending)
+[02:14:18]   ⏳ Next check in 60s...
+[02:14:18] 
+[02:15:18] 📊 CYCLE 263
+[02:15:18]   Equity: $100,491 | BP: $141,995 | Cash: $45,918
+[02:15:19]   Pending orders: 0
+[02:15:19]   Checking for old orders...
+[02:15:19]   ✓ All orders OK (0 pending)
+[02:15:19]   ⏳ Next check in 60s...
+[02:15:19] 
+[02:16:19] 📊 CYCLE 264
+[02:16:19]   Equity: $100,491 | BP: $141,995 | Cash: $45,918
+[02:16:20]   Pending orders: 0
+[02:16:20]   Checking for old orders...
+[02:16:20]   ✓ All orders OK (0 pending)
+[02:16:20]   ⏳ Next check in 60s...
+[02:16:20] 
+[02:17:20] 📊 CYCLE 265
+[02:17:21]   Equity: $100,491 | BP: $141,995 | Cash: $45,918
+[02:17:21]   Pending orders: 0
+[02:17:21]   Checking for old orders...
+[02:17:21]   ✓ All orders OK (0 pending)
+[02:17:21]   ⏳ Next check in 60s...
+[02:17:21] 
+[02:18:21] 📊 CYCLE 266
+[02:18:22]   Equity: $100,436 | BP: $141,939 | Cash: $45,918
+[02:18:22]   Pending orders: 0
+[02:18:22]   Checking for old orders...
+[02:18:22]   ✓ All orders OK (0 pending)
+[02:18:22]   ⏳ Next check in 60s...
+[02:18:22] 
+[02:19:22] 📊 CYCLE 267
+[02:19:23]   Equity: $100,436 | BP: $141,939 | Cash: $45,918
+[02:19:23]   Pending orders: 0
+[02:19:23]   Checking for old orders...
+[02:19:23]   ✓ All orders OK (0 pending)
+[02:19:23]   ⏳ Next check in 60s...
+[02:19:23] 
+[02:20:23] 📊 CYCLE 268
+[02:20:24]   Equity: $100,436 | BP: $141,939 | Cash: $45,918
+[02:20:24]   Pending orders: 0
+[02:20:24]   Checking for old orders...
+[02:20:24]   ✓ All orders OK (0 pending)
+[02:20:24]   ⏳ Next check in 60s...
+[02:20:24] 
+[02:21:24] 📊 CYCLE 269
+[02:21:25]   Equity: $100,436 | BP: $141,939 | Cash: $45,918
+[02:21:25]   Pending orders: 0
+[02:21:25]   Checking for old orders...
+[02:21:25]   ✓ All orders OK (0 pending)
+[02:21:25]   ⏳ Next check in 60s...
+[02:21:25] 
+[02:22:25] 📊 CYCLE 270
+[02:22:26]   Equity: $100,436 | BP: $141,939 | Cash: $45,918
+[02:22:26]   Pending orders: 0
+[02:22:26]   Checking for old orders...
+[02:22:27]   ✓ All orders OK (0 pending)
+[02:22:27]   ⏳ Next check in 60s...
+[02:22:27] 
+[02:23:27] 📊 CYCLE 271
+[02:23:27]   Equity: $100,436 | BP: $141,939 | Cash: $45,918
+[02:23:27]   Pending orders: 0
+[02:23:27]   Checking for old orders...
+[02:23:28]   ✓ All orders OK (0 pending)
+[02:23:28]   ⏳ Next check in 60s...
+[02:23:28] 
+[02:24:28] 📊 CYCLE 272
+[02:24:28]   Equity: $100,436 | BP: $141,939 | Cash: $45,918
+[02:24:28]   Pending orders: 0
+[02:24:28]   Checking for old orders...
+[02:24:29]   ✓ All orders OK (0 pending)
+[02:24:29]   ⏳ Next check in 60s...
+[02:24:29] 
+[02:25:29] 📊 CYCLE 273
+[02:25:29]   Equity: $100,436 | BP: $141,939 | Cash: $45,918
+[02:25:29]   Pending orders: 0
+[02:25:29]   Checking for old orders...
+[02:25:30]   ✓ All orders OK (0 pending)
+[02:25:30]   ⏳ Next check in 60s...
+[02:25:30] 
+[02:26:30] 📊 CYCLE 274
+[02:26:30]   Equity: $100,436 | BP: $141,939 | Cash: $45,918
+[02:26:30]   Pending orders: 0
+[02:26:30]   Checking for old orders...
+[02:26:31]   ✓ All orders OK (0 pending)
+[02:26:31]   ⏳ Next check in 60s...
+[02:26:31] 
+[02:27:31] 📊 CYCLE 275
+[02:27:31]   Equity: $100,436 | BP: $141,939 | Cash: $45,918
+[02:27:32]   Pending orders: 0
+[02:27:32]   Checking for old orders...
+[02:27:32]   ✓ All orders OK (0 pending)
+[02:27:32]   ⏳ Next check in 60s...
+[02:27:32] 
+[02:28:32] 📊 CYCLE 276
+[02:28:32]   Equity: $100,436 | BP: $141,939 | Cash: $45,918
+[02:28:33]   Pending orders: 0
+[02:28:33]   Checking for old orders...
+[02:28:33]   ✓ All orders OK (0 pending)
+[02:28:33]   ⏳ Next check in 60s...
+[02:28:33] 
+[02:29:33] 📊 CYCLE 277
+[02:29:33]   Equity: $100,436 | BP: $141,939 | Cash: $45,918
+[02:29:34]   Pending orders: 0
+[02:29:34]   Checking for old orders...
+[02:29:34]   ✓ All orders OK (0 pending)
+[02:29:34]   ⏳ Next check in 60s...
+[02:29:34] 
+[02:30:34] 📊 CYCLE 278
+[02:30:34]   Equity: $100,436 | BP: $141,939 | Cash: $45,918
+[02:30:35]   Pending orders: 0
+[02:30:35]   Checking for old orders...
+[02:30:35]   ✓ All orders OK (0 pending)
+[02:30:35]   ⏳ Next check in 60s...
+[02:30:35] 
+[02:31:35] 📊 CYCLE 279
+[02:31:35]   Equity: $100,436 | BP: $141,939 | Cash: $45,918
+[02:31:36]   Pending orders: 0
+[02:31:36]   Checking for old orders...
+[02:31:36]   ✓ All orders OK (0 pending)
+[02:31:36]   ⏳ Next check in 60s...
+[02:31:36] 
+[02:32:36] 📊 CYCLE 280
+[02:32:36]   Equity: $100,395 | BP: $141,899 | Cash: $45,918
+[02:32:37]   Pending orders: 0
+[02:32:37]   Checking for old orders...
+[02:32:37]   ✓ All orders OK (0 pending)
+[02:32:37]   ⏳ Next check in 60s...
+[02:32:37] 
+[02:33:37] 📊 CYCLE 281
+[02:33:37]   Equity: $100,299 | BP: $141,803 | Cash: $45,918
+[02:33:38]   Pending orders: 0
+[02:33:38]   Checking for old orders...
+[02:33:38]   ✓ All orders OK (0 pending)
+[02:33:38]   ⏳ Next check in 60s...
+[02:33:38] 
+[02:34:38] 📊 CYCLE 282
+[02:34:39]   Equity: $100,299 | BP: $141,803 | Cash: $45,918
+[02:34:39]   Pending orders: 0
+[02:34:39]   Checking for old orders...
+[02:34:39]   ✓ All orders OK (0 pending)
+[02:34:39]   ⏳ Next check in 60s...
+[02:34:39] 
+[02:35:39] 📊 CYCLE 283
+[02:35:40]   Equity: $100,299 | BP: $141,803 | Cash: $45,918
+[02:35:40]   Pending orders: 0
+[02:35:40]   Checking for old orders...
+[02:35:40]   ✓ All orders OK (0 pending)
+[02:35:40]   ⏳ Next check in 60s...
+[02:35:40] 
+[02:36:40] 📊 CYCLE 284
+[02:36:41]   Equity: $100,299 | BP: $141,803 | Cash: $45,918
+[02:36:41]   Pending orders: 0
+[02:36:41]   Checking for old orders...
+[02:36:41]   ✓ All orders OK (0 pending)
+[02:36:41]   ⏳ Next check in 60s...
+[02:36:41] 
+[02:37:41] 📊 CYCLE 285
+[02:37:42]   Equity: $100,299 | BP: $141,803 | Cash: $45,918
+[02:37:42]   Pending orders: 0
+[02:37:42]   Checking for old orders...
+[02:37:42]   ✓ All orders OK (0 pending)
+[02:37:42]   ⏳ Next check in 60s...
+[02:37:42] 
+[02:38:42] 📊 CYCLE 286
+[02:38:43]   Equity: $100,299 | BP: $141,803 | Cash: $45,918
+[02:38:43]   Pending orders: 0
+[02:38:43]   Checking for old orders...
+[02:38:44]   ✓ All orders OK (0 pending)
+[02:38:44]   ⏳ Next check in 60s...
+[02:38:44] 
+[02:39:44] 📊 CYCLE 287
+[02:39:44]   Equity: $100,299 | BP: $141,803 | Cash: $45,918
+[02:39:44]   Pending orders: 0
+[02:39:44]   Checking for old orders...
+[02:39:45]   ✓ All orders OK (0 pending)
+[02:39:45]   ⏳ Next check in 60s...
+[02:39:45] 
+[02:40:45] 📊 CYCLE 288
+[02:40:45]   Equity: $100,299 | BP: $141,803 | Cash: $45,918
+[02:40:45]   Pending orders: 0
+[02:40:45]   Checking for old orders...
+[02:40:46]   ✓ All orders OK (0 pending)
+[02:40:46]   ⏳ Next check in 60s...
+[02:40:46] 
+[02:41:46] 📊 CYCLE 289
+[02:41:46]   Equity: $100,299 | BP: $141,803 | Cash: $45,918
+[02:41:46]   Pending orders: 0
+[02:41:46]   Checking for old orders...
+[02:41:47]   ✓ All orders OK (0 pending)
+[02:41:47]   ⏳ Next check in 60s...
+[02:41:47] 
+[02:42:47] 📊 CYCLE 290
+[02:42:47]   Equity: $100,299 | BP: $141,803 | Cash: $45,918
+[02:42:47]   Pending orders: 0
+[02:42:47]   Checking for old orders...
+[02:42:48]   ✓ All orders OK (0 pending)
+[02:42:48]   ⏳ Next check in 60s...
+[02:42:48] 
+[02:43:48] 📊 CYCLE 291
+[02:43:48]   Equity: $100,299 | BP: $141,803 | Cash: $45,918
+[02:43:48]   Pending orders: 0
+[02:43:48]   Checking for old orders...
+[02:43:49]   ✓ All orders OK (0 pending)
+[02:43:49]   ⏳ Next check in 60s...
+[02:43:49] 
+[02:44:49] 📊 CYCLE 292
+[02:44:49]   Equity: $100,299 | BP: $141,803 | Cash: $45,918
+[02:44:49]   Pending orders: 0
+[02:44:49]   Checking for old orders...
+[02:44:50]   ✓ All orders OK (0 pending)
+[02:44:50]   ⏳ Next check in 60s...
+[02:44:50] 
+[02:45:50] 📊 CYCLE 293
+[02:45:50]   Equity: $100,299 | BP: $141,803 | Cash: $45,918
+[02:45:51]   Pending orders: 0
+[02:45:51]   Checking for old orders...
+[02:45:51]   ✓ All orders OK (0 pending)
+[02:45:51]   ⏳ Next check in 60s...
+[02:45:51] 
+[02:46:51] 📊 CYCLE 294
+[02:46:51]   Equity: $100,299 | BP: $141,803 | Cash: $45,918
+[02:46:52]   Pending orders: 0
+[02:46:52]   Checking for old orders...
+[02:46:52]   ✓ All orders OK (0 pending)
+[02:46:52]   ⏳ Next check in 60s...
+[02:46:52] 
+[02:47:52] 📊 CYCLE 295
+[02:47:52]   Equity: $100,299 | BP: $141,803 | Cash: $45,918
+[02:47:53]   Pending orders: 0
+[02:47:53]   Checking for old orders...
+[02:47:53]   ✓ All orders OK (0 pending)
+[02:47:53]   ⏳ Next check in 60s...
+[02:47:53] 
+[02:48:53] 📊 CYCLE 296
+[02:48:53]   Equity: $100,299 | BP: $141,803 | Cash: $45,918
+[02:48:54]   Pending orders: 0
+[02:48:54]   Checking for old orders...
+[02:48:54]   ✓ All orders OK (0 pending)
+[02:48:54]   ⏳ Next check in 60s...
+[02:48:54] 
+[02:49:54] 📊 CYCLE 297
+[02:49:54]   Equity: $100,299 | BP: $141,803 | Cash: $45,918
+[02:49:55]   Pending orders: 0
+[02:49:55]   Checking for old orders...
+[02:49:55]   ✓ All orders OK (0 pending)
+[02:49:55]   ⏳ Next check in 60s...
+[02:49:55] 
+[02:50:55] 📊 CYCLE 298
+[02:50:56]   Equity: $100,299 | BP: $141,803 | Cash: $45,918
+[02:50:56]   Pending orders: 0
+[02:50:56]   Checking for old orders...
+[02:50:56]   ✓ All orders OK (0 pending)
+[02:50:56]   ⏳ Next check in 60s...
+[02:50:56] 
+[02:51:56] 📊 CYCLE 299
+[02:51:57]   Equity: $100,299 | BP: $141,803 | Cash: $45,918
+[02:51:57]   Pending orders: 0
+[02:51:57]   Checking for old orders...
+[02:51:57]   ✓ All orders OK (0 pending)
+[02:51:57]   ⏳ Next check in 60s...
+[02:51:57] 
+[02:52:57] 📊 CYCLE 300
+[02:52:58]   Equity: $100,299 | BP: $141,803 | Cash: $45,918
+[02:52:58]   Pending orders: 0
+[02:52:58]   Checking for old orders...
+[02:52:58]   ✓ All orders OK (0 pending)
+[02:52:58]   ⏳ Next check in 60s...
+[02:52:58] 
+[02:53:58] 📊 CYCLE 301
+[02:53:59]   Equity: $100,299 | BP: $141,803 | Cash: $45,918
+[02:53:59]   Pending orders: 0
+[02:53:59]   Checking for old orders...
+[02:53:59]   ✓ All orders OK (0 pending)
+[02:53:59]   ⏳ Next check in 60s...
+[02:53:59] 
+[02:54:59] 📊 CYCLE 302
+[02:55:00]   Equity: $100,342 | BP: $141,846 | Cash: $45,918
+[02:55:00]   Pending orders: 0
+[02:55:00]   Checking for old orders...
+[02:55:00]   ✓ All orders OK (0 pending)
+[02:55:00]   ⏳ Next check in 60s...
+[02:55:00] 
+[02:56:00] 📊 CYCLE 303
+[02:56:01]   Equity: $100,342 | BP: $141,846 | Cash: $45,918
+[02:56:01]   Pending orders: 0
+[02:56:01]   Checking for old orders...
+[02:56:01]   ✓ All orders OK (0 pending)
+[02:56:01]   ⏳ Next check in 60s...
+[02:56:01] 
+[02:57:01] 📊 CYCLE 304
+[02:57:02]   Equity: $100,342 | BP: $141,846 | Cash: $45,918
+[02:57:02]   Pending orders: 0
+[02:57:02]   Checking for old orders...
+[02:57:03]   ✓ All orders OK (0 pending)
+[02:57:03]   ⏳ Next check in 60s...
+[02:57:03] 
+[02:58:03] 📊 CYCLE 305
+[02:58:03]   Equity: $100,342 | BP: $141,846 | Cash: $45,918
+[02:58:03]   Pending orders: 0
+[02:58:03]   Checking for old orders...
+[02:58:04]   ✓ All orders OK (0 pending)
+[02:58:04]   ⏳ Next check in 60s...
+[02:58:04] 
+[02:59:04] 📊 CYCLE 306
+[02:59:04]   Equity: $100,342 | BP: $141,846 | Cash: $45,918
+[02:59:04]   Pending orders: 0
+[02:59:04]   Checking for old orders...
+[02:59:05]   ✓ All orders OK (0 pending)
+[02:59:05]   ⏳ Next check in 60s...
+[02:59:05] 
+[03:00:05] 📊 CYCLE 307
+[03:00:05]   Equity: $100,342 | BP: $141,846 | Cash: $45,918
+[03:00:05]   Pending orders: 0
+[03:00:05]   Checking for old orders...
+[03:00:06]   ✓ All orders OK (0 pending)
+[03:00:06]   ⏳ Next check in 60s...
+[03:00:06] 
+[03:01:06] 📊 CYCLE 308
+[03:01:06]   Equity: $100,342 | BP: $141,846 | Cash: $45,918
+[03:01:06]   Pending orders: 0
+[03:01:06]   Checking for old orders...
+[03:01:07]   ✓ All orders OK (0 pending)
+[03:01:07]   ⏳ Next check in 60s...
+[03:01:07] 
+[03:02:07] 📊 CYCLE 309
+[03:02:07]   Equity: $100,342 | BP: $141,846 | Cash: $45,918
+[03:02:08]   Pending orders: 0
+[03:02:08]   Checking for old orders...
+[03:02:08]   ✓ All orders OK (0 pending)
+[03:02:08]   ⏳ Next check in 60s...
+[03:02:08] 
+[03:03:08] 📊 CYCLE 310
+[03:03:08]   Equity: $100,342 | BP: $141,846 | Cash: $45,918
+[03:03:09]   Pending orders: 0
+[03:03:09]   Checking for old orders...
+[03:03:09]   ✓ All orders OK (0 pending)
+[03:03:09]   ⏳ Next check in 60s...
+[03:03:09] 
+[03:04:09] 📊 CYCLE 311
+[03:04:09]   Equity: $100,544 | BP: $142,048 | Cash: $45,918
+[03:04:10]   Pending orders: 0
+[03:04:10]   Checking for old orders...
+[03:04:10]   ✓ All orders OK (0 pending)
+[03:04:10]   ⏳ Next check in 60s...
+[03:04:10] 
+[03:05:10] 📊 CYCLE 312
+[03:05:10]   Equity: $100,544 | BP: $142,048 | Cash: $45,918
+[03:05:11]   Pending orders: 0
+[03:05:11]   Checking for old orders...
+[03:05:11]   ✓ All orders OK (0 pending)
+[03:05:11]   ⏳ Next check in 60s...
+[03:05:11] 
+[03:06:11] 📊 CYCLE 313
+[03:06:11]   Equity: $100,544 | BP: $142,048 | Cash: $45,918
+[03:06:12]   Pending orders: 0
+[03:06:12]   Checking for old orders...
+[03:06:12]   ✓ All orders OK (0 pending)
+[03:06:12]   ⏳ Next check in 60s...
+[03:06:12] 
+[03:07:12] 📊 CYCLE 314
+[03:07:12]   Equity: $100,544 | BP: $142,048 | Cash: $45,918
+[03:07:13]   Pending orders: 0
+[03:07:13]   Checking for old orders...
+[03:07:13]   ✓ All orders OK (0 pending)
+[03:07:13]   ⏳ Next check in 60s...
+[03:07:13] 
+[03:08:13] 📊 CYCLE 315
+[03:08:14]   Equity: $100,544 | BP: $142,048 | Cash: $45,918
+[03:08:14]   Pending orders: 0
+[03:08:14]   Checking for old orders...
+[03:08:14]   ✓ All orders OK (0 pending)
+[03:08:14]   ⏳ Next check in 60s...
+[03:08:14] 
+[03:09:14] 📊 CYCLE 316
+[03:09:15]   Equity: $100,544 | BP: $142,048 | Cash: $45,918
+[03:09:15]   Pending orders: 0
+[03:09:15]   Checking for old orders...
+[03:09:15]   ✓ All orders OK (0 pending)
+[03:09:15]   ⏳ Next check in 60s...
+[03:09:15] 
+[03:10:15] 📊 CYCLE 317
+[03:10:16]   Equity: $100,544 | BP: $142,048 | Cash: $45,918
+[03:10:16]   Pending orders: 0
+[03:10:16]   Checking for old orders...
+[03:10:16]   ✓ All orders OK (0 pending)
+[03:10:16]   ⏳ Next check in 60s...
+[03:10:16] 
+[03:11:16] 📊 CYCLE 318
+[03:11:17]   Equity: $100,544 | BP: $142,048 | Cash: $45,918
+[03:11:17]   Pending orders: 0
+[03:11:17]   Checking for old orders...
+[03:11:17]   ✓ All orders OK (0 pending)
+[03:11:17]   ⏳ Next check in 60s...
+[03:11:17] 
+[03:12:17] 📊 CYCLE 319
+[03:12:18]   Equity: $100,544 | BP: $142,048 | Cash: $45,918
+[03:12:18]   Pending orders: 0
+[03:12:18]   Checking for old orders...
+[03:12:18]   ✓ All orders OK (0 pending)
+[03:12:18]   ⏳ Next check in 60s...
+[03:12:18] 
+[03:13:18] 📊 CYCLE 320
+[03:13:19]   Equity: $100,544 | BP: $142,048 | Cash: $45,918
+[03:13:19]   Pending orders: 0
+[03:13:19]   Checking for old orders...
+[03:13:20]   ✓ All orders OK (0 pending)
+[03:13:20]   ⏳ Next check in 60s...
+[03:13:20] 
+[03:14:20] 📊 CYCLE 321
+[03:14:20]   Equity: $100,471 | BP: $141,975 | Cash: $45,918
+[03:14:20]   Pending orders: 0
+[03:14:20]   Checking for old orders...
+[03:14:21]   ✓ All orders OK (0 pending)
+[03:14:21]   ⏳ Next check in 60s...
+[03:14:21] 
+[03:15:21] 📊 CYCLE 322
+[03:15:21]   Equity: $100,471 | BP: $141,975 | Cash: $45,918
+[03:15:21]   Pending orders: 0
+[03:15:21]   Checking for old orders...
+[03:15:22]   ✓ All orders OK (0 pending)
+[03:15:22]   ⏳ Next check in 60s...
+[03:15:22] 
+[03:16:22] 📊 CYCLE 323
+[03:16:22]   Equity: $100,471 | BP: $141,975 | Cash: $45,918
+[03:16:22]   Pending orders: 0
+[03:16:22]   Checking for old orders...
+[03:16:23]   ✓ All orders OK (0 pending)
+[03:16:23]   ⏳ Next check in 60s...
+[03:16:23] 
+[03:17:23] 📊 CYCLE 324
+[03:17:23]   Equity: $100,471 | BP: $141,975 | Cash: $45,918
+[03:17:23]   Pending orders: 0
+[03:17:23]   Checking for old orders...
+[03:17:24]   ✓ All orders OK (0 pending)
+[03:17:24]   ⏳ Next check in 60s...
+[03:17:24] 
+[03:18:24] 📊 CYCLE 325
+[03:18:24]   Equity: $100,471 | BP: $141,975 | Cash: $45,918
+[03:18:25]   Pending orders: 0
+[03:18:25]   Checking for old orders...
+[03:18:25]   ✓ All orders OK (0 pending)
+[03:18:25]   ⏳ Next check in 60s...
+[03:18:25] 
+[03:19:25] 📊 CYCLE 326
+[03:19:25]   Equity: $100,471 | BP: $141,975 | Cash: $45,918
+[03:19:26]   Pending orders: 0
+[03:19:26]   Checking for old orders...
+[03:19:26]   ✓ All orders OK (0 pending)
+[03:19:26]   ⏳ Next check in 60s...
+[03:19:26] 
+[03:20:26] 📊 CYCLE 327
+[03:20:26]   Equity: $100,471 | BP: $141,975 | Cash: $45,918
+[03:20:27]   Pending orders: 0
+[03:20:27]   Checking for old orders...
+[03:20:27]   ✓ All orders OK (0 pending)
+[03:20:27]   ⏳ Next check in 60s...
+[03:20:27] 
+[03:21:27] 📊 CYCLE 328
+[03:21:27]   Equity: $100,471 | BP: $141,975 | Cash: $45,918
+[03:21:28]   Pending orders: 0
+[03:21:28]   Checking for old orders...
+[03:21:28]   ✓ All orders OK (0 pending)
+[03:21:28]   ⏳ Next check in 60s...
+[03:21:28] 
+[03:22:28] 📊 CYCLE 329
+[03:22:28]   Equity: $100,471 | BP: $141,975 | Cash: $45,918
+[03:22:29]   Pending orders: 0
+[03:22:29]   Checking for old orders...
+[03:22:29]   ✓ All orders OK (0 pending)
+[03:22:29]   ⏳ Next check in 60s...
+[03:22:29] 
+[03:23:29] 📊 CYCLE 330
+[03:23:29]   Equity: $100,471 | BP: $141,975 | Cash: $45,918
+[03:23:30]   Pending orders: 0
+[03:23:30]   Checking for old orders...
+[03:23:30]   ✓ All orders OK (0 pending)
+[03:23:30]   ⏳ Next check in 60s...
+[03:23:30] 
+[03:24:30] 📊 CYCLE 331
+[03:24:31]   Equity: $100,471 | BP: $141,975 | Cash: $45,918
+[03:24:31]   Pending orders: 0
+[03:24:31]   Checking for old orders...
+[03:24:31]   ✓ All orders OK (0 pending)
+[03:24:31]   ⏳ Next check in 60s...
+[03:24:31] 
+[03:25:31] 📊 CYCLE 332
+[03:25:32]   Equity: $100,471 | BP: $141,975 | Cash: $45,918
+[03:25:32]   Pending orders: 0
+[03:25:32]   Checking for old orders...
+[03:25:32]   ✓ All orders OK (0 pending)
+[03:25:32]   ⏳ Next check in 60s...
+[03:25:32] 
+[03:26:32] 📊 CYCLE 333
+[03:26:33]   Equity: $100,471 | BP: $141,975 | Cash: $45,918
+[03:26:33]   Pending orders: 0
+[03:26:33]   Checking for old orders...
+[03:26:33]   ✓ All orders OK (0 pending)
+[03:26:33]   ⏳ Next check in 60s...
+[03:26:33] 
+[03:27:33] 📊 CYCLE 334
+[03:27:34]   Equity: $100,471 | BP: $141,975 | Cash: $45,918
+[03:27:34]   Pending orders: 0
+[03:27:34]   Checking for old orders...
+[03:27:34]   ✓ All orders OK (0 pending)
+[03:27:34]   ⏳ Next check in 60s...
+[03:27:34] 
+[03:28:34] 📊 CYCLE 335
+[03:28:35]   Equity: $100,471 | BP: $141,975 | Cash: $45,918
+[03:28:35]   Pending orders: 0
+[03:28:35]   Checking for old orders...
+[03:28:35]   ✓ All orders OK (0 pending)
+[03:28:35]   ⏳ Next check in 60s...
+[03:28:35] 
+[03:29:35] 📊 CYCLE 336
+[03:29:36]   Equity: $100,486 | BP: $141,990 | Cash: $45,918
+[03:29:36]   Pending orders: 0
+[03:29:36]   Checking for old orders...
+[03:29:36]   ✓ All orders OK (0 pending)
+[03:29:36]   ⏳ Next check in 60s...
+[03:29:36] 
+[03:30:36] 📊 CYCLE 337
+[03:30:37]   Equity: $100,486 | BP: $141,990 | Cash: $45,918
+[03:30:37]   Pending orders: 0
+[03:30:37]   Checking for old orders...
+[03:30:38]   ✓ All orders OK (0 pending)
+[03:30:38]   ⏳ Next check in 60s...
+[03:30:38] 
+[03:31:38] 📊 CYCLE 338
+[03:31:38]   Equity: $100,486 | BP: $141,990 | Cash: $45,918
+[03:31:38]   Pending orders: 0
+[03:31:38]   Checking for old orders...
+[03:31:39]   ✓ All orders OK (0 pending)
+[03:31:39]   ⏳ Next check in 60s...
+[03:31:39] 
+[03:32:39] 📊 CYCLE 339
+[03:32:39]   Equity: $100,486 | BP: $141,990 | Cash: $45,918
+[03:32:39]   Pending orders: 0
+[03:32:39]   Checking for old orders...
+[03:32:40]   ✓ All orders OK (0 pending)
+[03:32:40]   ⏳ Next check in 60s...
+[03:32:40] 
+[03:33:40] 📊 CYCLE 340
+[03:33:40]   Equity: $100,486 | BP: $141,990 | Cash: $45,918
+[03:33:40]   Pending orders: 0
+[03:33:40]   Checking for old orders...
+[03:33:41]   ✓ All orders OK (0 pending)
+[03:33:41]   ⏳ Next check in 60s...
+[03:33:41] 
+[03:34:41] 📊 CYCLE 341
+[03:34:41]   Equity: $100,486 | BP: $141,990 | Cash: $45,918
+[03:34:41]   Pending orders: 0
+[03:34:41]   Checking for old orders...
+[03:34:42]   ✓ All orders OK (0 pending)
+[03:34:42]   ⏳ Next check in 60s...
+[03:34:42] 
+[03:35:42] 📊 CYCLE 342
+[03:35:42]   Equity: $100,486 | BP: $141,990 | Cash: $45,918
+[03:35:42]   Pending orders: 0
+[03:35:42]   Checking for old orders...
+[03:35:43]   ✓ All orders OK (0 pending)
+[03:35:43]   ⏳ Next check in 60s...
+[03:35:43] 
+[03:36:43] 📊 CYCLE 343
+[03:36:43]   Equity: $100,486 | BP: $141,990 | Cash: $45,918
+[03:36:44]   Pending orders: 0
+[03:36:44]   Checking for old orders...
+[03:36:44]   ✓ All orders OK (0 pending)
+[03:36:44]   ⏳ Next check in 60s...
+[03:36:44] 
+[03:37:44] 📊 CYCLE 344
+[03:37:44]   Equity: $100,486 | BP: $141,990 | Cash: $45,918
+[03:37:45]   Pending orders: 0
+[03:37:45]   Checking for old orders...
+[03:37:45]   ✓ All orders OK (0 pending)
+[03:37:45]   ⏳ Next check in 60s...
+[03:37:45] 
+[03:38:45] 📊 CYCLE 345
+[03:38:45]   Equity: $100,486 | BP: $141,990 | Cash: $45,918
+[03:38:46]   Pending orders: 0
+[03:38:46]   Checking for old orders...
+[03:38:46]   ✓ All orders OK (0 pending)
+[03:38:46]   ⏳ Next check in 60s...
+[03:38:46] 
+[03:39:46] 📊 CYCLE 346
+[03:39:46]   Equity: $100,486 | BP: $141,990 | Cash: $45,918
+[03:39:47]   Pending orders: 0
+[03:39:47]   Checking for old orders...
+[03:39:47]   ✓ All orders OK (0 pending)
+[03:39:47]   ⏳ Next check in 60s...
+[03:39:47] 
+[03:40:47] 📊 CYCLE 347
+[03:40:47]   Equity: $100,486 | BP: $141,990 | Cash: $45,918
+[03:40:48]   Pending orders: 0
+[03:40:48]   Checking for old orders...
+[03:40:48]   ✓ All orders OK (0 pending)
+[03:40:48]   ⏳ Next check in 60s...
+[03:40:48] 
+[03:41:48] 📊 CYCLE 348
+[03:41:48]   Equity: $100,484 | BP: $141,988 | Cash: $45,918
+[03:41:49]   Pending orders: 0
+[03:41:49]   Checking for old orders...
+[03:41:49]   ✓ All orders OK (0 pending)
+[03:41:49]   ⏳ Next check in 60s...
+[03:41:49] 
+[03:42:49] 📊 CYCLE 349
+[03:42:49]   Equity: $100,484 | BP: $141,988 | Cash: $45,918
+[03:42:50]   Pending orders: 0
+[03:42:50]   Checking for old orders...
+[03:42:50]   ✓ All orders OK (0 pending)
+[03:42:50]   ⏳ Next check in 60s...
+[03:42:50] 
+[03:43:50] 📊 CYCLE 350
+[03:43:51]   Equity: $100,484 | BP: $141,988 | Cash: $45,918
+[03:43:51]   Pending orders: 0
+[03:43:51]   Checking for old orders...
+[03:43:51]   ✓ All orders OK (0 pending)
+[03:43:51]   ⏳ Next check in 60s...
+[03:43:51] 
+[03:44:51] 📊 CYCLE 351
+[03:44:52]   Equity: $100,484 | BP: $141,988 | Cash: $45,918
+[03:44:52]   Pending orders: 0
+[03:44:52]   Checking for old orders...
+[03:44:52]   ✓ All orders OK (0 pending)
+[03:44:52]   ⏳ Next check in 60s...
+[03:44:52] 
+[03:45:52] 📊 CYCLE 352
+[03:45:53]   Equity: $100,484 | BP: $141,988 | Cash: $45,918
+[03:45:53]   Pending orders: 0
+[03:45:53]   Checking for old orders...
+[03:45:53]   ✓ All orders OK (0 pending)
+[03:45:53]   ⏳ Next check in 60s...
+[03:45:53] 
+[03:46:53] 📊 CYCLE 353
+[03:46:54]   Equity: $100,484 | BP: $141,988 | Cash: $45,918
+[03:46:54]   Pending orders: 0
+[03:46:54]   Checking for old orders...
+[03:46:54]   ✓ All orders OK (0 pending)
+[03:46:54]   ⏳ Next check in 60s...
+[03:46:54] 
+[03:47:54] 📊 CYCLE 354
+[03:47:55]   Equity: $100,484 | BP: $141,988 | Cash: $45,918
+[03:47:55]   Pending orders: 0
+[03:47:55]   Checking for old orders...
+[03:47:55]   ✓ All orders OK (0 pending)
+[03:47:55]   ⏳ Next check in 60s...
+[03:47:55] 
+[03:48:55] 📊 CYCLE 355
+[03:48:56]   Equity: $100,484 | BP: $141,988 | Cash: $45,918
+[03:48:56]   Pending orders: 0
+[03:48:56]   Checking for old orders...
+[03:48:57]   ✓ All orders OK (0 pending)
+[03:48:57]   ⏳ Next check in 60s...
+[03:48:57] 
+[03:49:57] 📊 CYCLE 356
+[03:49:57]   Equity: $100,484 | BP: $141,988 | Cash: $45,918
+[03:49:57]   Pending orders: 0
+[03:49:57]   Checking for old orders...
+[03:49:58]   ✓ All orders OK (0 pending)
+[03:49:58]   ⏳ Next check in 60s...
+[03:49:58] 
+[03:50:58] 📊 CYCLE 357
+[03:50:58]   Equity: $100,499 | BP: $142,003 | Cash: $45,918
+[03:50:58]   Pending orders: 0
+[03:50:58]   Checking for old orders...
+[03:50:59]   ✓ All orders OK (0 pending)
+[03:50:59]   ⏳ Next check in 60s...
+[03:50:59] 
+[03:51:59] 📊 CYCLE 358
+[03:51:59]   Equity: $100,499 | BP: $142,003 | Cash: $45,918
+[03:51:59]   Pending orders: 0
+[03:51:59]   Checking for old orders...
+[03:52:00]   ✓ All orders OK (0 pending)
+[03:52:00]   ⏳ Next check in 60s...
+[03:52:00] 
+[03:53:00] 📊 CYCLE 359
+[03:53:00]   Equity: $100,499 | BP: $142,003 | Cash: $45,918
+[03:53:00]   Pending orders: 0
+[03:53:00]   Checking for old orders...
+[03:53:01]   ✓ All orders OK (0 pending)
+[03:53:01]   ⏳ Next check in 60s...
+[03:53:01] 
+[03:54:01] 📊 CYCLE 360
+[03:54:01]   Equity: $100,499 | BP: $142,003 | Cash: $45,918
+[03:54:01]   Pending orders: 0
+[03:54:01]   Checking for old orders...
+[03:54:02]   ✓ All orders OK (0 pending)
+[03:54:02]   ⏳ Next check in 60s...
+[03:54:02] 
+[03:55:02] 📊 CYCLE 361
+[03:55:02]   Equity: $100,499 | BP: $142,003 | Cash: $45,918
+[03:55:03]   Pending orders: 0
+[03:55:03]   Checking for old orders...
+[03:55:03]   ✓ All orders OK (0 pending)
+[03:55:03]   ⏳ Next check in 60s...
+[03:55:03] 
+[03:56:03] 📊 CYCLE 362
+[03:56:03]   Equity: $100,499 | BP: $142,003 | Cash: $45,918
+[03:56:04]   Pending orders: 0
+[03:56:04]   Checking for old orders...
+[03:56:04]   ✓ All orders OK (0 pending)
+[03:56:04]   ⏳ Next check in 60s...
+[03:56:04] 
+[03:57:04] 📊 CYCLE 363
+[03:57:04]   Equity: $100,499 | BP: $142,003 | Cash: $45,918
+[03:57:05]   Pending orders: 0
+[03:57:05]   Checking for old orders...
+[03:57:05]   ✓ All orders OK (0 pending)
+[03:57:05]   ⏳ Next check in 60s...
+[03:57:05] 
+[03:58:05] 📊 CYCLE 364
+[03:58:05]   Equity: $100,499 | BP: $142,003 | Cash: $45,918
+[03:58:06]   Pending orders: 0
+[03:58:06]   Checking for old orders...
+[03:58:06]   ✓ All orders OK (0 pending)
+[03:58:06]   ⏳ Next check in 60s...
+[03:58:06] 
+[03:59:06] 📊 CYCLE 365
+[03:59:06]   Equity: $100,499 | BP: $142,003 | Cash: $45,918
+[03:59:07]   Pending orders: 0
+[03:59:07]   Checking for old orders...
+[03:59:07]   ✓ All orders OK (0 pending)
+[03:59:07]   ⏳ Next check in 60s...
+[03:59:07] 
+[04:00:07] 📊 CYCLE 366
+[04:00:08]   Equity: $100,499 | BP: $142,003 | Cash: $45,918
+[04:00:08]   Pending orders: 0
+[04:00:08]   Checking for old orders...
+[04:00:08]   ✓ All orders OK (0 pending)
+[04:00:08]   ⏳ Next check in 60s...
+[04:00:08] 
+[04:01:08] 📊 CYCLE 367
+[04:01:09]   Equity: $100,499 | BP: $142,003 | Cash: $45,918
+[04:01:09]   Pending orders: 0
+[04:01:09]   Checking for old orders...
+[04:01:09]   ✓ All orders OK (0 pending)
+[04:01:09]   ⏳ Next check in 60s...
+[04:01:09] 
+[04:02:09] 📊 CYCLE 368
+[04:02:10]   Equity: $100,499 | BP: $142,003 | Cash: $45,918
+[04:02:10]   Pending orders: 0
+[04:02:10]   Checking for old orders...
+[04:02:10]   ✓ All orders OK (0 pending)
+[04:02:10]   ⏳ Next check in 60s...
+[04:02:10] 
+[04:03:10] 📊 CYCLE 369
+[04:03:11]   Equity: $100,499 | BP: $142,003 | Cash: $45,918
+[04:03:11]   Pending orders: 0
+[04:03:11]   Checking for old orders...
+[04:03:11]   ✓ All orders OK (0 pending)
+[04:03:11]   ⏳ Next check in 60s...
+[04:03:11] 
+[04:04:11] 📊 CYCLE 370
+[04:04:12]   Equity: $100,499 | BP: $142,003 | Cash: $45,918
+[04:04:12]   Pending orders: 0
+[04:04:12]   Checking for old orders...
+[04:04:13]   ✓ All orders OK (0 pending)
+[04:04:13]   ⏳ Next check in 60s...
+[04:04:13] 
+[04:05:13] 📊 CYCLE 371
+[04:05:13]   Equity: $100,499 | BP: $142,003 | Cash: $45,918
+[04:05:13]   Pending orders: 0
+[04:05:13]   Checking for old orders...
+[04:05:14]   ✓ All orders OK (0 pending)
+[04:05:14]   ⏳ Next check in 60s...
+[04:05:14] 
+[04:06:14] 📊 CYCLE 372
+[04:06:14]   Equity: $100,499 | BP: $142,003 | Cash: $45,918
+[04:06:14]   Pending orders: 0
+[04:06:14]   Checking for old orders...
+[04:06:15]   ✓ All orders OK (0 pending)
+[04:06:15]   ⏳ Next check in 60s...
+[04:06:15] 
+[04:07:15] 📊 CYCLE 373
+[04:07:15]   Equity: $100,499 | BP: $142,003 | Cash: $45,918
+[04:07:15]   Pending orders: 0
+[04:07:15]   Checking for old orders...
+[04:07:16]   ✓ All orders OK (0 pending)
+[04:07:16]   ⏳ Next check in 60s...
+[04:07:16] 
+[04:08:16] 📊 CYCLE 374
+[04:08:16]   Equity: $100,523 | BP: $142,027 | Cash: $45,918
+[04:08:16]   Pending orders: 0
+[04:08:16]   Checking for old orders...
+[04:08:17]   ✓ All orders OK (0 pending)
+[04:08:17]   ⏳ Next check in 60s...
+[04:08:17] 
+[04:09:17] 📊 CYCLE 375
+[04:09:17]   Equity: $100,523 | BP: $142,027 | Cash: $45,918
+[04:09:17]   Pending orders: 0
+[04:09:17]   Checking for old orders...
+[04:09:18]   ✓ All orders OK (0 pending)
+[04:09:18]   ⏳ Next check in 60s...
+[04:09:18] 
+[04:10:18] 📊 CYCLE 376
+[04:10:18]   Equity: $100,741 | BP: $142,245 | Cash: $45,918
+[04:10:19]   Pending orders: 0
+[04:10:19]   Checking for old orders...
+[04:10:19]   ✓ All orders OK (0 pending)
+[04:10:19]   ⏳ Next check in 60s...
+[04:10:19] 
+[04:11:19] 📊 CYCLE 377
+[04:11:19]   Equity: $100,741 | BP: $142,245 | Cash: $45,918
+[04:11:20]   Pending orders: 0
+[04:11:20]   Checking for old orders...
+[04:11:20]   ✓ All orders OK (0 pending)
+[04:11:20]   ⏳ Next check in 60s...
+[04:11:20] 
+[04:12:20] 📊 CYCLE 378
+[04:12:20]   Equity: $100,741 | BP: $142,245 | Cash: $45,918
+[04:12:21]   Pending orders: 0
+[04:12:21]   Checking for old orders...
+[04:12:21]   ✓ All orders OK (0 pending)
+[04:12:21]   ⏳ Next check in 60s...
+[04:12:21] 
+[04:13:21] 📊 CYCLE 379
+[04:13:21]   Equity: $100,741 | BP: $142,245 | Cash: $45,918
+[04:13:22]   Pending orders: 0
+[04:13:22]   Checking for old orders...
+[04:13:22]   ✓ All orders OK (0 pending)
+[04:13:22]   ⏳ Next check in 60s...
+[04:13:22] 
+[04:14:22] 📊 CYCLE 380
+[04:14:22]   Equity: $100,744 | BP: $142,248 | Cash: $45,918
+[04:14:23]   Pending orders: 0
+[04:14:23]   Checking for old orders...
+[04:14:23]   ✓ All orders OK (0 pending)
+[04:14:23]   ⏳ Next check in 60s...
+[04:14:23] 
+[04:15:23] 📊 CYCLE 381
+[04:15:23]   Equity: $100,744 | BP: $142,248 | Cash: $45,918
+[04:15:24]   Pending orders: 0
+[04:15:24]   Checking for old orders...
+[04:15:24]   ✓ All orders OK (0 pending)
+[04:15:24]   ⏳ Next check in 60s...
+[04:15:24] 
+[04:16:24] 📊 CYCLE 382
+[04:16:25]   Equity: $100,744 | BP: $142,248 | Cash: $45,918
+[04:16:25]   Pending orders: 0
+[04:16:25]   Checking for old orders...
+[04:16:25]   ✓ All orders OK (0 pending)
+[04:16:25]   ⏳ Next check in 60s...
+[04:16:25] 
+[04:17:25] 📊 CYCLE 383
+[04:17:26]   Equity: $100,744 | BP: $142,248 | Cash: $45,918
+[04:17:26]   Pending orders: 0
+[04:17:26]   Checking for old orders...
+[04:17:26]   ✓ All orders OK (0 pending)
+[04:17:26]   ⏳ Next check in 60s...
+[04:17:26] 
+[04:18:26] 📊 CYCLE 384
+[04:18:27]   Equity: $100,744 | BP: $142,248 | Cash: $45,918
+[04:18:27]   Pending orders: 0
+[04:18:27]   Checking for old orders...
+[04:18:27]   ✓ All orders OK (0 pending)
+[04:18:27]   ⏳ Next check in 60s...
+[04:18:27] 
+[04:19:27] 📊 CYCLE 385
+[04:19:28]   Equity: $100,744 | BP: $142,248 | Cash: $45,918
+[04:19:28]   Pending orders: 0
+[04:19:28]   Checking for old orders...
+[04:19:28]   ✓ All orders OK (0 pending)
+[04:19:28]   ⏳ Next check in 60s...
+[04:19:28] 
+[04:20:28] 📊 CYCLE 386
+[04:20:29]   Equity: $100,744 | BP: $142,248 | Cash: $45,918
+[04:20:29]   Pending orders: 0
+[04:20:29]   Checking for old orders...
+[04:20:30]   ✓ All orders OK (0 pending)
+[04:20:30]   ⏳ Next check in 60s...
+[04:20:30] 
+[04:21:30] 📊 CYCLE 387
+[04:21:30]   Equity: $100,744 | BP: $142,248 | Cash: $45,918
+[04:21:30]   Pending orders: 0
+[04:21:30]   Checking for old orders...
+[04:21:31]   ✓ All orders OK (0 pending)
+[04:21:31]   ⏳ Next check in 60s...
+[04:21:31] 
+[04:22:31] 📊 CYCLE 388
+[04:22:31]   Equity: $100,744 | BP: $142,248 | Cash: $45,918
+[04:22:31]   Pending orders: 0
+[04:22:31]   Checking for old orders...
+[04:22:32]   ✓ All orders OK (0 pending)
+[04:22:32]   ⏳ Next check in 60s...
+[04:22:32] 
+[04:23:32] 📊 CYCLE 389
+[04:23:32]   Equity: $100,744 | BP: $142,248 | Cash: $45,918
+[04:23:32]   Pending orders: 0
+[04:23:32]   Checking for old orders...
+[04:23:33]   ✓ All orders OK (0 pending)
+[04:23:33]   ⏳ Next check in 60s...
+[04:23:33] 
+[04:24:33] 📊 CYCLE 390
+[04:24:33]   Equity: $100,744 | BP: $142,248 | Cash: $45,918
+[04:24:33]   Pending orders: 0
+[04:24:33]   Checking for old orders...
+[04:24:34]   ✓ All orders OK (0 pending)
+[04:24:34]   ⏳ Next check in 60s...
+[04:24:34] 
+[04:25:34] 📊 CYCLE 391
+[04:25:34]   Equity: $100,744 | BP: $142,248 | Cash: $45,918
+[04:25:35]   Pending orders: 0
+[04:25:35]   Checking for old orders...
+[04:25:35]   ✓ All orders OK (0 pending)
+[04:25:35]   ⏳ Next check in 60s...
+[04:25:35] 
+[04:26:35] 📊 CYCLE 392
+[04:26:35]   Equity: $100,744 | BP: $142,248 | Cash: $45,918
+[04:26:36]   Pending orders: 0
+[04:26:36]   Checking for old orders...
+[04:26:36]   ✓ All orders OK (0 pending)
+[04:26:36]   ⏳ Next check in 60s...
+[04:26:36] 
+[04:27:36] 📊 CYCLE 393
+[04:27:36]   Equity: $100,744 | BP: $142,248 | Cash: $45,918
+[04:27:37]   Pending orders: 0
+[04:27:37]   Checking for old orders...
+[04:27:37]   ✓ All orders OK (0 pending)
+[04:27:37]   ⏳ Next check in 60s...
+[04:27:37] 
+[04:28:37] 📊 CYCLE 394
+[04:28:37]   Equity: $100,744 | BP: $142,248 | Cash: $45,918
+[04:28:38]   Pending orders: 0
+[04:28:38]   Checking for old orders...
+[04:28:38]   ✓ All orders OK (0 pending)
+[04:28:38]   ⏳ Next check in 60s...
+[04:28:38] 
+[04:29:38] 📊 CYCLE 395
+[04:29:38]   Equity: $100,744 | BP: $142,248 | Cash: $45,918
+[04:29:39]   Pending orders: 0
+[04:29:39]   Checking for old orders...
+[04:29:39]   ✓ All orders OK (0 pending)
+[04:29:39]   ⏳ Next check in 60s...
+[04:29:39] 
+[04:30:39] 📊 CYCLE 396
+[04:30:39]   Equity: $100,744 | BP: $142,248 | Cash: $45,918
+[04:30:40]   Pending orders: 0
+[04:30:40]   Checking for old orders...
+[04:30:40]   ✓ All orders OK (0 pending)
+[04:30:40]   ⏳ Next check in 60s...
+[04:30:40] 
+[04:31:40] 📊 CYCLE 397
+[04:31:41]   Equity: $100,744 | BP: $142,248 | Cash: $45,918
+[04:31:41]   Pending orders: 0
+[04:31:41]   Checking for old orders...
+[04:31:41]   ✓ All orders OK (0 pending)
+[04:31:41]   ⏳ Next check in 60s...
+[04:31:41] 
+[04:32:41] 📊 CYCLE 398
+[04:32:42]   Equity: $100,579 | BP: $142,082 | Cash: $45,918
+[04:32:42]   Pending orders: 0
+[04:32:42]   Checking for old orders...
+[04:32:42]   ✓ All orders OK (0 pending)
+[04:32:42]   ⏳ Next check in 60s...
+[04:32:42] 
+[04:33:42] 📊 CYCLE 399
+[04:33:43]   Equity: $100,579 | BP: $142,082 | Cash: $45,918
+[04:33:43]   Pending orders: 0
+[04:33:43]   Checking for old orders...
+[04:33:43]   ✓ All orders OK (0 pending)
+[04:33:43]   ⏳ Next check in 60s...
+[04:33:43] 
+[04:34:43] 📊 CYCLE 400
+[04:34:44]   Equity: $100,579 | BP: $142,082 | Cash: $45,918
+[04:34:44]   Pending orders: 0
+[04:34:44]   Checking for old orders...
+[04:34:44]   ✓ All orders OK (0 pending)
+[04:34:44]   ⏳ Next check in 60s...
+[04:34:44] 
+[04:35:44] 📊 CYCLE 401
+[04:35:45]   Equity: $100,579 | BP: $142,082 | Cash: $45,918
+[04:35:45]   Pending orders: 0
+[04:35:45]   Checking for old orders...
+[04:35:45]   ✓ All orders OK (0 pending)
+[04:35:45]   ⏳ Next check in 60s...
+[04:35:45] 
+[04:36:45] 📊 CYCLE 402
+[04:36:46]   Equity: $100,579 | BP: $142,082 | Cash: $45,918
+[04:36:46]   Pending orders: 0
+[04:36:46]   Checking for old orders...
+[04:36:46]   ✓ All orders OK (0 pending)
+[04:36:46]   ⏳ Next check in 60s...
+[04:36:46] 
+[04:37:46] 📊 CYCLE 403
+[04:37:47]   Equity: $100,579 | BP: $142,082 | Cash: $45,918
+[04:37:47]   Pending orders: 0
+[04:37:47]   Checking for old orders...
+[04:37:48]   ✓ All orders OK (0 pending)
+[04:37:48]   ⏳ Next check in 60s...
+[04:37:48] 
+[04:38:48] 📊 CYCLE 404
+[04:38:48]   Equity: $100,579 | BP: $142,082 | Cash: $45,918
+[04:38:48]   Pending orders: 0
+[04:38:48]   Checking for old orders...
+[04:38:49]   ✓ All orders OK (0 pending)
+[04:38:49]   ⏳ Next check in 60s...
+[04:38:49] 
+[04:39:49] 📊 CYCLE 405
+[04:39:49]   Equity: $100,579 | BP: $142,082 | Cash: $45,918
+[04:39:49]   Pending orders: 0
+[04:39:49]   Checking for old orders...
+[04:39:50]   ✓ All orders OK (0 pending)
+[04:39:50]   ⏳ Next check in 60s...
+[04:39:50] 
+[04:40:50] 📊 CYCLE 406
+[04:40:50]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[04:40:50]   Pending orders: 0
+[04:40:50]   Checking for old orders...
+[04:40:51]   ✓ All orders OK (0 pending)
+[04:40:51]   ⏳ Next check in 60s...
+[04:40:51] 
+[04:41:51] 📊 CYCLE 407
+[04:41:51]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[04:41:51]   Pending orders: 0
+[04:41:51]   Checking for old orders...
+[04:41:52]   ✓ All orders OK (0 pending)
+[04:41:52]   ⏳ Next check in 60s...
+[04:41:52] 
+[04:42:52] 📊 CYCLE 408
+[04:42:52]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[04:42:52]   Pending orders: 0
+[04:42:52]   Checking for old orders...
+[04:42:53]   ✓ All orders OK (0 pending)
+[04:42:53]   ⏳ Next check in 60s...
+[04:42:53] 
+[04:43:53] 📊 CYCLE 409
+[04:43:53]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[04:43:54]   Pending orders: 0
+[04:43:54]   Checking for old orders...
+[04:43:54]   ✓ All orders OK (0 pending)
+[04:43:54]   ⏳ Next check in 60s...
+[04:43:54] 
+[04:44:54] 📊 CYCLE 410
+[04:44:54]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[04:44:55]   Pending orders: 0
+[04:44:55]   Checking for old orders...
+[04:44:55]   ✓ All orders OK (0 pending)
+[04:44:55]   ⏳ Next check in 60s...
+[04:44:55] 
+[04:45:55] 📊 CYCLE 411
+[04:45:55]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[04:45:56]   Pending orders: 0
+[04:45:56]   Checking for old orders...
+[04:45:56]   ✓ All orders OK (0 pending)
+[04:45:56]   ⏳ Next check in 60s...
+[04:45:56] 
+[04:46:56] 📊 CYCLE 412
+[04:46:56]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[04:46:57]   Pending orders: 0
+[04:46:57]   Checking for old orders...
+[04:46:57]   ✓ All orders OK (0 pending)
+[04:46:57]   ⏳ Next check in 60s...
+[04:46:57] 
+[04:47:57] 📊 CYCLE 413
+[04:47:57]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[04:47:58]   Pending orders: 0
+[04:47:58]   Checking for old orders...
+[04:47:58]   ✓ All orders OK (0 pending)
+[04:47:58]   ⏳ Next check in 60s...
+[04:47:58] 
+[04:48:58] 📊 CYCLE 414
+[04:48:58]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[04:48:59]   Pending orders: 0
+[04:48:59]   Checking for old orders...
+[04:48:59]   ✓ All orders OK (0 pending)
+[04:48:59]   ⏳ Next check in 60s...
+[04:48:59] 
+[04:49:59] 📊 CYCLE 415
+[04:49:59]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[04:50:00]   Pending orders: 0
+[04:50:00]   Checking for old orders...
+[04:50:00]   ✓ All orders OK (0 pending)
+[04:50:00]   ⏳ Next check in 60s...
+[04:50:00] 
+[04:51:00] 📊 CYCLE 416
+[04:51:01]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[04:51:01]   Pending orders: 0
+[04:51:01]   Checking for old orders...
+[04:51:01]   ✓ All orders OK (0 pending)
+[04:51:01]   ⏳ Next check in 60s...
+[04:51:01] 
+[04:52:01] 📊 CYCLE 417
+[04:52:02]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[04:52:02]   Pending orders: 0
+[04:52:02]   Checking for old orders...
+[04:52:02]   ✓ All orders OK (0 pending)
+[04:52:02]   ⏳ Next check in 60s...
+[04:52:02] 
+[04:53:02] 📊 CYCLE 418
+[04:53:03]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[04:53:03]   Pending orders: 0
+[04:53:03]   Checking for old orders...
+[04:53:03]   ✓ All orders OK (0 pending)
+[04:53:03]   ⏳ Next check in 60s...
+[04:53:03] 
+[04:54:03] 📊 CYCLE 419
+[04:54:04]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[04:54:04]   Pending orders: 0
+[04:54:04]   Checking for old orders...
+[04:54:04]   ✓ All orders OK (0 pending)
+[04:54:04]   ⏳ Next check in 60s...
+[04:54:04] 
+[04:55:04] 📊 CYCLE 420
+[04:55:05]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[04:55:05]   Pending orders: 0
+[04:55:05]   Checking for old orders...
+[04:55:05]   ✓ All orders OK (0 pending)
+[04:55:05]   ⏳ Next check in 60s...
+[04:55:05] 
+[04:56:05] 📊 CYCLE 421
+[04:56:06]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[04:56:06]   Pending orders: 0
+[04:56:06]   Checking for old orders...
+[04:56:07]   ✓ All orders OK (0 pending)
+[04:56:07]   ⏳ Next check in 60s...
+[04:56:07] 
+[04:57:07] 📊 CYCLE 422
+[04:57:07]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[04:57:07]   Pending orders: 0
+[04:57:07]   Checking for old orders...
+[04:57:08]   ✓ All orders OK (0 pending)
+[04:57:08]   ⏳ Next check in 60s...
+[04:57:08] 
+[04:58:08] 📊 CYCLE 423
+[04:58:08]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[04:58:08]   Pending orders: 0
+[04:58:08]   Checking for old orders...
+[04:58:09]   ✓ All orders OK (0 pending)
+[04:58:09]   ⏳ Next check in 60s...
+[04:58:09] 
+[04:59:09] 📊 CYCLE 424
+[04:59:09]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[04:59:09]   Pending orders: 0
+[04:59:09]   Checking for old orders...
+[04:59:10]   ✓ All orders OK (0 pending)
+[04:59:10]   ⏳ Next check in 60s...
+[04:59:10] 
+[05:00:10] 📊 CYCLE 425
+[05:00:10]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[05:00:10]   Pending orders: 0
+[05:00:10]   Checking for old orders...
+[05:00:11]   ✓ All orders OK (0 pending)
+[05:00:11]   ⏳ Next check in 60s...
+[05:00:11] 
+[05:01:11] 📊 CYCLE 426
+[05:01:11]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[05:01:12]   Pending orders: 0
+[05:01:12]   Checking for old orders...
+[05:01:12]   ✓ All orders OK (0 pending)
+[05:01:12]   ⏳ Next check in 60s...
+[05:01:12] 
+[05:02:12] 📊 CYCLE 427
+[05:02:12]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[05:02:13]   Pending orders: 0
+[05:02:13]   Checking for old orders...
+[05:02:13]   ✓ All orders OK (0 pending)
+[05:02:13]   ⏳ Next check in 60s...
+[05:02:13] 
+[05:03:13] 📊 CYCLE 428
+[05:03:13]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[05:03:14]   Pending orders: 0
+[05:03:14]   Checking for old orders...
+[05:03:14]   ✓ All orders OK (0 pending)
+[05:03:14]   ⏳ Next check in 60s...
+[05:03:14] 
+[05:04:14] 📊 CYCLE 429
+[05:04:14]   Equity: $100,597 | BP: $142,101 | Cash: $45,918
+[05:04:15]   Pending orders: 0
+[05:04:15]   Checking for old orders...
+[05:04:15]   ✓ All orders OK (0 pending)
+[05:04:15]   ⏳ Next check in 60s...
+[05:04:15] 
+[05:05:15] 📊 CYCLE 430
+[05:05:15]   Equity: $100,597 | BP: $142,101 | Cash: $45,918
+[05:05:16]   Pending orders: 0
+[05:05:16]   Checking for old orders...
+[05:05:16]   ✓ All orders OK (0 pending)
+[05:05:16]   ⏳ Next check in 60s...
+[05:05:16] 
+[05:06:16] 📊 CYCLE 431
+[05:06:16]   Equity: $100,597 | BP: $142,101 | Cash: $45,918
+[05:06:17]   Pending orders: 0
+[05:06:17]   Checking for old orders...
+[05:06:17]   ✓ All orders OK (0 pending)
+[05:06:17]   ⏳ Next check in 60s...
+[05:06:17] 
+[05:07:17] 📊 CYCLE 432
+[05:07:18]   Equity: $100,597 | BP: $142,101 | Cash: $45,918
+[05:07:18]   Pending orders: 0
+[05:07:18]   Checking for old orders...
+[05:07:18]   ✓ All orders OK (0 pending)
+[05:07:18]   ⏳ Next check in 60s...
+[05:07:18] 
+[05:08:18] 📊 CYCLE 433
+[05:08:19]   Equity: $100,597 | BP: $142,101 | Cash: $45,918
+[05:08:19]   Pending orders: 0
+[05:08:19]   Checking for old orders...
+[05:08:19]   ✓ All orders OK (0 pending)
+[05:08:19]   ⏳ Next check in 60s...
+[05:08:19] 
+[05:09:19] 📊 CYCLE 434
+[05:09:20]   Equity: $100,597 | BP: $142,101 | Cash: $45,918
+[05:09:20]   Pending orders: 0
+[05:09:20]   Checking for old orders...
+[05:09:20]   ✓ All orders OK (0 pending)
+[05:09:20]   ⏳ Next check in 60s...
+[05:09:20] 
+[05:10:20] 📊 CYCLE 435
+[05:10:21]   Equity: $100,597 | BP: $142,101 | Cash: $45,918
+[05:10:21]   Pending orders: 0
+[05:10:21]   Checking for old orders...
+[05:10:21]   ✓ All orders OK (0 pending)
+[05:10:21]   ⏳ Next check in 60s...
+[05:10:21] 
+[05:11:21] 📊 CYCLE 436
+[05:11:22]   Equity: $100,597 | BP: $142,101 | Cash: $45,918
+[05:11:22]   Pending orders: 0
+[05:11:22]   Checking for old orders...
+[05:11:23]   ✓ All orders OK (0 pending)
+[05:11:23]   ⏳ Next check in 60s...
+[05:11:23] 
+[05:12:23] 📊 CYCLE 437
+[05:12:23]   Equity: $100,597 | BP: $142,101 | Cash: $45,918
+[05:12:23]   Pending orders: 0
+[05:12:23]   Checking for old orders...
+[05:12:24]   ✓ All orders OK (0 pending)
+[05:12:24]   ⏳ Next check in 60s...
+[05:12:24] 
+[05:13:24] 📊 CYCLE 438
+[05:13:24]   Equity: $100,597 | BP: $142,101 | Cash: $45,918
+[05:13:24]   Pending orders: 0
+[05:13:24]   Checking for old orders...
+[05:13:25]   ✓ All orders OK (0 pending)
+[05:13:25]   ⏳ Next check in 60s...
+[05:13:25] 
+[05:14:25] 📊 CYCLE 439
+[05:14:25]   Equity: $100,597 | BP: $142,101 | Cash: $45,918
+[05:14:25]   Pending orders: 0
+[05:14:25]   Checking for old orders...
+[05:14:26]   ✓ All orders OK (0 pending)
+[05:14:26]   ⏳ Next check in 60s...
+[05:14:26] 
+[05:15:26] 📊 CYCLE 440
+[05:15:26]   Equity: $100,597 | BP: $142,101 | Cash: $45,918
+[05:15:26]   Pending orders: 0
+[05:15:26]   Checking for old orders...
+[05:15:27]   ✓ All orders OK (0 pending)
+[05:15:27]   ⏳ Next check in 60s...
+[05:15:27] 
+[05:16:27] 📊 CYCLE 441
+[05:16:27]   Equity: $100,597 | BP: $142,101 | Cash: $45,918
+[05:16:27]   Pending orders: 0
+[05:16:27]   Checking for old orders...
+[05:16:28]   ✓ All orders OK (0 pending)
+[05:16:28]   ⏳ Next check in 60s...
+[05:16:28] 
+[05:17:28] 📊 CYCLE 442
+[05:17:28]   Equity: $100,597 | BP: $142,101 | Cash: $45,918
+[05:17:29]   Pending orders: 0
+[05:17:29]   Checking for old orders...
+[05:17:29]   ✓ All orders OK (0 pending)
+[05:17:29]   ⏳ Next check in 60s...
+[05:17:29] 
+[05:18:29] 📊 CYCLE 443
+[05:18:29]   Equity: $100,597 | BP: $142,101 | Cash: $45,918
+[05:18:30]   Pending orders: 0
+[05:18:30]   Checking for old orders...
+[05:18:30]   ✓ All orders OK (0 pending)
+[05:18:30]   ⏳ Next check in 60s...
+[05:18:30] 
+[05:19:30] 📊 CYCLE 444
+[05:19:30]   Equity: $100,597 | BP: $142,101 | Cash: $45,918
+[05:19:31]   Pending orders: 0
+[05:19:31]   Checking for old orders...
+[05:19:31]   ✓ All orders OK (0 pending)
+[05:19:31]   ⏳ Next check in 60s...
+[05:19:31] 
+[05:20:31] 📊 CYCLE 445
+[05:20:31]   Equity: $100,597 | BP: $142,101 | Cash: $45,918
+[05:20:32]   Pending orders: 0
+[05:20:32]   Checking for old orders...
+[05:20:32]   ✓ All orders OK (0 pending)
+[05:20:32]   ⏳ Next check in 60s...
+[05:20:32] 
+[05:21:32] 📊 CYCLE 446
+[05:21:33]   Equity: $100,597 | BP: $142,101 | Cash: $45,918
+[05:21:33]   Pending orders: 0
+[05:21:33]   Checking for old orders...
+[05:21:33]   ✓ All orders OK (0 pending)
+[05:21:33]   ⏳ Next check in 60s...
+[05:21:33] 
+[05:22:33] 📊 CYCLE 447
+[05:22:34]   Equity: $100,597 | BP: $142,101 | Cash: $45,918
+[05:22:34]   Pending orders: 0
+[05:22:34]   Checking for old orders...
+[05:22:34]   ✓ All orders OK (0 pending)
+[05:22:34]   ⏳ Next check in 60s...
+[05:22:34] 
+[05:23:34] 📊 CYCLE 448
+[05:23:35]   Equity: $100,597 | BP: $142,101 | Cash: $45,918
+[05:23:35]   Pending orders: 0
+[05:23:35]   Checking for old orders...
+[05:23:35]   ✓ All orders OK (0 pending)
+[05:23:35]   ⏳ Next check in 60s...
+[05:23:35] 
+[05:24:35] 📊 CYCLE 449
+[05:24:36]   Equity: $100,597 | BP: $142,101 | Cash: $45,918
+[05:24:36]   Pending orders: 0
+[05:24:36]   Checking for old orders...
+[05:24:36]   ✓ All orders OK (0 pending)
+[05:24:36]   ⏳ Next check in 60s...
+[05:24:36] 
+[05:25:36] 📊 CYCLE 450
+[05:25:37]   Equity: $100,597 | BP: $142,101 | Cash: $45,918
+[05:25:37]   Pending orders: 0
+[05:25:37]   Checking for old orders...
+[05:25:38]   ✓ All orders OK (0 pending)
+[05:25:38]   ⏳ Next check in 60s...
+[05:25:38] 
+[05:26:38] 📊 CYCLE 451
+[05:26:38]   Equity: $100,597 | BP: $142,101 | Cash: $45,918
+[05:26:38]   Pending orders: 0
+[05:26:38]   Checking for old orders...
+[05:26:39]   ✓ All orders OK (0 pending)
+[05:26:39]   ⏳ Next check in 60s...
+[05:26:39] 
+[05:27:39] 📊 CYCLE 452
+[05:27:39]   Equity: $100,597 | BP: $142,101 | Cash: $45,918
+[05:27:39]   Pending orders: 0
+[05:27:39]   Checking for old orders...
+[05:27:40]   ✓ All orders OK (0 pending)
+[05:27:40]   ⏳ Next check in 60s...
+[05:27:40] 
+[05:28:40] 📊 CYCLE 453
+[05:28:40]   Equity: $100,597 | BP: $142,101 | Cash: $45,918
+[05:28:40]   Pending orders: 0
+[05:28:40]   Checking for old orders...
+[05:28:41]   ✓ All orders OK (0 pending)
+[05:28:41]   ⏳ Next check in 60s...
+[05:28:41] 
+[05:29:41] 📊 CYCLE 454
+[05:29:41]   Equity: $100,505 | BP: $142,009 | Cash: $45,918
+[05:29:41]   Pending orders: 0
+[05:29:41]   Checking for old orders...
+[05:29:42]   ✓ All orders OK (0 pending)
+[05:29:42]   ⏳ Next check in 60s...
+[05:29:42] 
+[05:30:42] 📊 CYCLE 455
+[05:30:42]   Equity: $100,505 | BP: $142,009 | Cash: $45,918
+[05:30:43]   Pending orders: 0
+[05:30:43]   Checking for old orders...
+[05:30:43]   ✓ All orders OK (0 pending)
+[05:30:43]   ⏳ Next check in 60s...
+[05:30:43] 
+[05:31:43] 📊 CYCLE 456
+[05:31:43]   Equity: $100,505 | BP: $142,009 | Cash: $45,918
+[05:31:44]   Pending orders: 0
+[05:31:44]   Checking for old orders...
+[05:31:44]   ✓ All orders OK (0 pending)
+[05:31:44]   ⏳ Next check in 60s...
+[05:31:44] 
+[05:32:44] 📊 CYCLE 457
+[05:32:44]   Equity: $100,505 | BP: $142,009 | Cash: $45,918
+[05:32:45]   Pending orders: 0
+[05:32:45]   Checking for old orders...
+[05:32:45]   ✓ All orders OK (0 pending)
+[05:32:45]   ⏳ Next check in 60s...
+[05:32:45] 
+[05:33:45] 📊 CYCLE 458
+[05:33:45]   Equity: $100,505 | BP: $142,009 | Cash: $45,918
+[05:33:46]   Pending orders: 0
+[05:33:46]   Checking for old orders...
+[05:33:46]   ✓ All orders OK (0 pending)
+[05:33:46]   ⏳ Next check in 60s...
+[05:33:46] 
+[05:34:46] 📊 CYCLE 459
+[05:34:46]   Equity: $100,450 | BP: $141,954 | Cash: $45,918
+[05:34:47]   Pending orders: 0
+[05:34:47]   Checking for old orders...
+[05:34:47]   ✓ All orders OK (0 pending)
+[05:34:47]   ⏳ Next check in 60s...
+[05:34:47] 
+[05:35:47] 📊 CYCLE 460
+[05:35:47]   Equity: $100,450 | BP: $141,954 | Cash: $45,918
+[05:35:48]   Pending orders: 0
+[05:35:48]   Checking for old orders...
+[05:35:48]   ✓ All orders OK (0 pending)
+[05:35:48]   ⏳ Next check in 60s...
+[05:35:48] 
+[05:36:48] 📊 CYCLE 461
+[05:36:49]   Equity: $100,450 | BP: $141,954 | Cash: $45,918
+[05:36:49]   Pending orders: 0
+[05:36:49]   Checking for old orders...
+[05:36:49]   ✓ All orders OK (0 pending)
+[05:36:49]   ⏳ Next check in 60s...
+[05:36:49] 
+[05:37:49] 📊 CYCLE 462
+[05:37:50]   Equity: $100,450 | BP: $141,954 | Cash: $45,918
+[05:37:50]   Pending orders: 0
+[05:37:50]   Checking for old orders...
+[05:37:50]   ✓ All orders OK (0 pending)
+[05:37:50]   ⏳ Next check in 60s...
+[05:37:50] 
+[05:38:50] 📊 CYCLE 463
+[05:38:51]   Equity: $100,450 | BP: $141,954 | Cash: $45,918
+[05:38:51]   Pending orders: 0
+[05:38:51]   Checking for old orders...
+[05:38:51]   ✓ All orders OK (0 pending)
+[05:38:51]   ⏳ Next check in 60s...
+[05:38:51] 
+[05:39:51] 📊 CYCLE 464
+[05:39:52]   Equity: $100,450 | BP: $141,954 | Cash: $45,918
+[05:39:52]   Pending orders: 0
+[05:39:52]   Checking for old orders...
+[05:39:52]   ✓ All orders OK (0 pending)
+[05:39:52]   ⏳ Next check in 60s...
+[05:39:52] 
+[05:40:52] 📊 CYCLE 465
+[05:40:53]   Equity: $100,450 | BP: $141,954 | Cash: $45,918
+[05:40:53]   Pending orders: 0
+[05:40:53]   Checking for old orders...
+[05:40:53]   ✓ All orders OK (0 pending)
+[05:40:53]   ⏳ Next check in 60s...
+[05:40:53] 
+[05:41:53] 📊 CYCLE 466
+[05:41:54]   Equity: $100,450 | BP: $141,954 | Cash: $45,918
+[05:41:54]   Pending orders: 0
+[05:41:54]   Checking for old orders...
+[05:41:55]   ✓ All orders OK (0 pending)
+[05:41:55]   ⏳ Next check in 60s...
+[05:41:55] 
+[05:42:55] 📊 CYCLE 467
+[05:42:55]   Equity: $100,450 | BP: $141,954 | Cash: $45,918
+[05:42:55]   Pending orders: 0
+[05:42:55]   Checking for old orders...
+[05:42:56]   ✓ All orders OK (0 pending)
+[05:42:56]   ⏳ Next check in 60s...
+[05:42:56] 
+[05:43:56] 📊 CYCLE 468
+[05:43:56]   Equity: $100,450 | BP: $141,954 | Cash: $45,918
+[05:43:56]   Pending orders: 0
+[05:43:56]   Checking for old orders...
+[05:43:57]   ✓ All orders OK (0 pending)
+[05:43:57]   ⏳ Next check in 60s...
+[05:43:57] 
+[05:44:57] 📊 CYCLE 469
+[05:44:57]   Equity: $100,450 | BP: $141,954 | Cash: $45,918
+[05:44:57]   Pending orders: 0
+[05:44:57]   Checking for old orders...
+[05:44:58]   ✓ All orders OK (0 pending)
+[05:44:58]   ⏳ Next check in 60s...
+[05:44:58] 
+[05:45:58] 📊 CYCLE 470
+[05:45:58]   Equity: $100,450 | BP: $141,954 | Cash: $45,918
+[05:45:58]   Pending orders: 0
+[05:45:58]   Checking for old orders...
+[05:45:59]   ✓ All orders OK (0 pending)
+[05:45:59]   ⏳ Next check in 60s...
+[05:45:59] 
+[05:46:59] 📊 CYCLE 471
+[05:46:59]   Equity: $100,450 | BP: $141,954 | Cash: $45,918
+[05:46:59]   Pending orders: 0
+[05:46:59]   Checking for old orders...
+[05:47:00]   ✓ All orders OK (0 pending)
+[05:47:00]   ⏳ Next check in 60s...
+[05:47:00] 
+[05:48:00] 📊 CYCLE 472
+[05:48:00]   Equity: $100,450 | BP: $141,954 | Cash: $45,918
+[05:48:01]   Pending orders: 0
+[05:48:01]   Checking for old orders...
+[05:48:01]   ✓ All orders OK (0 pending)
+[05:48:01]   ⏳ Next check in 60s...
+[05:48:01] 
+[05:49:01] 📊 CYCLE 473
+[05:49:01]   Equity: $100,450 | BP: $141,954 | Cash: $45,918
+[05:49:02]   Pending orders: 0
+[05:49:02]   Checking for old orders...
+[05:49:02]   ✓ All orders OK (0 pending)
+[05:49:02]   ⏳ Next check in 60s...
+[05:49:02] 
+[05:50:02] 📊 CYCLE 474
+[05:50:02]   Equity: $100,450 | BP: $141,954 | Cash: $45,918
+[05:50:03]   Pending orders: 0
+[05:50:03]   Checking for old orders...
+[05:50:03]   ✓ All orders OK (0 pending)
+[05:50:03]   ⏳ Next check in 60s...
+[05:50:03] 
+[05:51:03] 📊 CYCLE 475
+[05:51:03]   Equity: $100,450 | BP: $141,954 | Cash: $45,918
+[05:51:04]   Pending orders: 0
+[05:51:04]   Checking for old orders...
+[05:51:04]   ✓ All orders OK (0 pending)
+[05:51:04]   ⏳ Next check in 60s...
+[05:51:04] 
+[05:52:04] 📊 CYCLE 476
+[05:52:04]   Equity: $100,450 | BP: $141,954 | Cash: $45,918
+[05:52:05]   Pending orders: 0
+[05:52:05]   Checking for old orders...
+[05:52:05]   ✓ All orders OK (0 pending)
+[05:52:05]   ⏳ Next check in 60s...
+[05:52:05] 
+[05:53:05] 📊 CYCLE 477
+[05:53:05]   Equity: $100,450 | BP: $141,954 | Cash: $45,918
+[05:53:06]   Pending orders: 0
+[05:53:06]   Checking for old orders...
+[05:53:06]   ✓ All orders OK (0 pending)
+[05:53:06]   ⏳ Next check in 60s...
+[05:53:06] 
+[05:54:06] 📊 CYCLE 478
+[05:54:07]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[05:54:07]   Pending orders: 0
+[05:54:07]   Checking for old orders...
+[05:54:07]   ✓ All orders OK (0 pending)
+[05:54:07]   ⏳ Next check in 60s...
+[05:54:07] 
+[05:55:07] 📊 CYCLE 479
+[05:55:08]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[05:55:08]   Pending orders: 0
+[05:55:08]   Checking for old orders...
+[05:55:08]   ✓ All orders OK (0 pending)
+[05:55:08]   ⏳ Next check in 60s...
+[05:55:08] 
+[05:56:08] 📊 CYCLE 480
+[05:56:09]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[05:56:09]   Pending orders: 0
+[05:56:09]   Checking for old orders...
+[05:56:09]   ✓ All orders OK (0 pending)
+[05:56:09]   ⏳ Next check in 60s...
+[05:56:09] 
+[05:57:09] 📊 CYCLE 481
+[05:57:10]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[05:57:10]   Pending orders: 0
+[05:57:10]   Checking for old orders...
+[05:57:10]   ✓ All orders OK (0 pending)
+[05:57:10]   ⏳ Next check in 60s...
+[05:57:10] 
+[05:58:10] 📊 CYCLE 482
+[05:58:11]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[05:58:11]   Pending orders: 0
+[05:58:11]   Checking for old orders...
+[05:58:11]   ✓ All orders OK (0 pending)
+[05:58:11]   ⏳ Next check in 60s...
+[05:58:11] 
+[05:59:11] 📊 CYCLE 483
+[05:59:12]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[05:59:12]   Pending orders: 0
+[05:59:12]   Checking for old orders...
+[05:59:12]   ✓ All orders OK (0 pending)
+[05:59:12]   ⏳ Next check in 60s...
+[05:59:12] 
+[06:00:12] 📊 CYCLE 484
+[06:00:13]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[06:00:13]   Pending orders: 0
+[06:00:13]   Checking for old orders...
+[06:00:14]   ✓ All orders OK (0 pending)
+[06:00:14]   ⏳ Next check in 60s...
+[06:00:14] 
+[06:01:14] 📊 CYCLE 485
+[06:01:14]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[06:01:14]   Pending orders: 0
+[06:01:14]   Checking for old orders...
+[06:01:15]   ✓ All orders OK (0 pending)
+[06:01:15]   ⏳ Next check in 60s...
+[06:01:15] 
+[06:02:15] 📊 CYCLE 486
+[06:02:15]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[06:02:15]   Pending orders: 0
+[06:02:15]   Checking for old orders...
+[06:02:16]   ✓ All orders OK (0 pending)
+[06:02:16]   ⏳ Next check in 60s...
+[06:02:16] 
+[06:03:16] 📊 CYCLE 487
+[06:03:16]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[06:03:16]   Pending orders: 0
+[06:03:16]   Checking for old orders...
+[06:03:17]   ✓ All orders OK (0 pending)
+[06:03:17]   ⏳ Next check in 60s...
+[06:03:17] 
+[06:04:17] 📊 CYCLE 488
+[06:04:17]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[06:04:17]   Pending orders: 0
+[06:04:17]   Checking for old orders...
+[06:04:18]   ✓ All orders OK (0 pending)
+[06:04:18]   ⏳ Next check in 60s...
+[06:04:18] 
+[06:05:18] 📊 CYCLE 489
+[06:05:18]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[06:05:19]   Pending orders: 0
+[06:05:19]   Checking for old orders...
+[06:05:19]   ✓ All orders OK (0 pending)
+[06:05:19]   ⏳ Next check in 60s...
+[06:05:19] 
+[06:06:19] 📊 CYCLE 490
+[06:06:19]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[06:06:20]   Pending orders: 0
+[06:06:20]   Checking for old orders...
+[06:06:20]   ✓ All orders OK (0 pending)
+[06:06:20]   ⏳ Next check in 60s...
+[06:06:20] 
+[06:07:20] 📊 CYCLE 491
+[06:07:20]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[06:07:21]   Pending orders: 0
+[06:07:21]   Checking for old orders...
+[06:07:21]   ✓ All orders OK (0 pending)
+[06:07:21]   ⏳ Next check in 60s...
+[06:07:21] 
+[06:08:21] 📊 CYCLE 492
+[06:08:21]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[06:08:22]   Pending orders: 0
+[06:08:22]   Checking for old orders...
+[06:08:22]   ✓ All orders OK (0 pending)
+[06:08:22]   ⏳ Next check in 60s...
+[06:08:22] 
+[06:09:22] 📊 CYCLE 493
+[06:09:22]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[06:09:23]   Pending orders: 0
+[06:09:23]   Checking for old orders...
+[06:09:23]   ✓ All orders OK (0 pending)
+[06:09:23]   ⏳ Next check in 60s...
+[06:09:23] 
+[06:10:23] 📊 CYCLE 494
+[06:10:24]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[06:10:24]   Pending orders: 0
+[06:10:24]   Checking for old orders...
+[06:10:24]   ✓ All orders OK (0 pending)
+[06:10:24]   ⏳ Next check in 60s...
+[06:10:24] 
+[06:11:24] 📊 CYCLE 495
+[06:11:25]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[06:11:25]   Pending orders: 0
+[06:11:25]   Checking for old orders...
+[06:11:25]   ✓ All orders OK (0 pending)
+[06:11:25]   ⏳ Next check in 60s...
+[06:11:25] 
+[06:12:25] 📊 CYCLE 496
+[06:12:26]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[06:12:26]   Pending orders: 0
+[06:12:26]   Checking for old orders...
+[06:12:26]   ✓ All orders OK (0 pending)
+[06:12:26]   ⏳ Next check in 60s...
+[06:12:26] 
+[06:13:26] 📊 CYCLE 497
+[06:13:27]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[06:13:27]   Pending orders: 0
+[06:13:27]   Checking for old orders...
+[06:13:27]   ✓ All orders OK (0 pending)
+[06:13:27]   ⏳ Next check in 60s...
+[06:13:27] 
+[06:14:27] 📊 CYCLE 498
+[06:14:28]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[06:14:28]   Pending orders: 0
+[06:14:28]   Checking for old orders...
+[06:14:28]   ✓ All orders OK (0 pending)
+[06:14:28]   ⏳ Next check in 60s...
+[06:14:28] 
+[06:15:28] 📊 CYCLE 499
+[06:15:29]   Equity: $100,468 | BP: $141,972 | Cash: $45,918
+[06:15:29]   Pending orders: 0
+[06:15:29]   Checking for old orders...
+[06:15:30]   ✓ All orders OK (0 pending)
+[06:15:30]   ⏳ Next check in 60s...
+[06:15:30] 
+[06:16:30] 📊 CYCLE 500
+[06:16:30]   Equity: $100,413 | BP: $141,917 | Cash: $45,918
+[06:16:30]   Pending orders: 0
+[06:16:30]   Checking for old orders...
+[06:16:31]   ✓ All orders OK (0 pending)
+[06:16:31]   ⏳ Next check in 60s...
+[06:16:31] 
+[06:17:31] 📊 CYCLE 501
+[06:17:31]   Equity: $100,359 | BP: $141,863 | Cash: $45,918
+[06:17:31]   Pending orders: 0
+[06:17:31]   Checking for old orders...
+[06:17:32]   ✓ All orders OK (0 pending)
+[06:17:32]   ⏳ Next check in 60s...
+[06:17:32] 
+[06:18:32] 📊 CYCLE 502
+[06:18:32]   Equity: $100,359 | BP: $141,863 | Cash: $45,918
+[06:18:32]   Pending orders: 0
+[06:18:32]   Checking for old orders...
+[06:18:33]   ✓ All orders OK (0 pending)
+[06:18:33]   ⏳ Next check in 60s...
+[06:18:33] 
+[06:19:33] 📊 CYCLE 503
+[06:19:33]   Equity: $100,359 | BP: $141,863 | Cash: $45,918
+[06:19:33]   Pending orders: 0
+[06:19:33]   Checking for old orders...
+[06:19:34]   ✓ All orders OK (0 pending)
+[06:19:34]   ⏳ Next check in 60s...
+[06:19:34] 
+[06:20:34] 📊 CYCLE 504
+[06:20:34]   Equity: $100,359 | BP: $141,863 | Cash: $45,918
+[06:20:34]   Pending orders: 0
+[06:20:34]   Checking for old orders...
+[06:20:35]   ✓ All orders OK (0 pending)
+[06:20:35]   ⏳ Next check in 60s...
+[06:20:35] 
+[06:21:35] 📊 CYCLE 505
+[06:21:35]   Equity: $100,359 | BP: $141,863 | Cash: $45,918
+[06:21:36]   Pending orders: 0
+[06:21:36]   Checking for old orders...
+[06:21:36]   ✓ All orders OK (0 pending)
+[06:21:36]   ⏳ Next check in 60s...
+[06:21:36] 
+[06:22:36] 📊 CYCLE 506
+[06:22:36]   Equity: $100,359 | BP: $141,863 | Cash: $45,918
+[06:22:37]   Pending orders: 0
+[06:22:37]   Checking for old orders...
+[06:22:37]   ✓ All orders OK (0 pending)
+[06:22:37]   ⏳ Next check in 60s...
+[06:22:37] 
+[06:23:37] 📊 CYCLE 507
+[06:23:37]   Equity: $100,359 | BP: $141,863 | Cash: $45,918
+[06:23:38]   Pending orders: 0
+[06:23:38]   Checking for old orders...
+[06:23:38]   ✓ All orders OK (0 pending)
+[06:23:38]   ⏳ Next check in 60s...
+[06:23:38] 
+[06:24:38] 📊 CYCLE 508
+[06:24:38]   Equity: $100,359 | BP: $141,863 | Cash: $45,918
+[06:24:39]   Pending orders: 0
+[06:24:39]   Checking for old orders...
+[06:24:39]   ✓ All orders OK (0 pending)
+[06:24:39]   ⏳ Next check in 60s...
+[06:24:39] 
+[06:25:39] 📊 CYCLE 509
+[06:25:39]   Equity: $100,359 | BP: $141,863 | Cash: $45,918
+[06:25:40]   Pending orders: 0
+[06:25:40]   Checking for old orders...
+[06:25:40]   ✓ All orders OK (0 pending)
+[06:25:40]   ⏳ Next check in 60s...
+[06:25:40] 
+[06:26:40] 📊 CYCLE 510
+[06:26:41]   Equity: $100,359 | BP: $141,863 | Cash: $45,918
+[06:26:41]   Pending orders: 0
+[06:26:41]   Checking for old orders...
+[06:26:41]   ✓ All orders OK (0 pending)
+[06:26:41]   ⏳ Next check in 60s...
+[06:26:41] 
+[06:27:41] 📊 CYCLE 511
+[06:27:42]   Equity: $100,359 | BP: $141,863 | Cash: $45,918
+[06:27:42]   Pending orders: 0
+[06:27:42]   Checking for old orders...
+[06:27:42]   ✓ All orders OK (0 pending)
+[06:27:42]   ⏳ Next check in 60s...
+[06:27:42] 
+[06:28:42] 📊 CYCLE 512
+[06:28:43]   Equity: $100,359 | BP: $141,863 | Cash: $45,918
+[06:28:43]   Pending orders: 0
+[06:28:43]   Checking for old orders...
+[06:28:43]   ✓ All orders OK (0 pending)
+[06:28:43]   ⏳ Next check in 60s...
+[06:28:43] 
+[06:29:43] 📊 CYCLE 513
+[06:29:44]   Equity: $100,359 | BP: $141,863 | Cash: $45,918
+[06:29:44]   Pending orders: 0
+[06:29:44]   Checking for old orders...
+[06:29:44]   ✓ All orders OK (0 pending)
+[06:29:44]   ⏳ Next check in 60s...
+[06:29:44] 
+[06:30:44] 📊 CYCLE 514
+[06:30:45]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:30:45]   Pending orders: 0
+[06:30:45]   Checking for old orders...
+[06:30:45]   ✓ All orders OK (0 pending)
+[06:30:45]   ⏳ Next check in 60s...
+[06:30:45] 
+[06:31:45] 📊 CYCLE 515
+[06:31:46]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:31:46]   Pending orders: 0
+[06:31:46]   Checking for old orders...
+[06:31:47]   ✓ All orders OK (0 pending)
+[06:31:47]   ⏳ Next check in 60s...
+[06:31:47] 
+[06:32:47] 📊 CYCLE 516
+[06:32:47]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:32:47]   Pending orders: 0
+[06:32:47]   Checking for old orders...
+[06:32:48]   ✓ All orders OK (0 pending)
+[06:32:48]   ⏳ Next check in 60s...
+[06:32:48] 
+[06:33:48] 📊 CYCLE 517
+[06:33:48]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:33:48]   Pending orders: 0
+[06:33:48]   Checking for old orders...
+[06:33:49]   ✓ All orders OK (0 pending)
+[06:33:49]   ⏳ Next check in 60s...
+[06:33:49] 
+[06:34:49] 📊 CYCLE 518
+[06:34:49]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:34:49]   Pending orders: 0
+[06:34:49]   Checking for old orders...
+[06:34:50]   ✓ All orders OK (0 pending)
+[06:34:50]   ⏳ Next check in 60s...
+[06:34:50] 
+[06:35:50] 📊 CYCLE 519
+[06:35:50]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:35:50]   Pending orders: 0
+[06:35:50]   Checking for old orders...
+[06:35:51]   ✓ All orders OK (0 pending)
+[06:35:51]   ⏳ Next check in 60s...
+[06:35:51] 
+[06:36:51] 📊 CYCLE 520
+[06:36:51]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:36:52]   Pending orders: 0
+[06:36:52]   Checking for old orders...
+[06:36:52]   ✓ All orders OK (0 pending)
+[06:36:52]   ⏳ Next check in 60s...
+[06:36:52] 
+[06:37:52] 📊 CYCLE 521
+[06:37:52]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:37:53]   Pending orders: 0
+[06:37:53]   Checking for old orders...
+[06:37:53]   ✓ All orders OK (0 pending)
+[06:37:53]   ⏳ Next check in 60s...
+[06:37:53] 
+[06:38:53] 📊 CYCLE 522
+[06:38:53]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:38:54]   Pending orders: 0
+[06:38:54]   Checking for old orders...
+[06:38:54]   ✓ All orders OK (0 pending)
+[06:38:54]   ⏳ Next check in 60s...
+[06:38:54] 
+[06:39:54] 📊 CYCLE 523
+[06:39:54]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:39:55]   Pending orders: 0
+[06:39:55]   Checking for old orders...
+[06:39:55]   ✓ All orders OK (0 pending)
+[06:39:55]   ⏳ Next check in 60s...
+[06:39:55] 
+[06:40:55] 📊 CYCLE 524
+[06:40:55]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:40:56]   Pending orders: 0
+[06:40:56]   Checking for old orders...
+[06:40:56]   ✓ All orders OK (0 pending)
+[06:40:56]   ⏳ Next check in 60s...
+[06:40:56] 
+[06:41:56] 📊 CYCLE 525
+[06:41:56]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:41:57]   Pending orders: 0
+[06:41:57]   Checking for old orders...
+[06:41:57]   ✓ All orders OK (0 pending)
+[06:41:57]   ⏳ Next check in 60s...
+[06:41:57] 
+[06:42:57] 📊 CYCLE 526
+[06:42:58]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:42:58]   Pending orders: 0
+[06:42:58]   Checking for old orders...
+[06:42:58]   ✓ All orders OK (0 pending)
+[06:42:58]   ⏳ Next check in 60s...
+[06:42:58] 
+[06:43:58] 📊 CYCLE 527
+[06:43:59]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:43:59]   Pending orders: 0
+[06:43:59]   Checking for old orders...
+[06:43:59]   ✓ All orders OK (0 pending)
+[06:43:59]   ⏳ Next check in 60s...
+[06:43:59] 
+[06:44:59] 📊 CYCLE 528
+[06:45:00]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:45:00]   Pending orders: 0
+[06:45:00]   Checking for old orders...
+[06:45:00]   ✓ All orders OK (0 pending)
+[06:45:00]   ⏳ Next check in 60s...
+[06:45:00] 
+[06:46:00] 📊 CYCLE 529
+[06:46:01]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:46:01]   Pending orders: 0
+[06:46:01]   Checking for old orders...
+[06:46:01]   ✓ All orders OK (0 pending)
+[06:46:01]   ⏳ Next check in 60s...
+[06:46:01] 
+[06:47:01] 📊 CYCLE 530
+[06:47:02]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:47:02]   Pending orders: 0
+[06:47:02]   Checking for old orders...
+[06:47:02]   ✓ All orders OK (0 pending)
+[06:47:02]   ⏳ Next check in 60s...
+[06:47:02] 
+[06:48:02] 📊 CYCLE 531
+[06:48:03]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:48:03]   Pending orders: 0
+[06:48:03]   Checking for old orders...
+[06:48:03]   ✓ All orders OK (0 pending)
+[06:48:03]   ⏳ Next check in 60s...
+[06:48:03] 
+[06:49:03] 📊 CYCLE 532
+[06:49:04]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:49:04]   Pending orders: 0
+[06:49:04]   Checking for old orders...
+[06:49:05]   ✓ All orders OK (0 pending)
+[06:49:05]   ⏳ Next check in 60s...
+[06:49:05] 
+[06:50:05] 📊 CYCLE 533
+[06:50:05]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:50:05]   Pending orders: 0
+[06:50:05]   Checking for old orders...
+[06:50:06]   ✓ All orders OK (0 pending)
+[06:50:06]   ⏳ Next check in 60s...
+[06:50:06] 
+[06:51:06] 📊 CYCLE 534
+[06:51:06]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:51:06]   Pending orders: 0
+[06:51:06]   Checking for old orders...
+[06:51:07]   ✓ All orders OK (0 pending)
+[06:51:07]   ⏳ Next check in 60s...
+[06:51:07] 
+[06:52:07] 📊 CYCLE 535
+[06:52:07]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:52:07]   Pending orders: 0
+[06:52:07]   Checking for old orders...
+[06:52:08]   ✓ All orders OK (0 pending)
+[06:52:08]   ⏳ Next check in 60s...
+[06:52:08] 
+[06:53:08] 📊 CYCLE 536
+[06:53:08]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:53:08]   Pending orders: 0
+[06:53:08]   Checking for old orders...
+[06:53:09]   ✓ All orders OK (0 pending)
+[06:53:09]   ⏳ Next check in 60s...
+[06:53:09] 
+[06:54:09] 📊 CYCLE 537
+[06:54:09]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:54:10]   Pending orders: 0
+[06:54:10]   Checking for old orders...
+[06:54:10]   ✓ All orders OK (0 pending)
+[06:54:10]   ⏳ Next check in 60s...
+[06:54:10] 
+[06:55:10] 📊 CYCLE 538
+[06:55:10]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:55:11]   Pending orders: 0
+[06:55:11]   Checking for old orders...
+[06:55:11]   ✓ All orders OK (0 pending)
+[06:55:11]   ⏳ Next check in 60s...
+[06:55:11] 
+[06:56:11] 📊 CYCLE 539
+[06:56:11]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:56:12]   Pending orders: 0
+[06:56:12]   Checking for old orders...
+[06:56:12]   ✓ All orders OK (0 pending)
+[06:56:12]   ⏳ Next check in 60s...
+[06:56:12] 
+[06:57:12] 📊 CYCLE 540
+[06:57:12]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:57:13]   Pending orders: 0
+[06:57:13]   Checking for old orders...
+[06:57:13]   ✓ All orders OK (0 pending)
+[06:57:13]   ⏳ Next check in 60s...
+[06:57:13] 
+[06:58:13] 📊 CYCLE 541
+[06:58:13]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:58:14]   Pending orders: 0
+[06:58:14]   Checking for old orders...
+[06:58:14]   ✓ All orders OK (0 pending)
+[06:58:14]   ⏳ Next check in 60s...
+[06:58:14] 
+[06:59:14] 📊 CYCLE 542
+[06:59:14]   Equity: $100,378 | BP: $141,881 | Cash: $45,918
+[06:59:15]   Pending orders: 0
+[06:59:15]   Checking for old orders...
+[06:59:15]   ✓ All orders OK (0 pending)
+[06:59:15]   ⏳ Next check in 60s...
+[06:59:15] 
+[07:00:15] 📊 CYCLE 543
+[07:00:16]   Equity: $100,341 | BP: $141,845 | Cash: $45,918
+[07:00:16]   Pending orders: 0
+[07:00:16]   Checking for old orders...
+[07:00:16]   ✓ All orders OK (0 pending)
+[07:00:16]   ⏳ Next check in 60s...
+[07:00:16] 
+[07:01:16] 📊 CYCLE 544
+[07:01:17]   Equity: $100,258 | BP: $141,762 | Cash: $45,918
+[07:01:17]   Pending orders: 0
+[07:01:17]   Checking for old orders...
+[07:01:17]   ✓ All orders OK (0 pending)
+[07:01:17]   ⏳ Next check in 60s...
+[07:01:17] 
+[07:02:17] 📊 CYCLE 545
+[07:02:18]   Equity: $100,148 | BP: $141,652 | Cash: $45,918
+[07:02:18]   Pending orders: 0
+[07:02:18]   Checking for old orders...
+[07:02:18]   ✓ All orders OK (0 pending)
+[07:02:18]   ⏳ Next check in 60s...
+[07:02:18] 
+[07:03:18] 📊 CYCLE 546
+[07:03:19]   Equity: $100,166 | BP: $141,670 | Cash: $45,918
+[07:03:19]   Pending orders: 0
+[07:03:19]   Checking for old orders...
+[07:03:19]   ✓ All orders OK (0 pending)
+[07:03:19]   ⏳ Next check in 60s...
+[07:03:19] 
+[07:04:19] 📊 CYCLE 547
+[07:04:20]   Equity: $100,166 | BP: $141,670 | Cash: $45,918
+[07:04:20]   Pending orders: 0
+[07:04:20]   Checking for old orders...
+[07:04:21]   ✓ All orders OK (0 pending)
+[07:04:21]   ⏳ Next check in 60s...
+[07:04:21] 
+[07:05:21] 📊 CYCLE 548
+[07:05:21]   Equity: $100,166 | BP: $141,670 | Cash: $45,918
+[07:05:21]   Pending orders: 0
+[07:05:21]   Checking for old orders...
+[07:05:22]   ✓ All orders OK (0 pending)
+[07:05:22]   ⏳ Next check in 60s...
+[07:05:22] 
+[07:06:22] 📊 CYCLE 549
+[07:06:22]   Equity: $100,166 | BP: $141,670 | Cash: $45,918
+[07:06:22]   Pending orders: 0
+[07:06:22]   Checking for old orders...
+[07:06:23]   ✓ All orders OK (0 pending)
+[07:06:23]   ⏳ Next check in 60s...
+[07:06:23] 
+[07:07:23] 📊 CYCLE 550
+[07:07:23]   Equity: $100,166 | BP: $141,670 | Cash: $45,918
+[07:07:23]   Pending orders: 0
+[07:07:23]   Checking for old orders...
+[07:07:24]   ✓ All orders OK (0 pending)
+[07:07:24]   ⏳ Next check in 60s...
+[07:07:24] 
+[07:08:24] 📊 CYCLE 551
+[07:08:24]   Equity: $100,166 | BP: $141,670 | Cash: $45,918
+[07:08:24]   Pending orders: 0
+[07:08:24]   Checking for old orders...
+[07:08:25]   ✓ All orders OK (0 pending)
+[07:08:25]   ⏳ Next check in 60s...
+[07:08:25] 
+[07:09:25] 📊 CYCLE 552
+[07:09:25]   Equity: $100,166 | BP: $141,670 | Cash: $45,918
+[07:09:26]   Pending orders: 0
+[07:09:26]   Checking for old orders...
+[07:09:26]   ✓ All orders OK (0 pending)
+[07:09:26]   ⏳ Next check in 60s...
+[07:09:26] 
+[07:10:26] 📊 CYCLE 553
+[07:10:26]   Equity: $100,166 | BP: $141,670 | Cash: $45,918
+[07:10:27]   Pending orders: 0
+[07:10:27]   Checking for old orders...
+[07:10:27]   ✓ All orders OK (0 pending)
+[07:10:27]   ⏳ Next check in 60s...
+[07:10:27] 
+[07:11:27] 📊 CYCLE 554
+[07:11:27]   Equity: $100,222 | BP: $141,725 | Cash: $45,918
+[07:11:28]   Pending orders: 0
+[07:11:28]   Checking for old orders...
+[07:11:28]   ✓ All orders OK (0 pending)
+[07:11:28]   ⏳ Next check in 60s...
+[07:11:28] 
+[07:12:28] 📊 CYCLE 555
+[07:12:28]   Equity: $100,222 | BP: $141,725 | Cash: $45,918
+[07:12:29]   Pending orders: 0
+[07:12:29]   Checking for old orders...
+[07:12:29]   ✓ All orders OK (0 pending)
+[07:12:29]   ⏳ Next check in 60s...
+[07:12:29] 
+[07:13:29] 📊 CYCLE 556
+[07:13:29]   Equity: $100,222 | BP: $141,725 | Cash: $45,918
+[07:13:30]   Pending orders: 0
+[07:13:30]   Checking for old orders...
+[07:13:30]   ✓ All orders OK (0 pending)
+[07:13:30]   ⏳ Next check in 60s...
+[07:13:30] 
+[07:14:30] 📊 CYCLE 557
+[07:14:30]   Equity: $100,222 | BP: $141,725 | Cash: $45,918
+[07:14:31]   Pending orders: 0
+[07:14:31]   Checking for old orders...
+[07:14:31]   ✓ All orders OK (0 pending)
+[07:14:31]   ⏳ Next check in 60s...
+[07:14:31] 
+[07:15:31] 📊 CYCLE 558
+[07:15:32]   Equity: $100,222 | BP: $141,725 | Cash: $45,918
+[07:15:32]   Pending orders: 0
+[07:15:32]   Checking for old orders...
+[07:15:32]   ✓ All orders OK (0 pending)
+[07:15:32]   ⏳ Next check in 60s...
+[07:15:32] 
+[07:16:32] 📊 CYCLE 559
+[07:16:33]   Equity: $100,222 | BP: $141,725 | Cash: $45,918
+[07:16:33]   Pending orders: 0
+[07:16:33]   Checking for old orders...
+[07:16:33]   ✓ All orders OK (0 pending)
+[07:16:33]   ⏳ Next check in 60s...
+[07:16:33] 
+[07:17:33] 📊 CYCLE 560
+[07:17:34]   Equity: $100,222 | BP: $141,725 | Cash: $45,918
+[07:17:34]   Pending orders: 0
+[07:17:34]   Checking for old orders...
+[07:17:34]   ✓ All orders OK (0 pending)
+[07:17:34]   ⏳ Next check in 60s...
+[07:17:34] 
+[07:18:34] 📊 CYCLE 561
+[07:18:35]   Equity: $100,222 | BP: $141,725 | Cash: $45,918
+[07:18:35]   Pending orders: 0
+[07:18:35]   Checking for old orders...
+[07:18:35]   ✓ All orders OK (0 pending)
+[07:18:35]   ⏳ Next check in 60s...
+[07:18:35] 
+[07:19:35] 📊 CYCLE 562
+[07:19:36]   Equity: $100,222 | BP: $141,725 | Cash: $45,918
+[07:19:36]   Pending orders: 0
+[07:19:36]   Checking for old orders...
+[07:19:36]   ✓ All orders OK (0 pending)
+[07:19:36]   ⏳ Next check in 60s...
+[07:19:36] 
+[07:20:36] 📊 CYCLE 563
+[07:20:37]   Equity: $100,222 | BP: $141,725 | Cash: $45,918
+[07:20:37]   Pending orders: 0
+[07:20:37]   Checking for old orders...
+[07:20:38]   ✓ All orders OK (0 pending)
+[07:20:38]   ⏳ Next check in 60s...
+[07:20:38] 
+[07:21:38] 📊 CYCLE 564
+[07:21:38]   Equity: $100,222 | BP: $141,725 | Cash: $45,918
+[07:21:38]   Pending orders: 0
+[07:21:38]   Checking for old orders...
+[07:21:39]   ✓ All orders OK (0 pending)
+[07:21:39]   ⏳ Next check in 60s...
+[07:21:39] 
+[07:22:39] 📊 CYCLE 565
+[07:22:39]   Equity: $100,332 | BP: $141,836 | Cash: $45,918
+[07:22:39]   Pending orders: 0
+[07:22:39]   Checking for old orders...
+[07:22:40]   ✓ All orders OK (0 pending)
+[07:22:40]   ⏳ Next check in 60s...
+[07:22:40] 
+[07:23:40] 📊 CYCLE 566
+[07:23:40]   Equity: $100,332 | BP: $141,836 | Cash: $45,918
+[07:23:40]   Pending orders: 0
+[07:23:40]   Checking for old orders...
+[07:23:41]   ✓ All orders OK (0 pending)
+[07:23:41]   ⏳ Next check in 60s...
+[07:23:41] 
+[07:24:41] 📊 CYCLE 567
+[07:24:41]   Equity: $100,332 | BP: $141,836 | Cash: $45,918
+[07:24:41]   Pending orders: 0
+[07:24:41]   Checking for old orders...
+[07:24:42]   ✓ All orders OK (0 pending)
+[07:24:42]   ⏳ Next check in 60s...
+[07:24:42] 
+[07:25:42] 📊 CYCLE 568
+[07:25:42]   Equity: $100,332 | BP: $141,836 | Cash: $45,918
+[07:25:43]   Pending orders: 0
+[07:25:43]   Checking for old orders...
+[07:25:43]   ✓ All orders OK (0 pending)
+[07:25:43]   ⏳ Next check in 60s...
+[07:25:43] 
+[07:26:43] 📊 CYCLE 569
+[07:26:43]   Equity: $100,332 | BP: $141,836 | Cash: $45,918
+[07:26:44]   Pending orders: 0
+[07:26:44]   Checking for old orders...
+[07:26:44]   ✓ All orders OK (0 pending)
+[07:26:44]   ⏳ Next check in 60s...
+[07:26:44] 
+[07:27:44] 📊 CYCLE 570
+[07:27:44]   Equity: $100,332 | BP: $141,836 | Cash: $45,918
+[07:27:45]   Pending orders: 0
+[07:27:45]   Checking for old orders...
+[07:27:45]   ✓ All orders OK (0 pending)
+[07:27:45]   ⏳ Next check in 60s...
+[07:27:45] 
+[07:28:45] 📊 CYCLE 571
+[07:28:45]   Equity: $100,332 | BP: $141,836 | Cash: $45,918
+[07:28:46]   Pending orders: 0
+[07:28:46]   Checking for old orders...
+[07:28:46]   ✓ All orders OK (0 pending)
+[07:28:46]   ⏳ Next check in 60s...
+[07:28:46] 
+[07:29:46] 📊 CYCLE 572
+[07:29:47]   Equity: $100,332 | BP: $141,836 | Cash: $45,918
+[07:29:47]   Pending orders: 0
+[07:29:47]   Checking for old orders...
+[07:29:47]   ✓ All orders OK (0 pending)
+[07:29:47]   ⏳ Next check in 60s...
+[07:29:47] 
+[07:30:47] 📊 CYCLE 573
+[07:30:48]   Equity: $100,332 | BP: $141,836 | Cash: $45,918
+[07:30:48]   Pending orders: 0
+[07:30:48]   Checking for old orders...
+[07:30:48]   ✓ All orders OK (0 pending)
+[07:30:48]   ⏳ Next check in 60s...
+[07:30:48] 
+[07:31:48] 📊 CYCLE 574
+[07:31:49]   Equity: $100,332 | BP: $141,836 | Cash: $45,918
+[07:31:49]   Pending orders: 0
+[07:31:49]   Checking for old orders...
+[07:31:49]   ✓ All orders OK (0 pending)
+[07:31:49]   ⏳ Next check in 60s...
+[07:31:49] 
+[07:32:49] 📊 CYCLE 575
+[07:32:50]   Equity: $100,332 | BP: $141,836 | Cash: $45,918
+[07:32:50]   Pending orders: 0
+[07:32:50]   Checking for old orders...
+[07:32:50]   ✓ All orders OK (0 pending)
+[07:32:50]   ⏳ Next check in 60s...
+[07:32:50] 
+[07:33:50] 📊 CYCLE 576
+[07:33:51]   Equity: $100,332 | BP: $141,836 | Cash: $45,918
+[07:33:51]   Pending orders: 0
+[07:33:51]   Checking for old orders...
+[07:33:52]   ✓ All orders OK (0 pending)
+[07:33:52]   ⏳ Next check in 60s...
+[07:33:52] 
+[07:34:52] 📊 CYCLE 577
+[07:34:52]   Equity: $100,460 | BP: $141,964 | Cash: $45,918
+[07:34:52]   Pending orders: 0
+[07:34:52]   Checking for old orders...
+[07:34:53]   ✓ All orders OK (0 pending)
+[07:34:53]   ⏳ Next check in 60s...
+[07:34:53] 
+[07:35:53] 📊 CYCLE 578
+[07:35:53]   Equity: $100,460 | BP: $141,964 | Cash: $45,918
+[07:35:53]   Pending orders: 0
+[07:35:53]   Checking for old orders...
+[07:35:54]   ✓ All orders OK (0 pending)
+[07:35:54]   ⏳ Next check in 60s...
+[07:35:54] 
+[07:36:54] 📊 CYCLE 579
+[07:36:54]   Equity: $100,552 | BP: $142,056 | Cash: $45,918
+[07:36:54]   Pending orders: 0
+[07:36:54]   Checking for old orders...
+[07:36:55]   ✓ All orders OK (0 pending)
+[07:36:55]   ⏳ Next check in 60s...
+[07:36:55] 
+[07:37:55] 📊 CYCLE 580
+[07:37:55]   Equity: $100,552 | BP: $142,056 | Cash: $45,918
+[07:37:56]   Pending orders: 0
+[07:37:56]   Checking for old orders...
+[07:37:56]   ✓ All orders OK (0 pending)
+[07:37:56]   ⏳ Next check in 60s...
+[07:37:56] 
+[07:38:56] 📊 CYCLE 581
+[07:38:56]   Equity: $100,552 | BP: $142,056 | Cash: $45,918
+[07:38:57]   Pending orders: 0
+[07:38:57]   Checking for old orders...
+[07:38:57]   ✓ All orders OK (0 pending)
+[07:38:57]   ⏳ Next check in 60s...
+[07:38:57] 
+[07:39:57] 📊 CYCLE 582
+[07:39:57]   Equity: $100,552 | BP: $142,056 | Cash: $45,918
+[07:39:58]   Pending orders: 0
+[07:39:58]   Checking for old orders...
+[07:39:58]   ✓ All orders OK (0 pending)
+[07:39:58]   ⏳ Next check in 60s...
+[07:39:58] 
+[07:40:58] 📊 CYCLE 583
+[07:40:58]   Equity: $100,552 | BP: $142,056 | Cash: $45,918
+[07:40:59]   Pending orders: 0
+[07:40:59]   Checking for old orders...
+[07:40:59]   ✓ All orders OK (0 pending)
+[07:40:59]   ⏳ Next check in 60s...
+[07:40:59] 
+[07:41:59] 📊 CYCLE 584
+[07:41:59]   Equity: $100,552 | BP: $142,056 | Cash: $45,918
+[07:42:00]   Pending orders: 0
+[07:42:00]   Checking for old orders...
+[07:42:00]   ✓ All orders OK (0 pending)
+[07:42:00]   ⏳ Next check in 60s...
+[07:42:00] 
+[07:43:00] 📊 CYCLE 585
+[07:43:00]   Equity: $100,552 | BP: $142,056 | Cash: $45,918
+[07:43:01]   Pending orders: 0
+[07:43:01]   Checking for old orders...
+[07:43:01]   ✓ All orders OK (0 pending)
+[07:43:01]   ⏳ Next check in 60s...
+[07:43:01] 
+[07:44:01] 📊 CYCLE 586
+[07:44:02]   Equity: $100,552 | BP: $142,056 | Cash: $45,918
+[07:44:02]   Pending orders: 0
+[07:44:02]   Checking for old orders...
+[07:44:02]   ✓ All orders OK (0 pending)
+[07:44:02]   ⏳ Next check in 60s...
+[07:44:02] 
+[07:45:02] 📊 CYCLE 587
+[07:45:03]   Equity: $100,552 | BP: $142,056 | Cash: $45,918
+[07:45:03]   Pending orders: 0
+[07:45:03]   Checking for old orders...
+[07:45:03]   ✓ All orders OK (0 pending)
+[07:45:03]   ⏳ Next check in 60s...
+[07:45:03] 
+[07:46:03] 📊 CYCLE 588
+[07:46:04]   Equity: $100,552 | BP: $142,056 | Cash: $45,918
+[07:46:04]   Pending orders: 0
+[07:46:04]   Checking for old orders...
+[07:46:04]   ✓ All orders OK (0 pending)
+[07:46:04]   ⏳ Next check in 60s...
+[07:46:04] 
+[07:47:04] 📊 CYCLE 589
+[07:47:05]   Equity: $100,552 | BP: $142,056 | Cash: $45,918
+[07:47:05]   Pending orders: 0
+[07:47:05]   Checking for old orders...
+[07:47:05]   ✓ All orders OK (0 pending)
+[07:47:05]   ⏳ Next check in 60s...
+[07:47:05] 
+[07:48:05] 📊 CYCLE 590
+[07:48:06]   Equity: $100,596 | BP: $142,100 | Cash: $45,918
+[07:48:06]   Pending orders: 0
+[07:48:06]   Checking for old orders...
+[07:48:07]   ✓ All orders OK (0 pending)
+[07:48:07]   ⏳ Next check in 60s...
+[07:48:07] 
+[07:49:07] 📊 CYCLE 591
+[07:49:07]   Equity: $100,596 | BP: $142,100 | Cash: $45,918
+[07:49:07]   Pending orders: 0
+[07:49:07]   Checking for old orders...
+[07:49:08]   ✓ All orders OK (0 pending)
+[07:49:08]   ⏳ Next check in 60s...
+[07:49:08] 
+[07:50:08] 📊 CYCLE 592
+[07:50:08]   Equity: $100,596 | BP: $142,100 | Cash: $45,918
+[07:50:08]   Pending orders: 0
+[07:50:08]   Checking for old orders...
+[07:50:09]   ✓ All orders OK (0 pending)
+[07:50:09]   ⏳ Next check in 60s...
+[07:50:09] 
+[07:51:09] 📊 CYCLE 593
+[07:51:09]   Equity: $100,596 | BP: $142,100 | Cash: $45,918
+[07:51:09]   Pending orders: 0
+[07:51:09]   Checking for old orders...
+[07:51:10]   ✓ All orders OK (0 pending)
+[07:51:10]   ⏳ Next check in 60s...
+[07:51:10] 
+[07:52:10] 📊 CYCLE 594
+[07:52:10]   Equity: $100,596 | BP: $142,100 | Cash: $45,918
+[07:52:10]   Pending orders: 0
+[07:52:10]   Checking for old orders...
+[07:52:11]   ✓ All orders OK (0 pending)
+[07:52:11]   ⏳ Next check in 60s...
+[07:52:11] 
+[07:53:11] 📊 CYCLE 595
+[07:53:11]   Equity: $100,596 | BP: $142,100 | Cash: $45,918
+[07:53:11]   Pending orders: 0
+[07:53:11]   Checking for old orders...
+[07:53:12]   ✓ All orders OK (0 pending)
+[07:53:12]   ⏳ Next check in 60s...
+[07:53:12] 
+[07:54:12] 📊 CYCLE 596
+[07:54:12]   Equity: $100,596 | BP: $142,100 | Cash: $45,918
+[07:54:13]   Pending orders: 0
+[07:54:13]   Checking for old orders...
+[07:54:13]   ✓ All orders OK (0 pending)
+[07:54:13]   ⏳ Next check in 60s...
+[07:54:13] 
+[07:55:13] 📊 CYCLE 597
+[07:55:13]   Equity: $100,596 | BP: $142,100 | Cash: $45,918
+[07:55:14]   Pending orders: 0
+[07:55:14]   Checking for old orders...
+[07:55:14]   ✓ All orders OK (0 pending)
+[07:55:14]   ⏳ Next check in 60s...
+[07:55:14] 
+[07:56:14] 📊 CYCLE 598
+[07:56:14]   Equity: $100,614 | BP: $142,118 | Cash: $45,918
+[07:56:15]   Pending orders: 0
+[07:56:15]   Checking for old orders...
+[07:56:15]   ✓ All orders OK (0 pending)
+[07:56:15]   ⏳ Next check in 60s...
+[07:56:15] 
+[07:57:15] 📊 CYCLE 599
+[07:57:15]   Equity: $100,596 | BP: $142,100 | Cash: $45,918
+[07:57:16]   Pending orders: 0
+[07:57:16]   Checking for old orders...
+[07:57:16]   ✓ All orders OK (0 pending)
+[07:57:16]   ⏳ Next check in 60s...
+[07:57:16] 
+[07:58:16] 📊 CYCLE 600
+[07:58:16]   Equity: $100,596 | BP: $142,100 | Cash: $45,918
+[07:58:17]   Pending orders: 0
+[07:58:17]   Checking for old orders...
+[07:58:17]   ✓ All orders OK (0 pending)
+[07:58:17]   ⏳ Next check in 60s...
+[07:58:17] 
+[07:59:17] 📊 CYCLE 601
+[07:59:18]   Equity: $100,596 | BP: $142,100 | Cash: $45,918
+[07:59:18]   Pending orders: 0
+[07:59:18]   Checking for old orders...
+[07:59:18]   ✓ All orders OK (0 pending)
+[07:59:18]   ⏳ Next check in 60s...
+[07:59:18] 
+[08:00:18] 📊 CYCLE 602
+[08:00:19]   Equity: $100,472 | BP: $141,975 | Cash: $45,918
+[08:00:19]   Pending orders: 0
+[08:00:19]   Checking for old orders...
+[08:00:19]   ✓ All orders OK (0 pending)
+[08:00:19]   ⏳ Next check in 60s...
+[08:00:19] 
+[08:01:19] 📊 CYCLE 603
+[08:01:20]   Equity: $100,472 | BP: $141,975 | Cash: $45,918
+[08:01:20]   Pending orders: 0
+[08:01:20]   Checking for old orders...
+[08:01:20]   ✓ All orders OK (0 pending)
+[08:01:20]   ⏳ Next check in 60s...
+[08:01:20] 
+[08:02:20] 📊 CYCLE 604
+[08:02:21]   Equity: $100,472 | BP: $141,975 | Cash: $45,918
+[08:02:21]   Pending orders: 0
+[08:02:21]   Checking for old orders...
+[08:02:21]   ✓ All orders OK (0 pending)
+[08:02:21]   ⏳ Next check in 60s...
+[08:02:21] 
+[08:03:21] 📊 CYCLE 605
+[08:03:22]   Equity: $100,472 | BP: $141,975 | Cash: $45,918
+[08:03:22]   Pending orders: 0
+[08:03:22]   Checking for old orders...
+[08:03:23]   ✓ All orders OK (0 pending)
+[08:03:23]   ⏳ Next check in 60s...
+[08:03:23] 
+[08:04:23] 📊 CYCLE 606
+[08:04:23]   Equity: $100,582 | BP: $142,086 | Cash: $45,918
+[08:04:23]   Pending orders: 0
+[08:04:23]   Checking for old orders...
+[08:04:24]   ✓ All orders OK (0 pending)
+[08:04:24]   ⏳ Next check in 60s...
+[08:04:24] 
+[08:05:24] 📊 CYCLE 607
+[08:05:24]   Equity: $100,582 | BP: $142,086 | Cash: $45,918
+[08:05:24]   Pending orders: 0
+[08:05:24]   Checking for old orders...
+[08:05:25]   ✓ All orders OK (0 pending)
+[08:05:25]   ⏳ Next check in 60s...
+[08:05:25] 
+[08:06:25] 📊 CYCLE 608
+[08:06:25]   Equity: $100,637 | BP: $142,141 | Cash: $45,918
+[08:06:25]   Pending orders: 0
+[08:06:25]   Checking for old orders...
+[08:06:26]   ✓ All orders OK (0 pending)
+[08:06:26]   ⏳ Next check in 60s...
+[08:06:26] 
+[08:07:26] 📊 CYCLE 609
+[08:07:26]   Equity: $100,675 | BP: $142,179 | Cash: $45,918
+[08:07:27]   Pending orders: 0
+[08:07:27]   Checking for old orders...
+[08:07:27]   ✓ All orders OK (0 pending)
+[08:07:27]   ⏳ Next check in 60s...
+[08:07:27] 
+[08:08:27] 📊 CYCLE 610
+[08:08:27]   Equity: $100,718 | BP: $142,221 | Cash: $45,918
+[08:08:28]   Pending orders: 0
+[08:08:28]   Checking for old orders...
+[08:08:28]   ✓ All orders OK (0 pending)
+[08:08:28]   ⏳ Next check in 60s...
+[08:08:28] 
+[08:09:28] 📊 CYCLE 611
+[08:09:28]   Equity: $100,828 | BP: $142,332 | Cash: $45,918
+[08:09:29]   Pending orders: 0
+[08:09:29]   Checking for old orders...
+[08:09:29]   ✓ All orders OK (0 pending)
+[08:09:29]   ⏳ Next check in 60s...
+[08:09:29] 
+[08:10:29] 📊 CYCLE 612
+[08:10:29]   Equity: $100,846 | BP: $142,350 | Cash: $45,918
+[08:10:30]   Pending orders: 0
+[08:10:30]   Checking for old orders...
+[08:10:30]   ✓ All orders OK (0 pending)
+[08:10:30]   ⏳ Next check in 60s...
+[08:10:30] 
+[08:11:30] 📊 CYCLE 613
+[08:11:30]   Equity: $101,008 | BP: $142,512 | Cash: $45,918
+[08:11:31]   Pending orders: 0
+[08:11:31]   Checking for old orders...
+[08:11:31]   ✓ All orders OK (0 pending)
+[08:11:31]   ⏳ Next check in 60s...
+[08:11:31] 
+[08:12:31] 📊 CYCLE 614
+[08:12:31]   Equity: $101,026 | BP: $142,530 | Cash: $45,918
+[08:12:32]   Pending orders: 0
+[08:12:32]   Checking for old orders...
+[08:12:32]   ✓ All orders OK (0 pending)
+[08:12:32]   ⏳ Next check in 60s...
+[08:12:32] 
+[08:13:32] 📊 CYCLE 615
+[08:13:33]   Equity: $101,008 | BP: $142,512 | Cash: $45,918
+[08:13:33]   Pending orders: 0
+[08:13:33]   Checking for old orders...
+[08:13:33]   ✓ All orders OK (0 pending)
+[08:13:33]   ⏳ Next check in 60s...
+[08:13:33] 
+[08:14:33] 📊 CYCLE 616
+[08:14:34]   Equity: $100,964 | BP: $142,468 | Cash: $45,918
+[08:14:34]   Pending orders: 0
+[08:14:34]   Checking for old orders...
+[08:14:34]   ✓ All orders OK (0 pending)
+[08:14:34]   ⏳ Next check in 60s...
+[08:14:34] 
+[08:15:34] 📊 CYCLE 617
+[08:15:35]   Equity: $100,964 | BP: $142,468 | Cash: $45,918
+[08:15:35]   Pending orders: 0
+[08:15:35]   Checking for old orders...
+[08:15:35]   ✓ All orders OK (0 pending)
+[08:15:35]   ⏳ Next check in 60s...
+[08:15:35] 
+[08:16:35] 📊 CYCLE 618
+[08:16:36]   Equity: $100,964 | BP: $142,468 | Cash: $45,918
+[08:16:36]   Pending orders: 0
+[08:16:36]   Checking for old orders...
+[08:16:36]   ✓ All orders OK (0 pending)
+[08:16:36]   ⏳ Next check in 60s...
+[08:16:36] 
+[08:17:36] 📊 CYCLE 619
+[08:17:37]   Equity: $100,964 | BP: $142,468 | Cash: $45,918
+[08:17:37]   Pending orders: 0
+[08:17:37]   Checking for old orders...
+[08:17:38]   ✓ All orders OK (0 pending)
+[08:17:38]   ⏳ Next check in 60s...
+[08:17:38] 
+[08:18:38] 📊 CYCLE 620
+[08:18:38]   Equity: $100,964 | BP: $142,468 | Cash: $45,918
+[08:18:38]   Pending orders: 0
+[08:18:38]   Checking for old orders...
+[08:18:39]   ✓ All orders OK (0 pending)
+[08:18:39]   ⏳ Next check in 60s...
+[08:18:39] 
+[08:19:39] 📊 CYCLE 621
+[08:19:39]   Equity: $100,945 | BP: $142,449 | Cash: $45,918
+[08:19:39]   Pending orders: 0
+[08:19:39]   Checking for old orders...
+[08:19:40]   ✓ All orders OK (0 pending)
+[08:19:40]   ⏳ Next check in 60s...
+[08:19:40] 
+[08:20:40] 📊 CYCLE 622
+[08:20:40]   Equity: $100,941 | BP: $142,445 | Cash: $45,918
+[08:20:40]   Pending orders: 0
+[08:20:40]   Checking for old orders...
+[08:20:41]   ✓ All orders OK (0 pending)
+[08:20:41]   ⏳ Next check in 60s...
+[08:20:41] 
+[08:21:41] 📊 CYCLE 623
+[08:21:41]   Equity: $100,941 | BP: $142,445 | Cash: $45,918
+[08:21:41]   Pending orders: 0
+[08:21:41]   Checking for old orders...
+[08:21:42]   ✓ All orders OK (0 pending)
+[08:21:42]   ⏳ Next check in 60s...
+[08:21:42] 
+[08:22:42] 📊 CYCLE 624
+[08:22:42]   Equity: $100,941 | BP: $142,445 | Cash: $45,918
+[08:22:43]   Pending orders: 0
+[08:22:43]   Checking for old orders...
+[08:22:43]   ✓ All orders OK (0 pending)
+[08:22:43]   ⏳ Next check in 60s...
+[08:22:43] 
+[08:23:43] 📊 CYCLE 625
+[08:23:43]   Equity: $100,941 | BP: $142,445 | Cash: $45,918
+[08:23:44]   Pending orders: 0
+[08:23:44]   Checking for old orders...
+[08:23:44]   ✓ All orders OK (0 pending)
+[08:23:44]   ⏳ Next check in 60s...
+[08:23:44] 
+[08:24:44] 📊 CYCLE 626
+[08:24:44]   Equity: $100,947 | BP: $142,451 | Cash: $45,918
+[08:24:45]   Pending orders: 0
+[08:24:45]   Checking for old orders...
+[08:24:45]   ✓ All orders OK (0 pending)
+[08:24:45]   ⏳ Next check in 60s...
+[08:24:45] 
+[08:25:45] 📊 CYCLE 627
+[08:25:45]   Equity: $100,947 | BP: $142,451 | Cash: $45,918
+[08:25:46]   Pending orders: 0
+[08:25:46]   Checking for old orders...
+[08:25:46]   ✓ All orders OK (0 pending)
+[08:25:46]   ⏳ Next check in 60s...
+[08:25:46] 
+[08:26:46] 📊 CYCLE 628
+[08:26:46]   Equity: $100,947 | BP: $142,451 | Cash: $45,918
+[08:26:47]   Pending orders: 0
+[08:26:47]   Checking for old orders...
+[08:26:47]   ✓ All orders OK (0 pending)
+[08:26:47]   ⏳ Next check in 60s...
+[08:26:47] 
+[08:27:47] 📊 CYCLE 629
+[08:27:48]   Equity: $100,947 | BP: $142,451 | Cash: $45,918
+[08:27:48]   Pending orders: 0
+[08:27:48]   Checking for old orders...
+[08:27:48]   ✓ All orders OK (0 pending)
+[08:27:48]   ⏳ Next check in 60s...
+[08:27:48] 
+[08:28:48] 📊 CYCLE 630
+[08:28:49]   Equity: $100,948 | BP: $142,452 | Cash: $45,918
+[08:28:49]   Pending orders: 0
+[08:28:49]   Checking for old orders...
+[08:28:49]   ✓ All orders OK (0 pending)
+[08:28:49]   ⏳ Next check in 60s...
+[08:28:49] 
+[08:29:49] 📊 CYCLE 631
+[08:29:50]   Equity: $100,896 | BP: $142,400 | Cash: $45,918
+[08:29:50]   Pending orders: 0
+[08:29:50]   Checking for old orders...
+[08:29:50]   ✓ All orders OK (0 pending)
+[08:29:50]   ⏳ Next check in 60s...
+[08:29:50] 
+[08:30:50] 📊 CYCLE 632
+[08:30:51]   Equity: $100,851 | BP: $142,354 | Cash: $45,918
+[08:30:51]   Pending orders: 0
+[08:30:51]   Checking for old orders...
+[08:30:51]   ✓ All orders OK (0 pending)
+[08:30:51]   ⏳ Next check in 60s...
+[08:30:51] 
+[08:31:51] 📊 CYCLE 633
+[08:31:52]   Equity: $100,842 | BP: $142,345 | Cash: $45,918
+[08:31:52]   Pending orders: 0
+[08:31:52]   Checking for old orders...
+[08:31:52]   ✓ All orders OK (0 pending)
+[08:31:52]   ⏳ Next check in 60s...
+[08:31:52] 
+[08:32:52] 📊 CYCLE 634
+[08:32:53]   Equity: $100,842 | BP: $142,345 | Cash: $45,918
+[08:32:53]   Pending orders: 0
+[08:32:53]   Checking for old orders...
+[08:32:54]   ✓ All orders OK (0 pending)
+[08:32:54]   ⏳ Next check in 60s...
+[08:32:54] 
+[08:33:54] 📊 CYCLE 635
+[08:33:54]   Equity: $100,842 | BP: $142,345 | Cash: $45,918
+[08:33:54]   Pending orders: 0
+[08:33:54]   Checking for old orders...
+[08:33:55]   ✓ All orders OK (0 pending)
+[08:33:55]   ⏳ Next check in 60s...
+[08:33:55] 
+[08:34:55] 📊 CYCLE 636
+[08:34:55]   Equity: $100,897 | BP: $142,400 | Cash: $45,918
+[08:34:55]   Pending orders: 0
+[08:34:55]   Checking for old orders...
+[08:34:56]   ✓ All orders OK (0 pending)
+[08:34:56]   ⏳ Next check in 60s...
+[08:34:56] 
+[08:35:56] 📊 CYCLE 637
+[08:35:56]   Equity: $100,897 | BP: $142,400 | Cash: $45,918
+[08:35:56]   Pending orders: 0
+[08:35:56]   Checking for old orders...
+[08:35:57]   ✓ All orders OK (0 pending)
+[08:35:57]   ⏳ Next check in 60s...
+[08:35:57] 
+[08:36:57] 📊 CYCLE 638
+[08:36:57]   Equity: $100,897 | BP: $142,400 | Cash: $45,918
+[08:36:57]   Pending orders: 0
+[08:36:57]   Checking for old orders...
+[08:36:58]   ✓ All orders OK (0 pending)
+[08:36:58]   ⏳ Next check in 60s...
+[08:36:58] 
+[08:37:58] 📊 CYCLE 639
+[08:37:58]   Equity: $100,823 | BP: $142,327 | Cash: $45,918
+[08:37:58]   Pending orders: 0
+[08:37:58]   Checking for old orders...
+[08:37:59]   ✓ All orders OK (0 pending)
+[08:37:59]   ⏳ Next check in 60s...
+[08:37:59] 
+[08:38:59] 📊 CYCLE 640
+[08:38:59]   Equity: $100,823 | BP: $142,327 | Cash: $45,918
+[08:39:00]   Pending orders: 0
+[08:39:00]   Checking for old orders...
+[08:39:00]   ✓ All orders OK (0 pending)
+[08:39:00]   ⏳ Next check in 60s...
+[08:39:00] 
+[08:40:00] 📊 CYCLE 641
+[08:40:00]   Equity: $100,823 | BP: $142,327 | Cash: $45,918
+[08:40:01]   Pending orders: 0
+[08:40:01]   Checking for old orders...
+[08:40:01]   ✓ All orders OK (0 pending)
+[08:40:01]   ⏳ Next check in 60s...
+[08:40:01] 
+[08:41:01] 📊 CYCLE 642
+[08:41:01]   Equity: $100,860 | BP: $142,364 | Cash: $45,918
+[08:41:02]   Pending orders: 0
+[08:41:02]   Checking for old orders...
+[08:41:02]   ✓ All orders OK (0 pending)
+[08:41:02]   ⏳ Next check in 60s...
+[08:41:02] 
+[08:42:02] 📊 CYCLE 643
+[08:42:02]   Equity: $100,878 | BP: $142,382 | Cash: $45,918
+[08:42:03]   Pending orders: 0
+[08:42:03]   Checking for old orders...
+[08:42:03]   ✓ All orders OK (0 pending)
+[08:42:03]   ⏳ Next check in 60s...
+[08:42:03] 
+[08:43:03] 📊 CYCLE 644
+[08:43:03]   Equity: $100,878 | BP: $142,382 | Cash: $45,918
+[08:43:04]   Pending orders: 0
+[08:43:04]   Checking for old orders...
+[08:43:04]   ✓ All orders OK (0 pending)
+[08:43:04]   ⏳ Next check in 60s...
+[08:43:04] 
+[08:44:04] 📊 CYCLE 645
+[08:44:04]   Equity: $100,878 | BP: $142,382 | Cash: $45,918
+[08:44:05]   Pending orders: 0
+[08:44:05]   Checking for old orders...
+[08:44:05]   ✓ All orders OK (0 pending)
+[08:44:05]   ⏳ Next check in 60s...
+[08:44:05] 
+[08:45:05] 📊 CYCLE 646
+[08:45:06]   Equity: $100,878 | BP: $142,382 | Cash: $45,918
+[08:45:06]   Pending orders: 0
+[08:45:06]   Checking for old orders...
+[08:45:06]   ✓ All orders OK (0 pending)
+[08:45:06]   ⏳ Next check in 60s...
+[08:45:06] 
+[08:46:06] 📊 CYCLE 647
+[08:46:07]   Equity: $100,878 | BP: $142,382 | Cash: $45,918
+[08:46:07]   Pending orders: 0
+[08:46:07]   Checking for old orders...
+[08:46:07]   ✓ All orders OK (0 pending)
+[08:46:07]   ⏳ Next check in 60s...
+[08:46:07] 
+[08:47:07] 📊 CYCLE 648
+[08:47:08]   Equity: $100,878 | BP: $142,382 | Cash: $45,918
+[08:47:08]   Pending orders: 0
+[08:47:08]   Checking for old orders...
+[08:47:08]   ✓ All orders OK (0 pending)
+[08:47:08]   ⏳ Next check in 60s...
+[08:47:08] 
+[08:48:08] 📊 CYCLE 649
+[08:48:09]   Equity: $100,878 | BP: $142,382 | Cash: $45,918
+[08:48:09]   Pending orders: 0
+[08:48:09]   Checking for old orders...
+[08:48:09]   ✓ All orders OK (0 pending)
+[08:48:09]   ⏳ Next check in 60s...
+[08:48:09] 
+[08:49:09] 📊 CYCLE 650
+[08:49:10]   Equity: $100,878 | BP: $142,382 | Cash: $45,918
+[08:49:10]   Pending orders: 0
+[08:49:10]   Checking for old orders...
+[08:49:10]   ✓ All orders OK (0 pending)
+[08:49:10]   ⏳ Next check in 60s...
+[08:49:10] 
+[08:50:10] 📊 CYCLE 651
+[08:50:11]   Equity: $100,860 | BP: $142,364 | Cash: $45,918
+[08:50:11]   Pending orders: 0
+[08:50:11]   Checking for old orders...
+[08:50:12]   ✓ All orders OK (0 pending)
+[08:50:12]   ⏳ Next check in 60s...
+[08:50:12] 
+[08:51:12] 📊 CYCLE 652
+[08:51:12]   Equity: $100,860 | BP: $142,364 | Cash: $45,918
+[08:51:12]   Pending orders: 0
+[08:51:12]   Checking for old orders...
+[08:51:13]   ✓ All orders OK (0 pending)
+[08:51:13]   ⏳ Next check in 60s...
+[08:51:13] 
+[08:52:13] 📊 CYCLE 653
+[08:52:13]   Equity: $100,860 | BP: $142,364 | Cash: $45,918
+[08:52:13]   Pending orders: 0
+[08:52:13]   Checking for old orders...
+[08:52:14]   ✓ All orders OK (0 pending)
+[08:52:14]   ⏳ Next check in 60s...
+[08:52:14] 
+[08:53:14] 📊 CYCLE 654
+[08:53:14]   Equity: $100,860 | BP: $142,364 | Cash: $45,918
+[08:53:14]   Pending orders: 0
+[08:53:14]   Checking for old orders...
+[08:53:15]   ✓ All orders OK (0 pending)
+[08:53:15]   ⏳ Next check in 60s...
+[08:53:15] 
+[08:54:15] 📊 CYCLE 655
+[08:54:15]   Equity: $100,860 | BP: $142,364 | Cash: $45,918
+[08:54:15]   Pending orders: 0
+[08:54:15]   Checking for old orders...
+[08:54:16]   ✓ All orders OK (0 pending)
+[08:54:16]   ⏳ Next check in 60s...
+[08:54:16] 
+[08:55:16] 📊 CYCLE 656
+[08:55:16]   Equity: $100,860 | BP: $142,364 | Cash: $45,918
+[08:55:16]   Pending orders: 0
+[08:55:16]   Checking for old orders...
+[08:55:17]   ✓ All orders OK (0 pending)
+[08:55:17]   ⏳ Next check in 60s...
+[08:55:17] 
+[08:56:17] 📊 CYCLE 657
+[08:56:17]   Equity: $100,860 | BP: $142,364 | Cash: $45,918
+[08:56:18]   Pending orders: 0
+[08:56:18]   Checking for old orders...
+[08:56:18]   ✓ All orders OK (0 pending)
+[08:56:18]   ⏳ Next check in 60s...
+[08:56:18] 
+[08:57:18] 📊 CYCLE 658
+[08:57:18]   Equity: $100,860 | BP: $142,364 | Cash: $45,918
+[08:57:19]   Pending orders: 0
+[08:57:19]   Checking for old orders...
+[08:57:19]   ✓ All orders OK (0 pending)
+[08:57:19]   ⏳ Next check in 60s...
+[08:57:19] 
+[08:58:19] 📊 CYCLE 659
+[08:58:19]   Equity: $100,860 | BP: $142,364 | Cash: $45,918
+[08:58:20]   Pending orders: 0
+[08:58:20]   Checking for old orders...
+[08:58:20]   ✓ All orders OK (0 pending)
+[08:58:20]   ⏳ Next check in 60s...
+[08:58:20] 
+[08:59:20] 📊 CYCLE 660
+[08:59:20]   Equity: $100,860 | BP: $142,364 | Cash: $45,918
+[08:59:21]   Pending orders: 0
+[08:59:21]   Checking for old orders...
+[08:59:21]   ✓ All orders OK (0 pending)
+[08:59:21]   ⏳ Next check in 60s...
+[08:59:21] 
+[09:00:21] 📊 CYCLE 661
+[09:00:21]   Equity: $100,842 | BP: $142,345 | Cash: $45,918
+[09:00:22]   Pending orders: 0
+[09:00:22]   Checking for old orders...
+[09:00:22]   ✓ All orders OK (0 pending)
+[09:00:22]   ⏳ Next check in 60s...
+[09:00:22] 
+[09:01:22] 📊 CYCLE 662
+[09:01:22]   Equity: $100,768 | BP: $142,272 | Cash: $45,918
+[09:01:23]   Pending orders: 0
+[09:01:23]   Checking for old orders...
+[09:01:23]   ✓ All orders OK (0 pending)
+[09:01:23]   ⏳ Next check in 60s...
+[09:01:23] 
+[09:02:23] 📊 CYCLE 663
+[09:02:24]   Equity: $100,768 | BP: $142,272 | Cash: $45,918
+[09:02:24]   Pending orders: 0
+[09:02:24]   Checking for old orders...
+[09:02:24]   ✓ All orders OK (0 pending)
+[09:02:24]   ⏳ Next check in 60s...
+[09:02:24] 
+[09:03:24] 📊 CYCLE 664
+[09:03:25]   Equity: $100,768 | BP: $142,272 | Cash: $45,918
+[09:03:25]   Pending orders: 0
+[09:03:25]   Checking for old orders...
+[09:03:25]   ✓ All orders OK (0 pending)
+[09:03:25]   ⏳ Next check in 60s...
+[09:03:25] 
+[09:04:25] 📊 CYCLE 665
+[09:04:26]   Equity: $100,730 | BP: $142,234 | Cash: $45,918
+[09:04:26]   Pending orders: 0
+[09:04:26]   Checking for old orders...
+[09:04:26]   ✓ All orders OK (0 pending)
+[09:04:26]   ⏳ Next check in 60s...
+[09:04:26] 
+[09:05:26] 📊 CYCLE 666
+[09:05:27]   Equity: $100,730 | BP: $142,234 | Cash: $45,918
+[09:05:27]   Pending orders: 0
+[09:05:27]   Checking for old orders...
+[09:05:28]   ✓ All orders OK (0 pending)
+[09:05:28]   ⏳ Next check in 60s...
+[09:05:28] 
+[09:06:28] 📊 CYCLE 667
+[09:06:28]   Equity: $100,723 | BP: $142,226 | Cash: $45,918
+[09:06:28]   Pending orders: 0
+[09:06:28]   Checking for old orders...
+[09:06:29]   ✓ All orders OK (0 pending)
+[09:06:29]   ⏳ Next check in 60s...
+[09:06:29] 
+[09:07:29] 📊 CYCLE 668
+[09:07:29]   Equity: $100,723 | BP: $142,226 | Cash: $45,918
+[09:07:29]   Pending orders: 0
+[09:07:29]   Checking for old orders...
+[09:07:30]   ✓ All orders OK (0 pending)
+[09:07:30]   ⏳ Next check in 60s...
+[09:07:30] 
+[09:08:30] 📊 CYCLE 669
+[09:08:30]   Equity: $100,740 | BP: $142,243 | Cash: $45,918
+[09:08:30]   Pending orders: 0
+[09:08:30]   Checking for old orders...
+[09:08:31]   ✓ All orders OK (0 pending)
+[09:08:31]   ⏳ Next check in 60s...
+[09:08:31] 
+[09:09:31] 📊 CYCLE 670
+[09:09:31]   Equity: $100,740 | BP: $142,243 | Cash: $45,918
+[09:09:31]   Pending orders: 0
+[09:09:31]   Checking for old orders...
+[09:09:32]   ✓ All orders OK (0 pending)
+[09:09:32]   ⏳ Next check in 60s...
+[09:09:32] 
+[09:10:32] 📊 CYCLE 671
+[09:10:32]   Equity: $100,740 | BP: $142,243 | Cash: $45,918
+[09:10:32]   Pending orders: 0
+[09:10:32]   Checking for old orders...
+[09:10:33]   ✓ All orders OK (0 pending)
+[09:10:33]   ⏳ Next check in 60s...
+[09:10:33] 
+[09:11:33] 📊 CYCLE 672
+[09:11:33]   Equity: $100,721 | BP: $142,225 | Cash: $45,918
+[09:11:34]   Pending orders: 0
+[09:11:34]   Checking for old orders...
+[09:11:34]   ✓ All orders OK (0 pending)
+[09:11:34]   ⏳ Next check in 60s...
+[09:11:34] 
+[09:12:34] 📊 CYCLE 673
+[09:12:34]   Equity: $100,721 | BP: $142,225 | Cash: $45,918
+[09:12:35]   Pending orders: 0
+[09:12:35]   Checking for old orders...
+[09:12:35]   ✓ All orders OK (0 pending)
+[09:12:35]   ⏳ Next check in 60s...
+[09:12:35] 
+[09:13:35] 📊 CYCLE 674
+[09:13:35]   Equity: $100,721 | BP: $142,225 | Cash: $45,918
+[09:13:36]   Pending orders: 0
+[09:13:36]   Checking for old orders...
+[09:13:36]   ✓ All orders OK (0 pending)
+[09:13:36]   ⏳ Next check in 60s...
+[09:13:36] 
+[09:14:36] 📊 CYCLE 675
+[09:14:36]   Equity: $100,684 | BP: $142,188 | Cash: $45,918
+[09:14:37]   Pending orders: 0
+[09:14:37]   Checking for old orders...
+[09:14:37]   ✓ All orders OK (0 pending)
+[09:14:37]   ⏳ Next check in 60s...
+[09:14:37] 
+[09:15:37] 📊 CYCLE 676
+[09:15:37]   Equity: $100,684 | BP: $142,188 | Cash: $45,918
+[09:15:38]   Pending orders: 0
+[09:15:38]   Checking for old orders...
+[09:15:38]   ✓ All orders OK (0 pending)
+[09:15:38]   ⏳ Next check in 60s...
+[09:15:38] 
+[09:16:38] 📊 CYCLE 677
+[09:16:39]   Equity: $100,684 | BP: $142,188 | Cash: $45,918
+[09:16:39]   Pending orders: 0
+[09:16:39]   Checking for old orders...
+[09:16:39]   ✓ All orders OK (0 pending)
+[09:16:39]   ⏳ Next check in 60s...
+[09:16:39] 
+[09:17:39] 📊 CYCLE 678
+[09:17:40]   Equity: $100,648 | BP: $142,151 | Cash: $45,918
+[09:17:40]   Pending orders: 0
+[09:17:40]   Checking for old orders...
+[09:17:40]   ✓ All orders OK (0 pending)
+[09:17:40]   ⏳ Next check in 60s...
+[09:17:40] 
+[09:18:40] 📊 CYCLE 679
+[09:18:41]   Equity: $100,648 | BP: $142,151 | Cash: $45,918
+[09:18:41]   Pending orders: 0
+[09:18:41]   Checking for old orders...
+[09:18:41]   ✓ All orders OK (0 pending)
+[09:18:41]   ⏳ Next check in 60s...
+[09:18:41] 
+[09:19:41] 📊 CYCLE 680
+[09:19:42]   Equity: $100,648 | BP: $142,151 | Cash: $45,918
+[09:19:42]   Pending orders: 0
+[09:19:42]   Checking for old orders...
+[09:19:42]   ✓ All orders OK (0 pending)
+[09:19:42]   ⏳ Next check in 60s...
+[09:19:42] 
+[09:20:42] 📊 CYCLE 681
+[09:20:43]   Equity: $100,500 | BP: $142,004 | Cash: $45,918
+[09:20:43]   Pending orders: 0
+[09:20:43]   Checking for old orders...
+[09:20:43]   ✓ All orders OK (0 pending)
+[09:20:43]   ⏳ Next check in 60s...
+[09:20:43] 
+[09:21:43] 📊 CYCLE 682
+[09:21:44]   Equity: $100,500 | BP: $142,004 | Cash: $45,918
+[09:21:44]   Pending orders: 0
+[09:21:44]   Checking for old orders...
+[09:21:44]   ✓ All orders OK (0 pending)
+[09:21:44]   ⏳ Next check in 60s...
+[09:21:44] 
+[09:22:44] 📊 CYCLE 683
+[09:22:45]   Equity: $100,500 | BP: $142,004 | Cash: $45,918
+[09:22:45]   Pending orders: 0
+[09:22:45]   Checking for old orders...
+[09:22:46]   ✓ All orders OK (0 pending)
+[09:22:46]   ⏳ Next check in 60s...
+[09:22:46] 
+[09:23:46] 📊 CYCLE 684
+[09:23:46]   Equity: $100,537 | BP: $142,040 | Cash: $45,918
+[09:23:46]   Pending orders: 0
+[09:23:46]   Checking for old orders...
+[09:23:47]   ✓ All orders OK (0 pending)
+[09:23:47]   ⏳ Next check in 60s...
+[09:23:47] 
+[09:24:47] 📊 CYCLE 685
+[09:24:47]   Equity: $100,481 | BP: $141,985 | Cash: $45,918
+[09:24:47]   Pending orders: 0
+[09:24:47]   Checking for old orders...
+[09:24:48]   ✓ All orders OK (0 pending)
+[09:24:48]   ⏳ Next check in 60s...
+[09:24:48] 
+[09:25:48] 📊 CYCLE 686
+[09:25:48]   Equity: $100,481 | BP: $141,985 | Cash: $45,918
+[09:25:48]   Pending orders: 0
+[09:25:48]   Checking for old orders...
+[09:25:49]   ✓ All orders OK (0 pending)
+[09:25:49]   ⏳ Next check in 60s...
+[09:25:49] 
+[09:26:49] 📊 CYCLE 687
+[09:26:49]   Equity: $100,481 | BP: $141,985 | Cash: $45,918
+[09:26:49]   Pending orders: 0
+[09:26:49]   Checking for old orders...
+[09:26:50]   ✓ All orders OK (0 pending)
+[09:26:50]   ⏳ Next check in 60s...
+[09:26:50] 
+[09:27:50] 📊 CYCLE 688
+[09:27:50]   Equity: $100,481 | BP: $141,985 | Cash: $45,918
+[09:27:51]   Pending orders: 0
+[09:27:51]   Checking for old orders...
+[09:27:51]   ✓ All orders OK (0 pending)
+[09:27:51]   ⏳ Next check in 60s...
+[09:27:51] 
+[09:28:51] 📊 CYCLE 689
+[09:28:51]   Equity: $100,481 | BP: $141,985 | Cash: $45,918
+[09:28:52]   Pending orders: 0
+[09:28:52]   Checking for old orders...
+[09:28:52]   ✓ All orders OK (0 pending)
+[09:28:52]   ⏳ Next check in 60s...
+[09:28:52] 
+[09:29:52] 📊 CYCLE 690
+[09:29:52]   Equity: $100,445 | BP: $141,948 | Cash: $45,918
+[09:29:53]   Pending orders: 0
+[09:29:53]   Checking for old orders...
+[09:29:53]   ✓ All orders OK (0 pending)
+[09:29:53]   ⏳ Next check in 60s...
+[09:29:53] 
+[09:30:53] 📊 CYCLE 691
+[09:30:53]   Equity: $100,445 | BP: $141,948 | Cash: $45,918
+[09:30:54]   Pending orders: 0
+[09:30:54]   Checking for old orders...
+[09:30:54]   ✓ All orders OK (0 pending)
+[09:30:54]   ⏳ Next check in 60s...
+[09:30:54] 
+[09:31:54] 📊 CYCLE 692
+[09:31:54]   Equity: $100,500 | BP: $142,004 | Cash: $45,918
+[09:31:55]   Pending orders: 0
+[09:31:55]   Checking for old orders...
+[09:31:55]   ✓ All orders OK (0 pending)
+[09:31:55]   ⏳ Next check in 60s...
+[09:31:55] 
+[09:32:55] 📊 CYCLE 693
+[09:32:55]   Equity: $100,500 | BP: $142,004 | Cash: $45,918
+[09:32:56]   Pending orders: 0
+[09:32:56]   Checking for old orders...
+[09:32:56]   ✓ All orders OK (0 pending)
+[09:32:56]   ⏳ Next check in 60s...
+[09:32:56] 
+[09:33:56] 📊 CYCLE 694
+[09:33:57]   Equity: $100,500 | BP: $142,004 | Cash: $45,918
+[09:33:57]   Pending orders: 0
+[09:33:57]   Checking for old orders...
+[09:33:57]   ✓ All orders OK (0 pending)
+[09:33:57]   ⏳ Next check in 60s...
+[09:33:57] 
+[09:34:57] 📊 CYCLE 695
+[09:34:58]   Equity: $100,500 | BP: $142,004 | Cash: $45,918
+[09:34:58]   Pending orders: 0
+[09:34:58]   Checking for old orders...
+[09:34:58]   ✓ All orders OK (0 pending)
+[09:34:58]   ⏳ Next check in 60s...
+[09:34:58] 
+[09:35:58] 📊 CYCLE 696
+[09:35:59]   Equity: $100,533 | BP: $142,037 | Cash: $45,918
+[09:35:59]   Pending orders: 0
+[09:35:59]   Checking for old orders...
+[09:35:59]   ✓ All orders OK (0 pending)
+[09:35:59]   ⏳ Next check in 60s...
+[09:35:59] 
+[09:36:59] 📊 CYCLE 697
+[09:37:00]   Equity: $100,533 | BP: $142,037 | Cash: $45,918
+[09:37:00]   Pending orders: 0
+[09:37:00]   Checking for old orders...
+[09:37:00]   ✓ All orders OK (0 pending)
+[09:37:00]   ⏳ Next check in 60s...
+[09:37:00] 
+[09:38:00] 📊 CYCLE 698
+[09:38:01]   Equity: $100,533 | BP: $142,037 | Cash: $45,918
+[09:38:01]   Pending orders: 0
+[09:38:01]   Checking for old orders...
+[09:38:02]   ✓ All orders OK (0 pending)
+[09:38:02]   ⏳ Next check in 60s...
+[09:38:02] 
+[09:39:02] 📊 CYCLE 699
+[09:39:02]   Equity: $100,533 | BP: $142,037 | Cash: $45,918
+[09:39:02]   Pending orders: 0
+[09:39:02]   Checking for old orders...
+[09:39:03]   ✓ All orders OK (0 pending)
+[09:39:03]   ⏳ Next check in 60s...
+[09:39:03] 
+[09:40:03] 📊 CYCLE 700
+[09:40:03]   Equity: $100,533 | BP: $142,037 | Cash: $45,918
+[09:40:03]   Pending orders: 0
+[09:40:03]   Checking for old orders...
+[09:40:04]   ✓ All orders OK (0 pending)
+[09:40:04]   ⏳ Next check in 60s...
+[09:40:04] 
+[09:41:04] 📊 CYCLE 701
+[09:41:04]   Equity: $100,527 | BP: $142,031 | Cash: $45,918
+[09:41:04]   Pending orders: 0
+[09:41:04]   Checking for old orders...
+[09:41:05]   ✓ All orders OK (0 pending)
+[09:41:05]   ⏳ Next check in 60s...
+[09:41:05] 
+[09:42:05] 📊 CYCLE 702
+[09:42:05]   Equity: $100,527 | BP: $142,031 | Cash: $45,918
+[09:42:05]   Pending orders: 0
+[09:42:05]   Checking for old orders...
+[09:42:06]   ✓ All orders OK (0 pending)
+[09:42:06]   ⏳ Next check in 60s...
+[09:42:06] 
+[09:43:06] 📊 CYCLE 703
+[09:43:06]   Equity: $100,490 | BP: $141,994 | Cash: $45,918
+[09:43:07]   Pending orders: 0
+[09:43:07]   Checking for old orders...
+[09:43:07]   ✓ All orders OK (0 pending)
+[09:43:07]   ⏳ Next check in 60s...
+[09:43:07] 
+[09:44:07] 📊 CYCLE 704
+[09:44:07]   Equity: $100,527 | BP: $142,031 | Cash: $45,918
+[09:44:08]   Pending orders: 0
+[09:44:08]   Checking for old orders...
+[09:44:08]   ✓ All orders OK (0 pending)
+[09:44:08]   ⏳ Next check in 60s...
+[09:44:08] 
+[09:45:08] 📊 CYCLE 705
+[09:45:08]   Equity: $100,523 | BP: $142,026 | Cash: $45,918
+[09:45:09]   Pending orders: 0
+[09:45:09]   Checking for old orders...
+[09:45:09]   ✓ All orders OK (0 pending)
+[09:45:09]   ⏳ Next check in 60s...
+[09:45:09] 
+[09:46:09] 📊 CYCLE 706
+[09:46:09]   Equity: $100,523 | BP: $142,026 | Cash: $45,918
+[09:46:10]   Pending orders: 0
+[09:46:10]   Checking for old orders...
+[09:46:10]   ✓ All orders OK (0 pending)
+[09:46:10]   ⏳ Next check in 60s...
+[09:46:10] 
+[09:47:10] 📊 CYCLE 707
+[09:47:10]   Equity: $100,454 | BP: $141,958 | Cash: $45,918
+[09:47:11]   Pending orders: 0
+[09:47:11]   Checking for old orders...
+[09:47:11]   ✓ All orders OK (0 pending)
+[09:47:11]   ⏳ Next check in 60s...
+[09:47:11] 
+[09:48:11] 📊 CYCLE 708
+[09:48:11]   Equity: $100,436 | BP: $141,939 | Cash: $45,918
+[09:48:12]   Pending orders: 0
+[09:48:12]   Checking for old orders...
+[09:48:12]   ✓ All orders OK (0 pending)
+[09:48:12]   ⏳ Next check in 60s...
+[09:48:12] 
+[09:49:12] 📊 CYCLE 709
+[09:49:13]   Equity: $100,454 | BP: $141,958 | Cash: $45,918
+[09:49:13]   Pending orders: 0
+[09:49:13]   Checking for old orders...
+[09:49:13]   ✓ All orders OK (0 pending)
+[09:49:13]   ⏳ Next check in 60s...
+[09:49:13] 
+[09:50:13] 📊 CYCLE 710
+[09:50:14]   Equity: $100,454 | BP: $141,958 | Cash: $45,918
+[09:50:14]   Pending orders: 0
+[09:50:14]   Checking for old orders...
+[09:50:14]   ✓ All orders OK (0 pending)
+[09:50:14]   ⏳ Next check in 60s...
+[09:50:14] 
+[09:51:14] 📊 CYCLE 711
+[09:51:15]   Equity: $100,417 | BP: $141,921 | Cash: $45,918
+[09:51:15]   Pending orders: 0
+[09:51:15]   Checking for old orders...
+[09:51:15]   ✓ All orders OK (0 pending)
+[09:51:15]   ⏳ Next check in 60s...
+[09:51:15] 
+[09:52:15] 📊 CYCLE 712
+[09:52:16]   Equity: $100,400 | BP: $141,904 | Cash: $45,918
+[09:52:16]   Pending orders: 0
+[09:52:16]   Checking for old orders...
+[09:52:16]   ✓ All orders OK (0 pending)
+[09:52:16]   ⏳ Next check in 60s...
+[09:52:16] 
+[09:53:16] 📊 CYCLE 713
+[09:53:17]   Equity: $100,400 | BP: $141,904 | Cash: $45,918
+[09:53:17]   Pending orders: 0
+[09:53:17]   Checking for old orders...
+[09:53:17]   ✓ All orders OK (0 pending)
+[09:53:17]   ⏳ Next check in 60s...
+[09:53:17] 
+[09:54:17] 📊 CYCLE 714
+[09:54:18]   Equity: $100,419 | BP: $141,923 | Cash: $45,918
+[09:54:18]   Pending orders: 0
+[09:54:18]   Checking for old orders...
+[09:54:19]   ✓ All orders OK (0 pending)
+[09:54:19]   ⏳ Next check in 60s...
+[09:54:19] 
+[09:55:19] 📊 CYCLE 715
+[09:55:19]   Equity: $100,345 | BP: $141,849 | Cash: $45,918
+[09:55:19]   Pending orders: 0
+[09:55:19]   Checking for old orders...
+[09:55:20]   ✓ All orders OK (0 pending)
+[09:55:20]   ⏳ Next check in 60s...
+[09:55:20] 
+[09:56:20] 📊 CYCLE 716
+[09:56:20]   Equity: $100,400 | BP: $141,904 | Cash: $45,918
+[09:56:20]   Pending orders: 0
+[09:56:20]   Checking for old orders...
+[09:56:21]   ✓ All orders OK (0 pending)
+[09:56:21]   ⏳ Next check in 60s...
+[09:56:21] 
+[09:57:21] 📊 CYCLE 717
+[09:57:21]   Equity: $100,400 | BP: $141,904 | Cash: $45,918
+[09:57:21]   Pending orders: 0
+[09:57:21]   Checking for old orders...
+[09:57:22]   ✓ All orders OK (0 pending)
+[09:57:22]   ⏳ Next check in 60s...
+[09:57:22] 
+[09:58:22] 📊 CYCLE 718
+[09:58:22]   Equity: $100,400 | BP: $141,904 | Cash: $45,918
+[09:58:23]   Pending orders: 0
+[09:58:23]   Checking for old orders...
+[09:58:23]   ✓ All orders OK (0 pending)
+[09:58:23]   ⏳ Next check in 60s...
+[09:58:23] 
+[09:59:23] 📊 CYCLE 719
+[09:59:23]   Equity: $100,400 | BP: $141,904 | Cash: $45,918
+[09:59:24]   Pending orders: 2
+[09:59:24]   Checking for old orders...
+[09:59:24]   ✓ All orders OK (2 pending)
+[09:59:24]   ⏳ Next check in 60s...
+[09:59:24] 
+[10:00:24] 📊 CYCLE 720
+[10:00:24]   Equity: $100,400 | BP: $141,904 | Cash: $45,918
+[10:00:25]   Pending orders: 2
+[10:00:25]   Checking for old orders...
+[10:00:25]   ✓ All orders OK (2 pending)
+[10:00:25]   ⏳ Next check in 60s...
+[10:00:25] 
+[10:01:25] 📊 CYCLE 721
+[10:01:25]   Equity: $100,405 | BP: $141,909 | Cash: $45,918
+[10:01:26]   Pending orders: 2
+[10:01:26]   Checking for old orders...
+[10:01:26]   ✓ All orders OK (2 pending)
+[10:01:26]   ⏳ Next check in 60s...
+[10:01:26] 
+[10:02:26] 📊 CYCLE 722
+[10:02:27]   Equity: $100,387 | BP: $141,890 | Cash: $45,918
+[10:02:27]   Pending orders: 2
+[10:02:27]   Checking for old orders...
+[10:02:27]   ✓ All orders OK (2 pending)
+[10:02:27]   ⏳ Next check in 60s...
+[10:02:27] 
+[10:03:27] 📊 CYCLE 723
+[10:03:28]   Equity: $100,387 | BP: $141,890 | Cash: $45,918
+[10:03:28]   Pending orders: 2
+[10:03:28]   Checking for old orders...
+[10:03:28]   ✓ All orders OK (2 pending)
+[10:03:28]   ⏳ Next check in 60s...
+[10:03:28] 
+[10:04:28] 📊 CYCLE 724
+[10:04:29]   Equity: $100,387 | BP: $141,890 | Cash: $45,918
+[10:04:29]   Pending orders: 2
+[10:04:29]   Checking for old orders...
+[10:04:29]   ✓ All orders OK (2 pending)
+[10:04:29]   ⏳ Next check in 60s...
+[10:04:29] 
+[10:05:29] 📊 CYCLE 725
+[10:05:30]   Equity: $100,387 | BP: $141,890 | Cash: $45,918
+[10:05:30]   Pending orders: 2
+[10:05:30]   Checking for old orders...
+[10:05:30]   ✓ All orders OK (2 pending)
+[10:05:30]   ⏳ Next check in 60s...
+[10:05:30] 
+[10:06:30] 📊 CYCLE 726
+[10:06:31]   Equity: $100,387 | BP: $141,890 | Cash: $45,918
+[10:06:31]   Pending orders: 2
+[10:06:31]   Checking for old orders...
+[10:06:31]   ✓ All orders OK (2 pending)
+[10:06:31]   ⏳ Next check in 60s...
+[10:06:31] 
+[10:07:31] 📊 CYCLE 727
+[10:07:32]   Equity: $100,387 | BP: $141,890 | Cash: $45,918
+[10:07:32]   Pending orders: 2
+[10:07:32]   Checking for old orders...
+[10:07:33]   ✓ All orders OK (2 pending)
+[10:07:33]   ⏳ Next check in 60s...
+[10:07:33] 
+[10:08:33] 📊 CYCLE 728
+[10:08:33]   Equity: $100,331 | BP: $141,835 | Cash: $45,918
+[10:08:33]   Pending orders: 2
+[10:08:33]   Checking for old orders...
+[10:08:34]   ✓ All orders OK (2 pending)
+[10:08:34]   ⏳ Next check in 60s...
+[10:08:34] 
+[10:09:34] 📊 CYCLE 729
+[10:09:34]   Equity: $100,331 | BP: $141,835 | Cash: $45,918
+[10:09:34]   Pending orders: 2
+[10:09:34]   Checking for old orders...
+[10:09:35]   ✓ All orders OK (2 pending)
+[10:09:35]   ⏳ Next check in 60s...
+[10:09:35] 
+[10:10:35] 📊 CYCLE 730
+[10:10:35]   Equity: $100,350 | BP: $141,854 | Cash: $45,918
+[10:10:35]   Pending orders: 2
+[10:10:35]   Checking for old orders...
+[10:10:36]   ✓ All orders OK (2 pending)
+[10:10:36]   ⏳ Next check in 60s...
+[10:10:36] 
+[10:11:36] 📊 CYCLE 731
+[10:11:36]   Equity: $100,350 | BP: $141,854 | Cash: $45,918
+[10:11:36]   Pending orders: 2
+[10:11:36]   Checking for old orders...
+[10:11:37]   ✓ All orders OK (2 pending)
+[10:11:37]   ⏳ Next check in 60s...
+[10:11:37] 
+[10:12:37] 📊 CYCLE 732
+[10:12:37]   Equity: $100,350 | BP: $141,854 | Cash: $45,918
+[10:12:38]   Pending orders: 2
+[10:12:38]   Checking for old orders...
+[10:12:38]   ✓ All orders OK (2 pending)
+[10:12:38]   ⏳ Next check in 60s...
+[10:12:38] 
+[10:13:38] 📊 CYCLE 733
+[10:13:38]   Equity: $100,350 | BP: $141,854 | Cash: $45,918
+[10:13:39]   Pending orders: 2
+[10:13:39]   Checking for old orders...
+[10:13:39]   ✓ All orders OK (2 pending)
+[10:13:39]   ⏳ Next check in 60s...
+[10:13:39] 
+[10:14:39] 📊 CYCLE 734
+[10:14:39]   Equity: $100,368 | BP: $141,872 | Cash: $45,918
+[10:14:40]   Pending orders: 2
+[10:14:40]   Checking for old orders...
+[10:14:40]   ✗ Canceled old FXA order (age: 16 min)
+[10:14:41]   ✗ Canceled old EUO order (age: 16 min)
+[10:14:41]   ✓ Cleaned: 2 orders canceled, 0 kept
+[10:14:41]   ⏳ Next check in 60s...
+[10:14:41] 
+[10:15:41] 📊 CYCLE 735
+[10:15:41]   Equity: $100,350 | BP: $141,854 | Cash: $45,918
+[10:15:41]   Pending orders: 0
+[10:15:41]   Checking for old orders...
+[10:15:42]   ✓ All orders OK (0 pending)
+[10:15:42]   ⏳ Next check in 60s...
+[10:15:42] 
+[10:16:42] 📊 CYCLE 736
+[10:16:42]   Equity: $100,350 | BP: $141,854 | Cash: $45,918
+[10:16:42]   Pending orders: 0
+[10:16:42]   Checking for old orders...
+[10:16:43]   ✓ All orders OK (0 pending)
+[10:16:43]   ⏳ Next check in 60s...
+[10:16:43] 
+[10:17:43] 📊 CYCLE 737
+[10:17:43]   Equity: $100,368 | BP: $141,872 | Cash: $45,918
+[10:17:44]   Pending orders: 0
+[10:17:44]   Checking for old orders...
+[10:17:44]   ✓ All orders OK (0 pending)
+[10:17:44]   ⏳ Next check in 60s...
+[10:17:44] 
+[10:18:44] 📊 CYCLE 738
+[10:18:44]   Equity: $100,350 | BP: $141,854 | Cash: $45,918
+[10:18:45]   Pending orders: 0
+[10:18:45]   Checking for old orders...
+[10:18:45]   ✓ All orders OK (0 pending)
+[10:18:45]   ⏳ Next check in 60s...
+[10:18:45] 
+[10:19:45] 📊 CYCLE 739
+[10:19:45]   Equity: $100,350 | BP: $141,854 | Cash: $45,918
+[10:19:46]   Pending orders: 0
+[10:19:46]   Checking for old orders...
+[10:19:46]   ✓ All orders OK (0 pending)
+[10:19:46]   ⏳ Next check in 60s...
+[10:19:46] 
+[10:20:46] 📊 CYCLE 740
+[10:20:46]   Equity: $100,331 | BP: $141,835 | Cash: $45,918
+[10:20:47]   Pending orders: 0
+[10:20:47]   Checking for old orders...
+[10:20:47]   ✓ All orders OK (0 pending)
+[10:20:47]   ⏳ Next check in 60s...
+[10:20:47] 
+[10:21:47] 📊 CYCLE 741
+[10:21:47]   Equity: $100,331 | BP: $141,835 | Cash: $45,918
+[10:21:48]   Pending orders: 0
+[10:21:48]   Checking for old orders...
+[10:21:48]   ✓ All orders OK (0 pending)
+[10:21:48]   ⏳ Next check in 60s...
+[10:21:48] 
+[10:22:48] 📊 CYCLE 742
+[10:22:48]   Equity: $100,257 | BP: $141,761 | Cash: $45,918
+[10:22:49]   Pending orders: 0
+[10:22:49]   Checking for old orders...
+[10:22:49]   ✓ All orders OK (0 pending)
+[10:22:49]   ⏳ Next check in 60s...
+[10:22:49] 
+[10:23:49] 📊 CYCLE 743
+[10:23:50]   Equity: $100,257 | BP: $141,761 | Cash: $45,918
+[10:23:50]   Pending orders: 0
+[10:23:50]   Checking for old orders...
+[10:23:50]   ✓ All orders OK (0 pending)
+[10:23:50]   ⏳ Next check in 60s...
+[10:23:50] 
+[10:24:50] 📊 CYCLE 744
+[10:24:51]   Equity: $100,257 | BP: $141,761 | Cash: $45,918
+[10:24:51]   Pending orders: 0
+[10:24:51]   Checking for old orders...
+[10:24:51]   ✓ All orders OK (0 pending)
+[10:24:51]   ⏳ Next check in 60s...
+[10:24:51] 
+[10:25:51] 📊 CYCLE 745
+[10:25:52]   Equity: $100,257 | BP: $141,761 | Cash: $45,918
+[10:25:52]   Pending orders: 0
+[10:25:52]   Checking for old orders...
+[10:25:52]   ✓ All orders OK (0 pending)
+[10:25:52]   ⏳ Next check in 60s...
+[10:25:52] 
+[10:26:52] 📊 CYCLE 746
+[10:26:53]   Equity: $100,312 | BP: $141,816 | Cash: $45,918
+[10:26:53]   Pending orders: 0
+[10:26:53]   Checking for old orders...
+[10:26:53]   ✓ All orders OK (0 pending)
+[10:26:53]   ⏳ Next check in 60s...
+[10:26:53] 
+[10:27:53] 📊 CYCLE 747
+[10:27:54]   Equity: $100,312 | BP: $141,816 | Cash: $45,918
+[10:27:54]   Pending orders: 0
+[10:27:54]   Checking for old orders...
+[10:27:54]   ✓ All orders OK (0 pending)
+[10:27:54]   ⏳ Next check in 60s...
+[10:27:54] 
+[10:28:54] 📊 CYCLE 748
+[10:28:55]   Equity: $100,312 | BP: $141,816 | Cash: $45,918
+[10:28:55]   Pending orders: 0
+[10:28:55]   Checking for old orders...
+[10:28:56]   ✓ All orders OK (0 pending)
+[10:28:56]   ⏳ Next check in 60s...
+[10:28:56] 
+[10:29:56] 📊 CYCLE 749
+[10:29:56]   Equity: $100,331 | BP: $141,834 | Cash: $45,918
+[10:29:56]   Pending orders: 0
+[10:29:56]   Checking for old orders...
+[10:29:57]   ✓ All orders OK (0 pending)
+[10:29:57]   ⏳ Next check in 60s...
+[10:29:57] 
+[10:30:57] 📊 CYCLE 750
+[10:30:57]   Equity: $100,331 | BP: $141,834 | Cash: $45,918
+[10:30:57]   Pending orders: 0
+[10:30:57]   Checking for old orders...
+[10:30:58]   ✓ All orders OK (0 pending)
+[10:30:58]   ⏳ Next check in 60s...
+[10:30:58] 
+[10:31:58] 📊 CYCLE 751
+[10:31:58]   Equity: $100,331 | BP: $141,834 | Cash: $45,918
+[10:31:58]   Pending orders: 0
+[10:31:58]   Checking for old orders...
+[10:31:59]   ✓ All orders OK (0 pending)
+[10:31:59]   ⏳ Next check in 60s...
+[10:31:59] 
+[10:32:59] 📊 CYCLE 752
+[10:32:59]   Equity: $100,331 | BP: $141,834 | Cash: $45,918
+[10:32:59]   Pending orders: 0
+[10:32:59]   Checking for old orders...
+[10:33:00]   ✓ All orders OK (0 pending)
+[10:33:00]   ⏳ Next check in 60s...
+[10:33:00] 
+[10:34:00] 📊 CYCLE 753
+[10:34:00]   Equity: $100,331 | BP: $141,834 | Cash: $45,918
+[10:34:01]   Pending orders: 0
+[10:34:01]   Checking for old orders...
+[10:34:01]   ✓ All orders OK (0 pending)
+[10:34:01]   ⏳ Next check in 60s...
+[10:34:01] 
+[10:35:01] 📊 CYCLE 754
+[10:35:01]   Equity: $100,331 | BP: $141,834 | Cash: $45,918
+[10:35:02]   Pending orders: 0
+[10:35:02]   Checking for old orders...
+[10:35:02]   ✓ All orders OK (0 pending)
+[10:35:02]   ⏳ Next check in 60s...
+[10:35:02] 
+[10:36:02] 📊 CYCLE 755
+[10:36:02]   Equity: $100,367 | BP: $141,871 | Cash: $45,918
+[10:36:03]   Pending orders: 0
+[10:36:03]   Checking for old orders...
+[10:36:03]   ✓ All orders OK (0 pending)
+[10:36:03]   ⏳ Next check in 60s...
+[10:36:03] 
+[10:37:03] 📊 CYCLE 756
+[10:37:03]   Equity: $100,367 | BP: $141,871 | Cash: $45,918
+[10:37:04]   Pending orders: 0
+[10:37:04]   Checking for old orders...
+[10:37:04]   ✓ All orders OK (0 pending)
+[10:37:04]   ⏳ Next check in 60s...
+[10:37:04] 
+[10:38:04] 📊 CYCLE 757
+[10:38:04]   Equity: $100,404 | BP: $141,908 | Cash: $45,918
+[10:38:05]   Pending orders: 0
+[10:38:05]   Checking for old orders...
+[10:38:05]   ✓ All orders OK (0 pending)
+[10:38:05]   ⏳ Next check in 60s...
+[10:38:05] 
+[10:39:05] 📊 CYCLE 758
+[10:39:06]   Equity: $100,423 | BP: $141,926 | Cash: $45,918
+[10:39:06]   Pending orders: 0
+[10:39:06]   Checking for old orders...
+[10:39:06]   ✓ All orders OK (0 pending)
+[10:39:06]   ⏳ Next check in 60s...
+[10:39:06] 
+[10:40:06] 📊 CYCLE 759
+[10:40:07]   Equity: $100,441 | BP: $141,945 | Cash: $45,918
+[10:40:07]   Pending orders: 0
+[10:40:07]   Checking for old orders...
+[10:40:07]   ✓ All orders OK (0 pending)
+[10:40:07]   ⏳ Next check in 60s...
+[10:40:07] 
+[10:41:07] 📊 CYCLE 760
+[10:41:08]   Equity: $100,514 | BP: $142,018 | Cash: $45,918
+[10:41:08]   Pending orders: 0
+[10:41:08]   Checking for old orders...
+[10:41:09]   ✓ All orders OK (0 pending)
+[10:41:09]   ⏳ Next check in 60s...
+[10:41:09] 
+[10:42:09] 📊 CYCLE 761
+[10:42:09]   Equity: $100,478 | BP: $141,981 | Cash: $45,918
+[10:42:09]   Pending orders: 0
+[10:42:09]   Checking for old orders...
+[10:42:10]   ✓ All orders OK (0 pending)
+[10:42:10]   ⏳ Next check in 60s...
+[10:42:10] 
+[10:43:10] 📊 CYCLE 762
+[10:43:10]   Equity: $100,514 | BP: $142,018 | Cash: $45,918
+[10:43:10]   Pending orders: 0
+[10:43:10]   Checking for old orders...
+[10:43:11]   ✓ All orders OK (0 pending)
+[10:43:11]   ⏳ Next check in 60s...
+[10:43:11] 
+[10:44:11] 📊 CYCLE 763
+[10:44:11]   Equity: $100,512 | BP: $142,016 | Cash: $45,918
+[10:44:11]   Pending orders: 0
+[10:44:11]   Checking for old orders...
+[10:44:12]   ✓ All orders OK (0 pending)
+[10:44:12]   ⏳ Next check in 60s...
+[10:44:12] 
+[10:45:12] 📊 CYCLE 764
+[10:45:12]   Equity: $100,531 | BP: $142,034 | Cash: $45,918
+[10:45:12]   Pending orders: 0
+[10:45:12]   Checking for old orders...
+[10:45:13]   ✓ All orders OK (0 pending)
+[10:45:13]   ⏳ Next check in 60s...
+[10:45:13] 
+[10:46:13] 📊 CYCLE 765
+[10:46:13]   Equity: $100,531 | BP: $142,034 | Cash: $45,918
+[10:46:14]   Pending orders: 0
+[10:46:14]   Checking for old orders...
+[10:46:14]   ✓ All orders OK (0 pending)
+[10:46:14]   ⏳ Next check in 60s...
+[10:46:14] 
+[10:47:14] 📊 CYCLE 766
+[10:47:14]   Equity: $100,531 | BP: $142,034 | Cash: $45,918
+[10:47:15]   Pending orders: 0
+[10:47:15]   Checking for old orders...
+[10:47:15]   ✓ All orders OK (0 pending)
+[10:47:15]   ⏳ Next check in 60s...
+[10:47:15] 
+[10:48:15] 📊 CYCLE 767
+[10:48:15]   Equity: $100,531 | BP: $142,034 | Cash: $45,918
+[10:48:16]   Pending orders: 0
+[10:48:16]   Checking for old orders...
+[10:48:16]   ✓ All orders OK (0 pending)
+[10:48:16]   ⏳ Next check in 60s...
+[10:48:16] 
+[10:49:16] 📊 CYCLE 768
+[10:49:16]   Equity: $100,549 | BP: $142,053 | Cash: $45,918
+[10:49:17]   Pending orders: 0
+[10:49:17]   Checking for old orders...
+[10:49:17]   ✓ All orders OK (0 pending)
+[10:49:17]   ⏳ Next check in 60s...
+[10:49:17] 
+[10:50:17] 📊 CYCLE 769
+[10:50:17]   Equity: $100,531 | BP: $142,034 | Cash: $45,918
+[10:50:18]   Pending orders: 0
+[10:50:18]   Checking for old orders...
+[10:50:18]   ✓ All orders OK (0 pending)
+[10:50:18]   ⏳ Next check in 60s...
+[10:50:18] 
+[10:51:18] 📊 CYCLE 770
+[10:51:19]   Equity: $100,549 | BP: $142,053 | Cash: $45,918
+[10:51:19]   Pending orders: 0
+[10:51:19]   Checking for old orders...
+[10:51:19]   ✓ All orders OK (0 pending)
+[10:51:19]   ⏳ Next check in 60s...
+[10:51:19] 
+[10:52:19] 📊 CYCLE 771
+[10:52:20]   Equity: $100,512 | BP: $142,016 | Cash: $45,918
+[10:52:20]   Pending orders: 0
+[10:52:20]   Checking for old orders...
+[10:52:20]   ✓ All orders OK (0 pending)
+[10:52:20]   ⏳ Next check in 60s...
+[10:52:20] 
+[10:53:20] 📊 CYCLE 772
+[10:53:21]   Equity: $100,567 | BP: $142,071 | Cash: $45,918
+[10:53:21]   Pending orders: 0
+[10:53:21]   Checking for old orders...
+[10:53:21]   ✓ All orders OK (0 pending)
+[10:53:21]   ⏳ Next check in 60s...
+[10:53:21] 
+[10:54:21] 📊 CYCLE 773
+[10:54:22]   Equity: $100,567 | BP: $142,071 | Cash: $45,918
+[10:54:22]   Pending orders: 0
+[10:54:22]   Checking for old orders...
+[10:54:22]   ✓ All orders OK (0 pending)
+[10:54:22]   ⏳ Next check in 60s...
+[10:54:22] 
+[10:55:22] 📊 CYCLE 774
+[10:55:23]   Equity: $100,567 | BP: $142,071 | Cash: $45,918
+[10:55:23]   Pending orders: 0
+[10:55:23]   Checking for old orders...
+[10:55:23]   ✓ All orders OK (0 pending)
+[10:55:23]   ⏳ Next check in 60s...
+[10:55:23] 
+[10:56:23] 📊 CYCLE 775
+[10:56:24]   Equity: $100,567 | BP: $142,071 | Cash: $45,918
+[10:56:24]   Pending orders: 0
+[10:56:24]   Checking for old orders...
+[10:56:25]   ✓ All orders OK (0 pending)
+[10:56:25]   ⏳ Next check in 60s...
+[10:56:25] 
+[10:57:25] 📊 CYCLE 776
+[10:57:25]   Equity: $100,567 | BP: $142,071 | Cash: $45,918
+[10:57:25]   Pending orders: 0
+[10:57:25]   Checking for old orders...
+[10:57:26]   ✓ All orders OK (0 pending)
+[10:57:26]   ⏳ Next check in 60s...
+[10:57:26] 
+[10:58:26] 📊 CYCLE 777
+[10:58:26]   Equity: $100,567 | BP: $142,071 | Cash: $45,918
+[10:58:26]   Pending orders: 0
+[10:58:26]   Checking for old orders...
+[10:58:27]   ✓ All orders OK (0 pending)
+[10:58:27]   ⏳ Next check in 60s...
+[10:58:27] 
+[10:59:27] 📊 CYCLE 778
+[10:59:27]   Equity: $100,549 | BP: $142,053 | Cash: $45,918
+[10:59:27]   Pending orders: 0
+[10:59:27]   Checking for old orders...
+[10:59:28]   ✓ All orders OK (0 pending)
+[10:59:28]   ⏳ Next check in 60s...
+[10:59:28] 
+[11:00:28] 📊 CYCLE 779
+[11:00:28]   Equity: $100,549 | BP: $142,053 | Cash: $45,918

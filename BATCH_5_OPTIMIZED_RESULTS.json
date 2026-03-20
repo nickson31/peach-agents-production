@@ -1,0 +1,299 @@
+{
+  "system": "batch_5_waves",
+  "timestamp": "2026-03-19T15:28:57.240183",
+  "waves": 10,
+  "total_orders": 46,
+  "placed": 0,
+  "failed": 46,
+  "success_rate": 0.0,
+  "orders": [
+    {
+      "status": "error",
+      "symbol": "ETHE",
+      "issue": "price_fetch_failed",
+      "wave": 1
+    },
+    {
+      "status": "error",
+      "symbol": "ETHE",
+      "issue": "price_fetch_failed",
+      "wave": 1
+    },
+    {
+      "status": "error",
+      "symbol": "ETHE",
+      "issue": "price_fetch_failed",
+      "wave": 1
+    },
+    {
+      "status": "error",
+      "symbol": "ETHE",
+      "issue": "price_fetch_failed",
+      "wave": 1
+    },
+    {
+      "status": "error",
+      "symbol": "ETHE",
+      "issue": "price_fetch_failed",
+      "wave": 1
+    },
+    {
+      "status": "error",
+      "symbol": "GBTC",
+      "issue": "price_fetch_failed",
+      "wave": 1
+    },
+    {
+      "status": "error",
+      "symbol": "GBTC",
+      "issue": "price_fetch_failed",
+      "wave": 1
+    },
+    {
+      "status": "error",
+      "symbol": "GBTC",
+      "issue": "price_fetch_failed",
+      "wave": 1
+    },
+    {
+      "status": "error",
+      "symbol": "GBTC",
+      "issue": "price_fetch_failed",
+      "wave": 1
+    },
+    {
+      "status": "error",
+      "symbol": "ETHE",
+      "issue": "price_fetch_failed",
+      "wave": 2
+    },
+    {
+      "status": "error",
+      "symbol": "ETHE",
+      "issue": "price_fetch_failed",
+      "wave": 2
+    },
+    {
+      "status": "error",
+      "symbol": "ETHE",
+      "issue": "price_fetch_failed",
+      "wave": 2
+    },
+    {
+      "status": "error",
+      "symbol": "GBTC",
+      "issue": "price_fetch_failed",
+      "wave": 2
+    },
+    {
+      "status": "error",
+      "symbol": "GBTC",
+      "issue": "price_fetch_failed",
+      "wave": 2
+    },
+    {
+      "status": "error",
+      "symbol": "ETHE",
+      "issue": "price_fetch_failed",
+      "wave": 3
+    },
+    {
+      "status": "error",
+      "symbol": "ETHE",
+      "issue": "price_fetch_failed",
+      "wave": 3
+    },
+    {
+      "status": "error",
+      "symbol": "GBTC",
+      "issue": "price_fetch_failed",
+      "wave": 3
+    },
+    {
+      "status": "error",
+      "symbol": "GBTC",
+      "issue": "price_fetch_failed",
+      "wave": 3
+    },
+    {
+      "status": "error",
+      "symbol": "ETHE",
+      "issue": "price_fetch_failed",
+      "wave": 4
+    },
+    {
+      "status": "error",
+      "symbol": "ETHE",
+      "issue": "price_fetch_failed",
+      "wave": 4
+    },
+    {
+      "status": "error",
+      "symbol": "GBTC",
+      "issue": "price_fetch_failed",
+      "wave": 4
+    },
+    {
+      "status": "error",
+      "symbol": "GBTC",
+      "issue": "price_fetch_failed",
+      "wave": 4
+    },
+    {
+      "status": "error",
+      "symbol": "ETHE",
+      "issue": "price_fetch_failed",
+      "wave": 5
+    },
+    {
+      "status": "error",
+      "symbol": "ETHE",
+      "issue": "price_fetch_failed",
+      "wave": 5
+    },
+    {
+      "status": "error",
+      "symbol": "GBTC",
+      "issue": "price_fetch_failed",
+      "wave": 5
+    },
+    {
+      "status": "error",
+      "symbol": "GBTC",
+      "issue": "price_fetch_failed",
+      "wave": 5
+    },
+    {
+      "status": "error",
+      "symbol": "ETHE",
+      "issue": "price_fetch_failed",
+      "wave": 6
+    },
+    {
+      "status": "error",
+      "symbol": "ETHE",
+      "issue": "price_fetch_failed",
+      "wave": 6
+    },
+    {
+      "status": "error",
+      "symbol": "GBTC",
+      "issue": "price_fetch_failed",
+      "wave": 6
+    },
+    {
+      "status": "error",
+      "symbol": "GBTC",
+      "issue": "price_fetch_failed",
+      "wave": 6
+    },
+    {
+      "status": "error",
+      "symbol": "ETHE",
+      "issue": "price_fetch_failed",
+      "wave": 7
+    },
+    {
+      "status": "error",
+      "symbol": "ETHE",
+      "issue": "price_fetch_failed",
+      "wave": 7
+    },
+    {
+      "status": "error",
+      "symbol": "GBTC",
+      "issue": "price_fetch_failed",
+      "wave": 7
+    },
+    {
+      "status": "error",
+      "symbol": "GBTC",
+      "issue": "price_fetch_failed",
+      "wave": 7
+    },
+    {
+      "status": "error",
+      "symbol": "ETHE",
+      "issue": "price_fetch_failed",
+      "wave": 8
+    },
+    {
+      "status": "error",
+      "symbol": "ETHE",
+      "issue": "price_fetch_failed",
+      "wave": 8
+    },
+    {
+      "status": "error",
+      "symbol": "GBTC",
+      "issue": "price_fetch_failed",
+      "wave": 8
+    },
+    {
+      "status": "error",
+      "symbol": "GBTC",
+      "issue": "price_fetch_failed",
+      "wave": 8
+    },
+    {
+      "status": "error",
+      "symbol": "ETHE",
+      "issue": "price_fetch_failed",
+      "wave": 9
+    },
+    {
+      "status": "error",
+      "symbol": "ETHE",
+      "issue": "price_fetch_failed",
+      "wave": 9
+    },
+    {
+      "status": "error",
+      "symbol": "GBTC",
+      "issue": "price_fetch_failed",
+      "wave": 9
+    },
+    {
+      "status": "error",
+      "symbol": "GBTC",
+      "issue": "price_fetch_failed",
+      "wave": 9
+    },
+    {
+      "status": "error",
+      "symbol": "ETHE",
+      "issue": "price_fetch_failed",
+      "wave": 10
+    },
+    {
+      "status": "error",
+      "symbol": "ETHE",
+      "issue": "price_fetch_failed",
+      "wave": 10
+    },
+    {
+      "status": "error",
+      "symbol": "GBTC",
+      "issue": "price_fetch_failed",
+      "wave": 10
+    },
+    {
+      "status": "error",
+      "symbol": "GBTC",
+      "issue": "price_fetch_failed",
+      "wave": 10
+    }
+  ],
+  "learnings_applied": {
+    "replicate": [
+      "ETHE 93%",
+      "GBTC improved"
+    ],
+    "eliminated": [
+      "FXB 0%",
+      "EUO errors",
+      "GLD 0%"
+    ],
+    "strategy": "ETHE 50%, GBTC 40%, adaptive waves"
+  }
+}

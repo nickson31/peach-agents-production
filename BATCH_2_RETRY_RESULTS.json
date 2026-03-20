@@ -1,0 +1,137 @@
+{
+  "timestamp": "2026-03-19T13:56:11.442826",
+  "batch": 2,
+  "retry_attempt": 1,
+  "total_retried": 14,
+  "successfully_deployed": 14,
+  "still_rate_limited": 0,
+  "deployed_orders": [
+    {
+      "symbol": "FXB",
+      "qty": 14,
+      "limit_price": 1.25,
+      "youtuber": "ForexMentor",
+      "order_id": "d572a34a-bdaa-415f-9aa2-6598ae0182d4",
+      "status": "submitted",
+      "timestamp": "2026-03-19T13:55:40.726235"
+    },
+    {
+      "symbol": "FXA",
+      "qty": 10,
+      "limit_price": 0.65,
+      "youtuber": "Traders Reality",
+      "order_id": "80947ed9-5713-4a53-86cd-5573be4781e4",
+      "status": "submitted",
+      "timestamp": "2026-03-19T13:55:43.093587"
+    },
+    {
+      "symbol": "EUO",
+      "qty": 10,
+      "limit_price": 1.07,
+      "youtuber": "Pips Hunter",
+      "order_id": "d86d342d-cbb5-4ccd-a309-771b13f9ae09",
+      "status": "submitted",
+      "timestamp": "2026-03-19T13:55:45.449313"
+    },
+    {
+      "symbol": "GBTC",
+      "qty": 10,
+      "limit_price": 45.23,
+      "youtuber": "Candlestick King",
+      "order_id": "a37f21e3-6e3a-4efe-a092-adcd7623f3f5",
+      "status": "submitted",
+      "timestamp": "2026-03-19T13:55:47.820456"
+    },
+    {
+      "symbol": "FXB",
+      "qty": 10,
+      "limit_price": 1.23,
+      "youtuber": "Option Alpha",
+      "order_id": "51c5e03a-04ac-4fd5-a56e-5cc9db3713ce",
+      "status": "submitted",
+      "timestamp": "2026-03-19T13:55:50.179532"
+    },
+    {
+      "symbol": "ETHE",
+      "qty": 10,
+      "limit_price": 3449.98,
+      "youtuber": "Option Alpha",
+      "order_id": "ba3f30d4-75d2-4001-bdd4-f722e5c62787",
+      "status": "submitted",
+      "timestamp": "2026-03-19T13:55:52.531643"
+    },
+    {
+      "symbol": "GBTC",
+      "qty": 10,
+      "limit_price": 45.23,
+      "youtuber": "Option Alpha",
+      "order_id": "a5411e2c-0ad4-4d81-bbc7-ebe30b32d3c8",
+      "status": "submitted",
+      "timestamp": "2026-03-19T13:55:54.882511"
+    },
+    {
+      "symbol": "FXA",
+      "qty": 10,
+      "limit_price": 0.65,
+      "youtuber": "Option Alpha",
+      "order_id": "406e0e0c-6655-48a9-84ff-f1e60fe682ba",
+      "status": "submitted",
+      "timestamp": "2026-03-19T13:55:57.230199"
+    },
+    {
+      "symbol": "EUO",
+      "qty": 10,
+      "limit_price": 1.07,
+      "youtuber": "Option Alpha",
+      "order_id": "bc16c26f-ad8e-45b4-b666-2a36ff60de5b",
+      "status": "submitted",
+      "timestamp": "2026-03-19T13:55:59.579221"
+    },
+    {
+      "symbol": "ETHE",
+      "qty": 10,
+      "limit_price": 3449.98,
+      "youtuber": "The Trading Channel",
+      "order_id": "85daebec-7ab8-44e0-88a6-dd1a3a3f3b87",
+      "status": "submitted",
+      "timestamp": "2026-03-19T13:56:01.980204"
+    },
+    {
+      "symbol": "FXB",
+      "qty": 10,
+      "limit_price": 1.23,
+      "youtuber": "Price Action Mastery",
+      "order_id": "5424b6f1-0fb9-464b-a7a4-000dcbbee53d",
+      "status": "submitted",
+      "timestamp": "2026-03-19T13:56:04.351994"
+    },
+    {
+      "symbol": "ETHE",
+      "qty": 10,
+      "limit_price": 3449.98,
+      "youtuber": "Smart Money Concepts",
+      "order_id": "78c70f57-d1da-416f-8c29-9c4a67113982",
+      "status": "submitted",
+      "timestamp": "2026-03-19T13:56:06.725850"
+    },
+    {
+      "symbol": "GBTC",
+      "qty": 10,
+      "limit_price": 45.23,
+      "youtuber": "Elite NZD Traders",
+      "order_id": "c6785bf5-4ba9-4325-a365-01a96f846516",
+      "status": "submitted",
+      "timestamp": "2026-03-19T13:56:09.083159"
+    },
+    {
+      "symbol": "FXA",
+      "qty": 10,
+      "limit_price": 0.65,
+      "youtuber": "Elite NZD Traders",
+      "order_id": "1509891f-fe47-454f-bb5d-c0366bf1c2e4",
+      "status": "submitted",
+      "timestamp": "2026-03-19T13:56:11.442783"
+    }
+  ],
+  "failed_orders": []
+}

@@ -1,0 +1,95 @@
+[10:04:41] 🚀 ADAPTIVE SCALING SYSTEM
+[10:04:41]    Base: 5% escalation, $1000 order size
+[10:04:41]    Max: 50% escalation, $1500 order size
+[10:04:41] 
+[10:04:41] 
+📊 BATCH 1 - ADAPTIVE SCALING
+[10:04:41]    Escalation: 5%
+[10:04:41]    Order size: $1000
+[10:04:41]    Orders: 157 (base 150 + 5%)
+[10:04:41]    → Deploying 157 orders @ $1000 each
+[10:04:41]    State: 0 consecutive good
+[10:04:41]    Next batch will start with 5% escalation, $1000 orders
+[10:04:41] 
+[10:04:41] 
+📊 BATCH 2 - ADAPTIVE SCALING
+[10:04:42]    Escalation: 5%
+[10:04:42]    Order size: $1000
+[10:04:42]    Orders: 157 (base 150 + 5%)
+[10:04:42]    → Deploying 157 orders @ $1000 each
+[10:04:42]    State: 0 consecutive good
+[10:04:42]    Next batch will start with 5% escalation, $1000 orders
+[10:04:42] 
+[10:04:42] 
+📊 BATCH 3 - ADAPTIVE SCALING
+[10:04:42]    Escalation: 5%
+[10:04:42]    Order size: $1000
+[10:04:42]    Orders: 157 (base 150 + 5%)
+[10:04:42]    → Deploying 157 orders @ $1000 each
+[10:04:42]    State: 0 consecutive good
+[10:04:42]    Next batch will start with 5% escalation, $1000 orders
+[10:04:42] 
+[10:04:42] 
+📊 BATCH 4 - ADAPTIVE SCALING
+[10:04:42]    Escalation: 5%
+[10:04:42]    Order size: $1000
+[10:04:42]    Orders: 157 (base 150 + 5%)
+[10:04:42]    → Deploying 157 orders @ $1000 each
+[10:04:42]    State: 0 consecutive good
+[10:04:42]    Next batch will start with 5% escalation, $1000 orders
+[10:04:42] 
+[10:04:42] 
+📊 BATCH 5 - ADAPTIVE SCALING
+[10:04:43]    Escalation: 5%
+[10:04:43]    Order size: $1000
+[10:04:43]    Orders: 157 (base 150 + 5%)
+[10:04:43]    → Deploying 157 orders @ $1000 each
+[10:04:43]    State: 0 consecutive good
+[10:04:43]    Next batch will start with 5% escalation, $1000 orders
+[10:04:43] 
+[10:04:43] 
+📊 BATCH 6 - ADAPTIVE SCALING
+[10:04:43]    Escalation: 5%
+[10:04:43]    Order size: $1000
+[10:04:43]    Orders: 157 (base 150 + 5%)
+[10:04:43]    → Deploying 157 orders @ $1000 each
+[10:04:43]    State: 0 consecutive good
+[10:04:43]    Next batch will start with 5% escalation, $1000 orders
+[10:04:43] 
+[10:04:43] 
+📊 BATCH 7 - ADAPTIVE SCALING
+[10:04:44] ⚠️ ORDER SIZE DOWN: $1000 → $800
+[10:04:44]    Escalation: 5%
+[10:04:44]    Order size: $800
+[10:04:44]    Orders: 157 (base 150 + 5%)
+[10:04:44]    → Deploying 157 orders @ $800 each
+[10:04:44]    State: 0 consecutive good
+[10:04:44]    Next batch will start with 5% escalation, $800 orders
+[10:04:44] 
+[10:04:44] 
+📊 BATCH 8 - ADAPTIVE SCALING
+[10:04:44]    Escalation: 5%
+[10:04:44]    Order size: $800
+[10:04:44]    Orders: 157 (base 150 + 5%)
+[10:04:44]    → Deploying 157 orders @ $800 each
+[10:04:44]    State: 0 consecutive good
+[10:04:44]    Next batch will start with 5% escalation, $800 orders
+[10:04:44] 
+[10:04:44] 
+📊 BATCH 9 - ADAPTIVE SCALING
+[10:04:44]    Escalation: 5%
+[10:04:44]    Order size: $800
+[10:04:44]    Orders: 157 (base 150 + 5%)
+[10:04:44]    → Deploying 157 orders @ $800 each
+[10:04:44]    State: 0 consecutive good
+[10:04:44]    Next batch will start with 5% escalation, $800 orders
+[10:04:44] 
+[10:04:44] 
+📊 BATCH 10 - ADAPTIVE SCALING
+[10:04:45]    Escalation: 5%
+[10:04:45]    Order size: $800
+[10:04:45]    Orders: 157 (base 150 + 5%)
+[10:04:45]    → Deploying 157 orders @ $800 each
+[10:04:45]    State: 0 consecutive good
+[10:04:45]    Next batch will start with 5% escalation, $800 orders
+[10:04:45] 

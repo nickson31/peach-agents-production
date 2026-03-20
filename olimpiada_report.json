@@ -1,0 +1,166 @@
+{
+  "workflow": "OLIMPIADA REAL COMPLETA",
+  "timestamp": "2026-03-19T12:58:24.907109",
+  "step_1_transcripts": {
+    "total_fetched": 5,
+    "traders": [
+      "Glacier Trading",
+      "ForexMentor",
+      "Traders Reality",
+      "Pips Hunter",
+      "Candlestick King"
+    ],
+    "data": {
+      "Glacier Trading": {
+        "status": "success",
+        "trader": "Glacier Trading",
+        "transcript": "Today we're looking at EUR/USD. I'm entering a long position at 1.0950. Target profit is 1.1050, stop loss at 1.0850. The confluence of EMA 20 crossing above EMA 50 plus a break above the resistance level gives us a high probability trade. Risk reward ratio is 1:2. I usually size 1000 units per setup.",
+        "full_length": 302,
+        "timestamp": "2026-03-19T12:58:04.460242"
+      },
+      "ForexMentor": {
+        "status": "success",
+        "trader": "ForexMentor",
+        "transcript": "Watch this setup on GBP/USD. Entry at 1.2750, take profit 1.2850, stop at 1.2650. We're seeing a bullish engulfing candle at support with volume confirmation. The Stochastic is in oversold territory which gives us a divergence signal. I'm going 1000 units on this one.",
+        "full_length": 268,
+        "timestamp": "2026-03-19T12:58:04.960397"
+      },
+      "Traders Reality": {
+        "status": "success",
+        "trader": "Traders Reality",
+        "transcript": "XAU/USD showing potential. Entry 1950.0, target 1980.0, stop 1935.0. The price broke above the daily moving average and we have three pushes up pattern completing. Risk is very limited here. Position size 1000 units to capture this momentum move.",
+        "full_length": 246,
+        "timestamp": "2026-03-19T12:58:05.460573"
+      },
+      "Pips Hunter": {
+        "status": "success",
+        "trader": "Pips Hunter",
+        "transcript": "EUR/USD setup forming nicely. Long entry 1.0960, TP 1.1060, SL 1.0860. Multiple confluence factors: MACD bullish crossover, RSI above 50, and price above 200EMA. This is a textbook trend continuation setup. I'll take 1000 contracts here.",
+        "full_length": 237,
+        "timestamp": "2026-03-19T12:58:05.960754"
+      },
+      "Candlestick King": {
+        "status": "success",
+        "trader": "Candlestick King",
+        "transcript": "GBP/USD showing a hammer at support level. Entry 1.2740, target 1.2850, stop 1.2640. The wick rejection from support and close in upper half of range indicates strength. Combining with volume bar increase, we have confirmation. 1000 unit position.",
+        "full_length": 247,
+        "timestamp": "2026-03-19T12:58:06.460998"
+      }
+    }
+  },
+  "step_2_strategies": {
+    "total_strategies": 5,
+    "strategies": [
+      {
+        "trader": "Glacier Trading",
+        "entry_price": 1.14,
+        "tp_price": 1.2075,
+        "sl_price": 1.1085,
+        "entry_logic": "Technical confluence: EMA/Stochastic/Volume analysis",
+        "timeframe": "1H",
+        "instrument": "EUR/USD",
+        "risk_reward": "1:2.14"
+      },
+      {
+        "trader": "ForexMentor",
+        "entry_price": 1.275,
+        "tp_price": 1.285,
+        "sl_price": 1.265,
+        "entry_logic": "Technical confluence: EMA/Stochastic/Volume analysis",
+        "timeframe": "1H",
+        "instrument": "GBP/USD",
+        "risk_reward": "1:1.0"
+      },
+      {
+        "trader": "Traders Reality",
+        "entry_price": 1.175,
+        "tp_price": 1980.0,
+        "sl_price": 1.119,
+        "entry_logic": "Technical confluence: EMA/Stochastic/Volume analysis",
+        "timeframe": "1H",
+        "instrument": "XAU/USD",
+        "risk_reward": "1:35336.16"
+      },
+      {
+        "trader": "Pips Hunter",
+        "entry_price": 1.124,
+        "tp_price": 1.106,
+        "sl_price": 1.1037,
+        "entry_logic": "Technical confluence: EMA/Stochastic/Volume analysis",
+        "timeframe": "1H",
+        "instrument": "EUR/USD",
+        "risk_reward": "1:-0.89"
+      },
+      {
+        "trader": "Candlestick King",
+        "entry_price": 1.12,
+        "tp_price": 1.285,
+        "sl_price": 1.1025,
+        "entry_logic": "Technical confluence: EMA/Stochastic/Volume analysis",
+        "timeframe": "1H",
+        "instrument": "GBP/USD",
+        "risk_reward": "1:9.43"
+      }
+    ]
+  },
+  "step_3_backtest": {
+    "results": [
+      {
+        "strategy": "Glacier Trading",
+        "status": "no_data",
+        "win_rate": 0,
+        "pnl": 0,
+        "trades": 0
+      },
+      {
+        "strategy": "ForexMentor",
+        "status": "no_data",
+        "win_rate": 0,
+        "pnl": 0,
+        "trades": 0
+      },
+      {
+        "strategy": "Traders Reality",
+        "status": "no_data",
+        "win_rate": 0,
+        "pnl": 0,
+        "trades": 0
+      },
+      {
+        "strategy": "Pips Hunter",
+        "status": "no_data",
+        "win_rate": 0,
+        "pnl": 0,
+        "trades": 0
+      },
+      {
+        "strategy": "Candlestick King",
+        "status": "no_data",
+        "win_rate": 0,
+        "pnl": 0,
+        "trades": 0
+      }
+    ],
+    "bars_count": 0
+  },
+  "step_4_orders": {
+    "total_orders": 3,
+    "orders": [
+      {
+        "status": "error",
+        "error": "HTTPSConnectionPool(host='paper-api.alpaca.markets', port=443): Read timed out. (read timeout=5)",
+        "symbol": "EURUSD"
+      },
+      {
+        "status": "error",
+        "error": "HTTPSConnectionPool(host='paper-api.alpaca.markets', port=443): Read timed out. (read timeout=5)",
+        "symbol": "GBPUSD"
+      },
+      {
+        "status": "error",
+        "error": "HTTPSConnectionPool(host='paper-api.alpaca.markets', port=443): Read timed out. (read timeout=5)",
+        "symbol": "XAUUSD"
+      }
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "workflow": "OLIMPIADA REAL COMPLETA",
+  "executed_at": "2026-03-19T13:00:13.713255",
+  "step_1": {
+    "title": "YouTube Transcripts",
+    "count": 5,
+    "traders": [
+      "Glacier Trading",
+      "ForexMentor",
+      "Traders Reality",
+      "Pips Hunter",
+      "Candlestick King"
+    ]
+  },
+  "step_2": {
+    "title": "LLM Strategy Parsing",
+    "count": 5,
+    "strategies": [
+      {
+        "trader": "Glacier Trading",
+        "entry_price": 1.095,
+        "tp_price": 1.105,
+        "sl_price": 1.085,
+        "instrument": "EUR/USD",
+        "entry_logic": "EMA crossover + Volume + Candlestick",
+        "risk_reward": "1:1.0"
+      },
+      {
+        "trader": "ForexMentor",
+        "entry_price": 1.275,
+        "tp_price": 1.285,
+        "sl_price": 1.265,
+        "instrument": "GBP/USD",
+        "entry_logic": "EMA crossover + Volume + Candlestick",
+        "risk_reward": "1:1.0"
+      },
+      {
+        "trader": "Traders Reality",
+        "entry_price": 1.095,
+        "tp_price": 1980.0,
+        "sl_price": 1935.0,
+        "instrument": "XAU/USD",
+        "entry_logic": "EMA crossover + Volume + Candlestick",
+        "risk_reward": "1:1978905.0"
+      },
+      {
+        "trader": "Pips Hunter",
+        "entry_price": 1.095,
+        "tp_price": 1.106,
+        "sl_price": 1.086,
+        "instrument": "EUR/USD",
+        "entry_logic": "EMA crossover + Volume + Candlestick",
+        "risk_reward": "1:1.22"
+      },
+      {
+        "trader": "Candlestick King",
+        "entry_price": 1.095,
+        "tp_price": 1.285,
+        "sl_price": 1.264,
+        "instrument": "GBP/USD",
+        "entry_logic": "EMA crossover + Volume + Candlestick",
+        "risk_reward": "1:190.0"
+      }
+    ]
+  },
+  "step_3": {
+    "title": "Alpaca Backtest (30d 1H)",
+    "results": [
+      {
+        "strategy": "Glacier Trading",
+        "instrument": "EUR/USD",
+        "trades": 115,
+        "wins": 17,
+        "win_rate": "14.8%",
+        "pnl": -2090,
+        "status": "success"
+      },
+      {
+        "strategy": "ForexMentor",
+        "instrument": "GBP/USD",
+        "trades": 115,
+        "wins": 17,
+        "win_rate": "14.8%",
+        "pnl": -2090,
+        "status": "success"
+      },
+      {
+        "strategy": "Traders Reality",
+        "instrument": "XAU/USD",
+        "trades": 115,
+        "wins": 0,
+        "win_rate": "0.0%",
+        "pnl": -3450,
+        "status": "success"
+      },
+      {
+        "strategy": "Pips Hunter",
+        "instrument": "EUR/USD",
+        "trades": 115,
+        "wins": 12,
+        "win_rate": "10.4%",
+        "pnl": -2490,
+        "status": "success"
+      },
+      {
+        "strategy": "Candlestick King",
+        "instrument": "GBP/USD",
+        "trades": 115,
+        "wins": 0,
+        "win_rate": "0.0%",
+        "pnl": -3450,
+        "status": "success"
+      }
+    ]
+  },
+  "step_4": {
+    "title": "Real Order Deployment",
+    "orders": [
+      {
+        "rank": 1,
+        "strategy": "Glacier Trading",
+        "instrument": "EUR/USD",
+        "symbol": "EUO",
+        "status": "success",
+        "order_id": "b9f9d348-abc3-4c4b-8013-31420d513b71",
+        "qty": "100",
+        "price": "24.99",
+        "created_at": "2026-03-19T13:00:11.441870135Z"
+      },
+      {
+        "rank": 2,
+        "strategy": "ForexMentor",
+        "instrument": "GBP/USD",
+        "symbol": "FXB",
+        "status": "success",
+        "order_id": "e0d01ff5-e8d7-4a8f-9604-88d4ec6357f7",
+        "qty": "100",
+        "price": "24.3",
+        "created_at": "2026-03-19T13:00:12.300547588Z"
+      },
+      {
+        "rank": 3,
+        "strategy": "Traders Reality",
+        "instrument": "XAU/USD",
+        "symbol": "GLD",
+        "status": "success",
+        "order_id": "46e2c64f-4df7-406b-9417-233d3092649d",
+        "qty": "100",
+        "price": "191.1",
+        "created_at": "2026-03-19T13:00:13.155175861Z"
+      }
+    ]
+  }
+}

@@ -1,0 +1,402 @@
+[
+  {
+    "timestamp": "2026-03-19T14:30:33.212425",
+    "message": "\u2705 Orden creada: GBTC 16 @ $45.24\nID: fa56b0e6..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:33.354150",
+    "message": "\ud83d\uddd1\ufe0f Orden duplicada cancelada: b99cbf51..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:33.355693",
+    "message": "\u2705 Orden creada: ETHE 12 @ $3449.99\nID: 2e1b9475..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:33.357684",
+    "message": "\u2705 Orden creada: FXA 12 @ $0.632\nID: 3164ac95..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:33.359151",
+    "message": "\u2705 Orden creada: FXA 13 @ $0.632\nID: 9ac1ffbc..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:33.360587",
+    "message": "\u2705 Orden creada: GBTC 12 @ $45.24\nID: 40e55dfa..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:33.362074",
+    "message": "\u2705 Orden creada: GBTC 13 @ $45.24\nID: 757dc0ba..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:33.363510",
+    "message": "\u2705 Orden creada: GBTC 16 @ $45.24\nID: fa56b0e6..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:33.868382",
+    "message": "\u2705 Orden creada: ETHE 12 @ $3449.99\nID: 15fe8fb1..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:33.869474",
+    "message": "\u2705 Orden creada: FXA 12 @ $0.632\nID: 3164ac95..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:33.871077",
+    "message": "\u2705 Orden creada: FXA 13 @ $0.632\nID: 9ac1ffbc..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:33.872588",
+    "message": "\u2705 Orden creada: GBTC 12 @ $45.24\nID: 40e55dfa..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:33.874302",
+    "message": "\u2705 Orden creada: GBTC 13 @ $45.24\nID: 757dc0ba..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:33.876167",
+    "message": "\u2705 Orden creada: GBTC 16 @ $45.24\nID: fa56b0e6..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:33.984290",
+    "message": "\ud83d\uddd1\ufe0f Orden duplicada cancelada: 2e1b9475..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:34.336992",
+    "message": "\ud83d\uddd1\ufe0f Orden duplicada cancelada: 39ef1cc3..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:34.338697",
+    "message": "\u2705 Orden creada: ETHE 12 @ $3449.99\nID: 15fe8fb1..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:34.340548",
+    "message": "\u2705 Orden creada: FXA 12 @ $0.632\nID: 3164ac95..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:34.345269",
+    "message": "\u2705 Orden creada: FXA 13 @ $0.632\nID: 9ac1ffbc..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:34.348548",
+    "message": "\u2705 Orden creada: GBTC 12 @ $45.24\nID: 40e55dfa..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:34.356045",
+    "message": "\u2705 Orden creada: GBTC 13 @ $45.24\nID: 757dc0ba..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:34.360852",
+    "message": "\u2705 Orden creada: GBTC 16 @ $45.24\nID: fa56b0e6..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:34.770734",
+    "message": "\u2705 Orden creada: ETHE 12 @ $3449.99\nID: 4177e225..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:34.772148",
+    "message": "\u2705 Orden creada: FXA 12 @ $0.632\nID: 3164ac95..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:34.773896",
+    "message": "\u2705 Orden creada: FXA 13 @ $0.632\nID: 9ac1ffbc..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:34.776355",
+    "message": "\u2705 Orden creada: GBTC 12 @ $45.24\nID: 40e55dfa..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:34.778642",
+    "message": "\u2705 Orden creada: GBTC 13 @ $45.24\nID: 757dc0ba..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:34.780389",
+    "message": "\u2705 Orden creada: GBTC 16 @ $45.24\nID: fa56b0e6..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:35.304635",
+    "message": "\ud83d\uddd1\ufe0f Orden duplicada cancelada: 4177e225..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:35.305922",
+    "message": "\u2705 Orden creada: ETHE 12 @ $3449.99\nID: 6fc06199..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:35.307796",
+    "message": "\u2705 Orden creada: FXA 12 @ $0.632\nID: 3164ac95..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:35.309799",
+    "message": "\u2705 Orden creada: FXA 13 @ $0.632\nID: 9ac1ffbc..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:35.311915",
+    "message": "\u2705 Orden creada: GBTC 12 @ $45.24\nID: 40e55dfa..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:35.313638",
+    "message": "\u2705 Orden creada: GBTC 13 @ $45.24\nID: 757dc0ba..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:35.315495",
+    "message": "\u2705 Orden creada: GBTC 16 @ $45.24\nID: fa56b0e6..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:35.336616",
+    "message": "\ud83d\uddd1\ufe0f Orden duplicada cancelada: 4177e225..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:35.338449",
+    "message": "\u2705 Orden creada: ETHE 12 @ $3449.99\nID: 6fc06199..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:35.339821",
+    "message": "\u2705 Orden creada: FXA 12 @ $0.632\nID: 3164ac95..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:35.341445",
+    "message": "\u2705 Orden creada: FXA 13 @ $0.632\nID: 9ac1ffbc..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:35.343544",
+    "message": "\u2705 Orden creada: GBTC 12 @ $45.24\nID: 40e55dfa..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:35.344998",
+    "message": "\u2705 Orden creada: GBTC 13 @ $45.24\nID: 757dc0ba..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:35.347130",
+    "message": "\u2705 Orden creada: GBTC 16 @ $45.24\nID: fa56b0e6..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:35.438501",
+    "message": "\ud83d\uddd1\ufe0f Orden duplicada cancelada: 4177e225..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:35.440492",
+    "message": "\u2705 Orden creada: ETHE 12 @ $3449.99\nID: 6fc06199..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:35.442581",
+    "message": "\u2705 Orden creada: FXA 12 @ $0.632\nID: 3164ac95..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:35.472793",
+    "message": "\u2705 Orden creada: FXA 13 @ $0.632\nID: 9ac1ffbc..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:35.475133",
+    "message": "\u2705 Orden creada: GBTC 12 @ $45.24\nID: 40e55dfa..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:35.477240",
+    "message": "\u2705 Orden creada: GBTC 13 @ $45.24\nID: 757dc0ba..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:35.479795",
+    "message": "\u2705 Orden creada: GBTC 16 @ $45.24\nID: fa56b0e6..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:39.235782",
+    "message": "\u2705 Orden creada: FXA 12 @ $0.632\nID: 3164ac95..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:39.236916",
+    "message": "\u2705 Orden creada: FXA 13 @ $0.632\nID: 9ac1ffbc..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:39.239126",
+    "message": "\u2705 Orden creada: GBTC 12 @ $45.24\nID: 40e55dfa..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:39.240890",
+    "message": "\u2705 Orden creada: GBTC 13 @ $45.24\nID: 757dc0ba..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:39.242874",
+    "message": "\u2705 Orden creada: GBTC 16 @ $45.24\nID: fa56b0e6..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:43.265772",
+    "message": "\ud83d\uddd1\ufe0f Orden duplicada cancelada: 6ff739f7..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:43.267099",
+    "message": "\u2705 Orden creada: ETHE 12 @ $3449.99\nID: 2eb4712f..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:43.269906",
+    "message": "\u2705 Orden creada: FXA 12 @ $0.632\nID: 3164ac95..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:43.278244",
+    "message": "\u2705 Orden creada: FXA 13 @ $0.632\nID: 9ac1ffbc..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:43.282448",
+    "message": "\u2705 Orden creada: GBTC 12 @ $45.24\nID: 40e55dfa..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:43.283799",
+    "message": "\u2705 Orden creada: GBTC 13 @ $45.24\nID: 757dc0ba..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:43.287030",
+    "message": "\u2705 Orden creada: GBTC 16 @ $45.24\nID: fa56b0e6..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:45.084394",
+    "message": "\ud83d\uddd1\ufe0f Orden duplicada cancelada: b761cb5b..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:45.085749",
+    "message": "\u2705 Orden creada: ETHE 12 @ $3449.99\nID: 15a3c57b..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:45.092904",
+    "message": "\u2705 Orden creada: FXA 12 @ $0.632\nID: 3164ac95..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:45.094229",
+    "message": "\u2705 Orden creada: FXA 13 @ $0.632\nID: 9ac1ffbc..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:45.096215",
+    "message": "\u2705 Orden creada: GBTC 12 @ $45.24\nID: 40e55dfa..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:45.098592",
+    "message": "\u2705 Orden creada: GBTC 13 @ $45.24\nID: 757dc0ba..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:45.100383",
+    "message": "\u2705 Orden creada: GBTC 16 @ $45.24\nID: fa56b0e6..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:46.785975",
+    "message": "\u2705 Orden creada: FXA 12 @ $0.632\nID: 3164ac95..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:46.787319",
+    "message": "\u2705 Orden creada: FXA 13 @ $0.632\nID: 9ac1ffbc..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:46.789897",
+    "message": "\u2705 Orden creada: GBTC 12 @ $45.24\nID: 40e55dfa..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:46.791727",
+    "message": "\u2705 Orden creada: GBTC 13 @ $45.24\nID: 757dc0ba..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:47.076480",
+    "message": "\ud83d\uddd1\ufe0f Orden duplicada cancelada: 688f561f..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:47.421654",
+    "message": "\ud83d\uddd1\ufe0f Orden duplicada cancelada: 15a3c57b..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:47.423006",
+    "message": "\u2705 Orden creada: ETHE 12 @ $3449.99\nID: 813c5a24..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:47.425137",
+    "message": "\u2705 Orden creada: FXA 12 @ $0.632\nID: 3164ac95..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:47.427581",
+    "message": "\u2705 Orden creada: FXA 13 @ $0.632\nID: 9ac1ffbc..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:47.429706",
+    "message": "\u2705 Orden creada: GBTC 12 @ $45.24\nID: 40e55dfa..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:47.431902",
+    "message": "\u2705 Orden creada: GBTC 13 @ $45.24\nID: 757dc0ba..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:48.157918",
+    "message": "\u2705 Orden creada: FXA 12 @ $0.632\nID: 3164ac95..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:48.159726",
+    "message": "\u2705 Orden creada: FXA 13 @ $0.632\nID: 9ac1ffbc..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:48.162055",
+    "message": "\u2705 Orden creada: GBTC 12 @ $45.24\nID: 40e55dfa..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:48.166378",
+    "message": "\u2705 Orden creada: GBTC 13 @ $45.24\nID: 757dc0ba..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:49.118817",
+    "message": "\u2705 Orden creada: FXA 12 @ $0.632\nID: 3164ac95..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:49.120427",
+    "message": "\u2705 Orden creada: FXA 13 @ $0.632\nID: 9ac1ffbc..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:49.122214",
+    "message": "\u2705 Orden creada: GBTC 12 @ $45.24\nID: 40e55dfa..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:49.125384",
+    "message": "\u2705 Orden creada: GBTC 13 @ $45.24\nID: 757dc0ba..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:49.155038",
+    "message": "\u2705 Orden creada: FXA 12 @ $0.632\nID: 3164ac95..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:49.156219",
+    "message": "\u2705 Orden creada: FXA 13 @ $0.632\nID: 9ac1ffbc..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:49.158116",
+    "message": "\u2705 Orden creada: GBTC 12 @ $45.24\nID: 40e55dfa..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:49.159938",
+    "message": "\u2705 Orden creada: GBTC 13 @ $45.24\nID: 757dc0ba..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:49.495002",
+    "message": "\u2705 Orden creada: FXA 12 @ $0.632\nID: 3164ac95..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:49.496115",
+    "message": "\u2705 Orden creada: FXA 13 @ $0.632\nID: 9ac1ffbc..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:49.499285",
+    "message": "\u2705 Orden creada: GBTC 12 @ $45.24\nID: 40e55dfa..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:49.501138",
+    "message": "\u2705 Orden creada: GBTC 13 @ $45.24\nID: 757dc0ba..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:49.911553",
+    "message": "\u2705 Orden creada: FXA 12 @ $0.632\nID: 3164ac95..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:49.914568",
+    "message": "\u2705 Orden creada: FXA 13 @ $0.632\nID: 9ac1ffbc..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:49.916911",
+    "message": "\u2705 Orden creada: GBTC 12 @ $45.24\nID: 40e55dfa..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:49.918355",
+    "message": "\u2705 Orden creada: GBTC 13 @ $45.24\nID: 757dc0ba..."
+  },
+  {
+    "timestamp": "2026-03-19T14:30:53.821586",
+    "message": "\u2705 Orden creada: FXA 12 @ $0.632\nID: 3164ac95..."
+  }
+]

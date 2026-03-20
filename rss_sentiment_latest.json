@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-03-20T11:08:48.033482",
+  "consensus": {
+    "sentiment": "\ud83d\udd34 BEARISH",
+    "bullish_count": 4,
+    "bearish_count": 7,
+    "neutral_count": 1,
+    "total_items": 12,
+    "confidence": 58,
+    "ratio": "4B:7Be:1N"
+  },
+  "top_signals": {
+    "top_bullish": [
+      {
+        "source": "The Block",
+        "title": "Whale transactions suggest accumulation at lows",
+        "sentiment": "bullish"
+      },
+      {
+        "source": "Whale Alert",
+        "title": "$50M moved from exchange (buying signal)",
+        "sentiment": "bullish"
+      },
+      {
+        "source": "Trading Signal",
+        "title": "RSI oversold - potential bounce coming",
+        "sentiment": "bullish"
+      },
+      {
+        "source": "Opportunity Signals",
+        "title": "Oversold conditions create buying opportunity",
+        "sentiment": "bullish"
+      }
+    ],
+    "top_bearish": [
+      {
+        "source": "CoinDesk",
+        "title": "ETH drops below $2,100 support as bearish signals mount",
+        "sentiment": "bearish"
+      },
+      {
+        "source": "Bloomberg Crypto",
+        "title": "Bitcoin shorts increase amid market uncertainty",
+        "sentiment": "bearish"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Technical analysis shows potential 35% decline in Ethereum",
+        "sentiment": "bearish"
+      },
+      {
+        "source": "Crypto News",
+        "title": "Market volatility at 3-month high",
+        "sentiment": "bearish"
+      },
+      {
+        "source": "Market Analysis",
+        "title": "Recession fears push crypto markets lower",
+        "sentiment": "bearish"
+      }
+    ]
+  },
+  "total_items_analyzed": 12
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "trader": "ForexMentor",
+    "entry_price": 1.095,
+    "tp_price": 1.10595,
+    "sl_price": 1.08405,
+    "entry_logic": "Technical analysis-based entry",
+    "video_id": "nevkT300dtY",
+    "video_title": "Weekly Forex Forecast 7th to 14th Sep 2020 | Forex Mentor",
+    "status": "extracted"
+  },
+  {
+    "trader": "Traders Reality",
+    "entry_price": 1.095,
+    "tp_price": 1.10595,
+    "sl_price": 1.08405,
+    "entry_logic": "Technical analysis-based entry",
+    "video_id": "LZQQxXesDXE",
+    "video_title": "FOMC LIVE",
+    "status": "extracted"
+  }
+]

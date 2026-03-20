@@ -1,0 +1,141 @@
+[10:33:33] ════════════════════════════════════════════════════════════════
+[10:33:33] 🔍 ORDER ANALYZER - LIVE SYSTEM
+[10:33:33] ════════════════════════════════════════════════════════════════
+[10:33:33] Purpose: Prevent buying power starvation
+[10:33:33] Method: Cancel stuck orders, monitor fills, protect capital
+[10:33:33] 
+💼 ACCOUNT STATUS:
+[10:33:33]    Equity: $100,331
+[10:33:33]    Buying power: $141,834
+[10:33:33]    Cash: $45,918
+[10:33:34] 
+🔍 PENDING ORDERS ANALYSIS:
+[10:33:34]    Total pending: 50
+[10:33:34]    ⚠️ PARTIAL: ETHE - 2.0/12.0 filled
+[10:33:34] 
+📊 STUCK ORDERS DETECTED: 28
+[10:33:34]    • FXA: 140.0 shares, 35 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34]    • EUO: 150.0 shares, 35 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34]    • GBTC: 7.0 shares, 775 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34]    • GBTC: 7.0 shares, 776 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34]    • ETHE: 7.0 shares, 776 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34]    • GBTC: 7.0 shares, 778 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34]    • ETHE: 7.0 shares, 778 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34]    • GBTC: 7.0 shares, 779 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34]    • ETHE: 7.0 shares, 779 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34]    • GBTC: 7.0 shares, 781 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34]    • ETHE: 7.0 shares, 781 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34]    • GBTC: 6.0 shares, 781 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34]    • ETHE: 6.0 shares, 781 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34]    • GBTC: 6.0 shares, 783 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34]    • ETHE: 6.0 shares, 783 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34]    • GBTC: 7.0 shares, 786 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34]    • GBTC: 7.0 shares, 788 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34]    • GBTC: 7.0 shares, 789 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34]    • GBTC: 7.0 shares, 791 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34]    • ETHE: 7.0 shares, 791 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34]    • GBTC: 7.0 shares, 793 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34]    • ETHE: 7.0 shares, 793 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34]    • GBTC: 7.0 shares, 794 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34]    • ETHE: 7.0 shares, 794 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34]    • GBTC: 7.0 shares, 796 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34]    • ETHE: 7.0 shares, 796 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34]    • GBTC: 8.0 shares, 799 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34]    • ETHE: 7.0 shares, 801 min old
+[10:33:34]      → Reason: NO_FILL after 10 min
+[10:33:34] 
+💰 ESTIMATED CAPITAL BLOCKED: $469,000
+[10:33:34] 
+📈 FILL RATE ANALYSIS:
+[10:33:34]    Filled (last 1h): 0
+[10:33:34]    Pending: 50
+[10:33:34]    Fill rate: 0.0%
+[10:33:34]    ⚠️ WARNING: Fill rate < 70%
+[10:33:34]    → RECOMMENDATION: Stop deploying new orders
+[10:33:34] 
+🎯 RECOMMENDED ACTIONS:
+[10:33:34]    ✓ Buying power healthy: $141,834
+[10:33:34]    ⚠️ TOO MANY PENDING: 50 > 20
+[10:33:34]       → ACTION: Cancel oldest 50%
+[10:33:34]    ⚠️ STUCK ORDERS: 28 orders >10min unfilled
+[10:33:34]    💰 Capital blocked: $469,000
+[10:33:34]       → ACTION: CANCEL ALL STUCK ORDERS
+[10:33:34]    ⚠️ LOW FILL RATE: 0%
+[10:33:34]       → ACTION: STOP DEPLOYING new orders until fills improve
+[10:33:34] 
+⚡ EXECUTING RECOMMENDED ACTIONS:
+[10:33:34]    • REDUCE_PENDING_ORDERS
+[10:33:34]    • CANCEL_STUCK_ORDERS
+[10:33:34]    • PAUSE_NEW_ORDERS
+[10:33:34] 
+🧹 CANCELING STUCK ORDERS:
+[10:33:34]    ✓ CANCELED: FXA order (#5fc109eb)
+[10:33:34]    ✓ CANCELED: EUO order (#f0ec9f6f)
+[10:33:34]    ✓ CANCELED: GBTC order (#c489fde6)
+[10:33:34]    ✓ CANCELED: GBTC order (#aec344cd)
+[10:33:34]    ✓ CANCELED: ETHE order (#f6a6d24f)
+[10:33:34]    ✓ CANCELED: GBTC order (#7c594989)
+[10:33:34]    ✓ CANCELED: ETHE order (#6ae12194)
+[10:33:34]    ✓ CANCELED: GBTC order (#893aeb1e)
+[10:33:34]    ✓ CANCELED: ETHE order (#f4cb3b45)
+[10:33:34]    ✓ CANCELED: GBTC order (#5621a518)
+[10:33:34]    ✓ CANCELED: ETHE order (#fab6de53)
+[10:33:34]    ✓ CANCELED: GBTC order (#309216a5)
+[10:33:34]    ✓ CANCELED: ETHE order (#f825514c)
+[10:33:34]    ✓ CANCELED: GBTC order (#69abfa67)
+[10:33:34]    ✓ CANCELED: ETHE order (#5d1d7865)
+[10:33:34]    ✓ CANCELED: GBTC order (#cb192b5e)
+[10:33:34]    ✓ CANCELED: GBTC order (#246ed1f7)
+[10:33:34]    ✓ CANCELED: GBTC order (#2bb84394)
+[10:33:34]    ✓ CANCELED: GBTC order (#240b22be)
+[10:33:34]    ✓ CANCELED: ETHE order (#6fbd400d)
+[10:33:34]    ✓ CANCELED: GBTC order (#611a0615)
+[10:33:34]    ✓ CANCELED: ETHE order (#7d3a7199)
+[10:33:34]    ✓ CANCELED: GBTC order (#2d668ed5)
+[10:33:34]    ✓ CANCELED: ETHE order (#35f4a244)
+[10:33:34]    ✓ CANCELED: GBTC order (#e665aa93)
+[10:33:34]    ✓ CANCELED: ETHE order (#390a9850)
+[10:33:34]    ✓ CANCELED: GBTC order (#c7ad9a41)
+[10:33:34]    ✓ CANCELED: ETHE order (#98316ea8)
+[10:33:34] 
+💰 RESULTS:
+[10:33:34]    Orders canceled: 28
+[10:33:34]    Capital freed: $2,050,873
+[10:33:34] 
+════════════════════════════════════════════════════════════════
+[10:33:34] ✅ ANALYZER COMPLETE
+[10:33:34] ════════════════════════════════════════════════════════════════
+[10:33:34] 
+📋 FINAL STATUS:
+[10:33:34]    Pending orders: 50
+[10:33:34]    Stuck orders: 28
+[10:33:34]    Fill rate: 0%
+[10:33:34]    BP available: $141,834
+[10:33:34]    System health: 🟢 GOOD

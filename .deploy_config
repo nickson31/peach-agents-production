@@ -1,0 +1,32 @@
+# PEACH&AGENTS DEPLOYMENT CONFIG
+
+# Fill in as you complete steps
+
+# STEP 1: GitHub Repo
+GITHUB_REPO_URL=""
+GITHUB_USERNAME="nickson31"
+GITHUB_EMAIL="willmnadarin@gmail.com"
+
+# STEP 2: Supabase Project
+SUPABASE_URL=""
+SUPABASE_ANON_KEY=""
+SUPABASE_SERVICE_ROLE_KEY=""
+SUPABASE_PROJECT_NAME="peach-agents-production"
+
+# STEP 3: Vercel Project
+VERCEL_URL=""
+VERCEL_PROJECT_NAME="peach-agents-production"
+
+# STEP 4: Alpaca (Already have)
+ALPACA_API="https://paper-api.alpaca.markets/v2"
+ALPACA_KEY="PKW445AWAOSGU2WJYCCFUZ47PR"
+ALPACA_SECRET="7tmQ6gY5c4hdmqwEN3UAgv4to78WsGkWPmxUox4G7x4X"
+ALPACA_ACCOUNT="PA320EPZBPGV"
+
+# Final Status
+GITHUB_PUSHED=false
+SUPABASE_SCHEMA_RUN=false
+SUPABASE_KEYS_COPIED=false
+VERCEL_ENV_VARS_SET=false
+VERCEL_DEPLOYED=false
+APP_TESTED=false

@@ -1,0 +1,109 @@
+{
+  "TradingView": {
+    "total_tweets": 20,
+    "followers": 320000,
+    "verified": true,
+    "total_account_tweets": 542,
+    "trustworthiness_score": 85,
+    "primary_sentiment": "bearish",
+    "consistency": 30,
+    "sentiment_breakdown": {
+      "technical": 1,
+      "bearish": 6,
+      "bullish": 5,
+      "neutral": 4,
+      "data": 4
+    },
+    "quality_rating": "OK"
+  },
+  "Whale Alert": {
+    "total_tweets": 30,
+    "followers": 450000,
+    "verified": true,
+    "total_account_tweets": 145,
+    "trustworthiness_score": 80,
+    "primary_sentiment": "data",
+    "consistency": 30,
+    "sentiment_breakdown": {
+      "data": 9,
+      "bearish": 7,
+      "bullish": 7,
+      "neutral": 7
+    },
+    "quality_rating": "OK"
+  },
+  "CryptoBobby": {
+    "total_tweets": 25,
+    "followers": 85000,
+    "verified": true,
+    "total_account_tweets": 1203,
+    "trustworthiness_score": 80,
+    "primary_sentiment": "bearish",
+    "consistency": 32,
+    "sentiment_breakdown": {
+      "bearish": 8,
+      "bullish": 7,
+      "neutral": 5,
+      "data": 5
+    },
+    "quality_rating": "OK"
+  },
+  "Bloomberg Crypto": {
+    "total_tweets": 15,
+    "followers": 100000,
+    "verified": true,
+    "total_account_tweets": 500,
+    "trustworthiness_score": 70,
+    "primary_sentiment": "bearish",
+    "consistency": 26,
+    "sentiment_breakdown": {
+      "bearish": 4,
+      "bullish": 4,
+      "neutral": 4,
+      "data": 3
+    },
+    "quality_rating": "OK"
+  },
+  "CoinDesk": {
+    "total_tweets": 8,
+    "followers": 100000,
+    "verified": true,
+    "total_account_tweets": 500,
+    "trustworthiness_score": 70,
+    "primary_sentiment": "bearish",
+    "consistency": 25,
+    "sentiment_breakdown": {
+      "bearish": 2,
+      "bullish": 2,
+      "neutral": 2,
+      "data": 2
+    },
+    "quality_rating": "OK"
+  },
+  "CryptoMoonShot123": {
+    "total_tweets": 1,
+    "followers": 245,
+    "verified": false,
+    "total_account_tweets": 3,
+    "trustworthiness_score": 15,
+    "primary_sentiment": "pump",
+    "consistency": 100,
+    "sentiment_breakdown": {
+      "pump": 1
+    },
+    "quality_rating": "SKIP"
+  },
+  "RandomTrader": {
+    "total_tweets": 1,
+    "followers": 89,
+    "verified": false,
+    "total_account_tweets": 5,
+    "trustworthiness_score": 15,
+    "primary_sentiment": "noise",
+    "consistency": 100,
+    "sentiment_breakdown": {
+      "noise": 1
+    },
+    "quality_rating": "SKIP"
+  }
+}

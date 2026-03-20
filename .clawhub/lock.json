@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "youtube-full": {
+      "version": "1.4.1",
+      "installedAt": 1773860024431
+    },
+    "youtube-transcript": {
+      "version": "1.0.1",
+      "installedAt": 1773925719842
+    },
+    "transcriptapi": {
+      "version": "1.4.1",
+      "installedAt": 1773926161038
+    }
+  }
+}
