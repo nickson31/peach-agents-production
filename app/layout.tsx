@@ -2,14 +2,18 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'PEACH&AGENTS - Trading Platform',
-  description: 'Intelligent trading bot management with Alpaca integration',
+  title: 'Peach Agents - Trading Platform',
+  description: 'Automated trading system with AI-powered market intelligence',
 }
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html lang="en">
-      <body className="bg-slate-950 text-white">{children}</body>
+      <body>{children}</body>
     </html>
   )
 }
