@@ -1,0 +1,62 @@
+{
+  "web_searches": [],
+  "youtube_searches": [
+    {
+      "query": "central bank influence forex market",
+      "videos_found": 5,
+      "top_video_title": "How does raising interest rates control inflation?"
+    },
+    {
+      "query": "economic indicators forex impact",
+      "videos_found": 5,
+      "top_video_title": "How the Fed Steers Interest Rates to Guide the Entire Economy | WSJ"
+    },
+    {
+      "query": "correlation trading pairs",
+      "videos_found": 5,
+      "top_video_title": "What are the best pairs to trade in forex?  (sessions &amp; correlation)"
+    },
+    {
+      "query": "scalping day trading techniques",
+      "videos_found": 5,
+      "top_video_title": "Buy or Sell? Price Action Strategy"
+    },
+    {
+      "query": "swing trading strategies timeframes",
+      "videos_found": 5,
+      "top_video_title": "Best Trend Lines Trading Strategy (Advanced)"
+    },
+    {
+      "query": "automated trading algorithms",
+      "videos_found": 5,
+      "top_video_title": "Trading Trick Will BLOW Your Mind!"
+    },
+    {
+      "query": "machine learning trading prediction",
+      "videos_found": 5,
+      "top_video_title": "Colour Prediction Game Tricks | Colour Trading | Color Prediction Game | Color Prediction Game Trick"
+    },
+    {
+      "query": "sentiment analysis trading markets",
+      "videos_found": 5,
+      "top_video_title": "Fundamental Analysis Complete Course | How to Select Best Stocks for Investment in Share Market"
+    },
+    {
+      "query": "risk reward ratio calculation",
+      "videos_found": 5,
+      "top_video_title": "Topic - 58 | StopLoss &amp; Risk to Reward Ratio | SL &amp; TP | Short &amp; Long Position | Basic Stock Market"
+    },
+    {
+      "query": "trading plan execution discipline",
+      "videos_found": 5,
+      "top_video_title": "You only need less than 10 pips a day to be a full time day trader \ud83d\ude33\ud83d\udd25"
+    }
+  ],
+  "summary": {
+    "total_web_searches": 0,
+    "total_youtube_searches": 10,
+    "total_data_points": 10,
+    "estimated_transcripts_available": 25,
+    "total_research_points": "50+"
+  }
+}

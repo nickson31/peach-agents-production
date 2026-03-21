@@ -1,0 +1,134 @@
+{
+  "web_searches": [
+    {
+      "query": "EURUSD trading strategy SMC",
+      "type": "web",
+      "status": "queued"
+    },
+    {
+      "query": "forex trading psychology emotional control",
+      "type": "web",
+      "status": "queued"
+    },
+    {
+      "query": "price action trading patterns",
+      "type": "web",
+      "status": "queued"
+    },
+    {
+      "query": "support resistance levels trading",
+      "type": "web",
+      "status": "queued"
+    },
+    {
+      "query": "RSI MACD indicator combinations",
+      "type": "web",
+      "status": "queued"
+    },
+    {
+      "query": "trading risk management position sizing",
+      "type": "web",
+      "status": "queued"
+    },
+    {
+      "query": "forex market structure analysis",
+      "type": "web",
+      "status": "queued"
+    },
+    {
+      "query": "trend following trading systems",
+      "type": "web",
+      "status": "queued"
+    },
+    {
+      "query": "breakout trading setups",
+      "type": "web",
+      "status": "queued"
+    },
+    {
+      "query": "order flow trading",
+      "type": "web",
+      "status": "queued"
+    },
+    {
+      "query": "supply demand zones",
+      "type": "web",
+      "status": "queued"
+    },
+    {
+      "query": "trading volume analysis",
+      "type": "web",
+      "status": "queued"
+    },
+    {
+      "query": "harmonic patterns trading",
+      "type": "web",
+      "status": "queued"
+    },
+    {
+      "query": "elliott wave theory forex",
+      "type": "web",
+      "status": "queued"
+    },
+    {
+      "query": "candlestick patterns analysis",
+      "type": "web",
+      "status": "queued"
+    }
+  ],
+  "youtube_searches": [
+    {
+      "query": "central bank influence forex market",
+      "type": "youtube",
+      "status": "queued"
+    },
+    {
+      "query": "economic indicators forex impact",
+      "type": "youtube",
+      "status": "queued"
+    },
+    {
+      "query": "correlation trading pairs",
+      "type": "youtube",
+      "status": "queued"
+    },
+    {
+      "query": "scalping day trading techniques",
+      "type": "youtube",
+      "status": "queued"
+    },
+    {
+      "query": "swing trading strategies timeframes",
+      "type": "youtube",
+      "status": "queued"
+    },
+    {
+      "query": "automated trading algorithms",
+      "type": "youtube",
+      "status": "queued"
+    },
+    {
+      "query": "machine learning trading prediction",
+      "type": "youtube",
+      "status": "queued"
+    },
+    {
+      "query": "sentiment analysis trading markets",
+      "type": "youtube",
+      "status": "queued"
+    },
+    {
+      "query": "risk reward ratio calculation",
+      "type": "youtube",
+      "status": "queued"
+    },
+    {
+      "query": "trading plan execution discipline",
+      "type": "youtube",
+      "status": "queued"
+    }
+  ],
+  "total_queries": 25,
+  "estimated_videos": 25,
+  "status": "ready_for_batch_execution"
+}
