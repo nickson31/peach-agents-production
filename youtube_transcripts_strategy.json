@@ -1,0 +1,116 @@
+{
+  "name": "TOP 10 TRADERS HARMONY - From Real Transcripts",
+  "generated_at": "2026-03-20T20:43:25.408913",
+  "data_source": "YouTube Transcripts Analysis",
+  "consensus": {
+    "total_signals": 3,
+    "direction_votes": {
+      "LONG": 2,
+      "SHORT": 0,
+      "NEUTRAL": 1
+    },
+    "pairs": {
+      "BTC/USDT": 3,
+      "ETH/USDT": 3
+    },
+    "timeframes": {
+      "4H": 2,
+      "1D": 1
+    },
+    "avg_confidence": 3.0,
+    "recommended_strategy": "LONG"
+  },
+  "all_trader_signals": [
+    {
+      "trader": "glacier",
+      "timestamp": "2026-03-20T20:43:25.408062",
+      "pairs": [
+        "BTC/USDT",
+        "ETH/USDT"
+      ],
+      "direction": "LONG",
+      "confidence": "HIGH",
+      "timeframe": "4H",
+      "targets": {
+        "entry": "$43,100",
+        "tp1": null,
+        "tp2": null,
+        "tp3": null,
+        "stop_loss": "$42,100"
+      },
+      "indicators": [
+        "rsi",
+        "support",
+        "resistance"
+      ],
+      "strategy": null
+    },
+    {
+      "trader": "coinbureau",
+      "timestamp": "2026-03-20T20:43:25.408729",
+      "pairs": [
+        "BTC/USDT",
+        "ETH/USDT"
+      ],
+      "direction": "LONG",
+      "confidence": "HIGH",
+      "timeframe": "4H",
+      "targets": {
+        "entry": null,
+        "tp1": null,
+        "tp2": null,
+        "tp3": null,
+        "stop_loss": null
+      },
+      "indicators": [
+        "support",
+        "breakout"
+      ],
+      "strategy": null
+    },
+    {
+      "trader": "sheldon",
+      "timestamp": "2026-03-20T20:43:25.408788",
+      "pairs": [
+        "BTC/USDT",
+        "ETH/USDT"
+      ],
+      "direction": "NEUTRAL",
+      "confidence": "HIGH",
+      "timeframe": "1D",
+      "targets": {
+        "entry": null,
+        "tp1": null,
+        "tp2": null,
+        "tp3": null,
+        "stop_loss": null
+      },
+      "indicators": [
+        "support",
+        "resistance",
+        "breakout"
+      ],
+      "strategy": null
+    }
+  ],
+  "execution_plan": {
+    "primary_direction": "LONG",
+    "confidence_score": 100,
+    "pairs": [
+      "BTC/USDT",
+      "ETH/USDT"
+    ],
+    "preferred_timeframe": "4H",
+    "entry_conditions": {
+      "wait_for": "2+ traders agree on direction",
+      "confirm_on": "Technical indicator alignment",
+      "entry_type": "Limit or Market on confirmation"
+    },
+    "position_management": {
+      "risk_per_trade": "1-2% of account",
+      "take_profit_strategy": "50/30/20 split",
+      "stop_loss": "-1% from entry",
+      "trailing_stop": "Activate after +2%"
+    }
+  }
+}

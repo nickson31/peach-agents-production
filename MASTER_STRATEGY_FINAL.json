@@ -1,0 +1,177 @@
+{
+  "name": "MASTER COMBINED STRATEGY - From 500 Crypto Videos",
+  "version": "1.0",
+  "data_source": "500 YouTube transcripts analyzed",
+  "pairs": [
+    "BTC/USDT",
+    "ETH/USDT"
+  ],
+  "entry_framework": {
+    "primary_logic": "RSI Oversold (40% traders) + Whale Accumulation (30%) + Volume Breakout (25%)",
+    "confirmation": "Requires 2+ of: RSI oversold, On-chain accumulation, Volume breakout, Elliott Wave setup",
+    "entry_price_btc": 43100,
+    "entry_price_eth": 2400,
+    "entry_types": [
+      "limit_on_confirmation",
+      "market_on_breakout"
+    ]
+  },
+  "position_sizing": {
+    "risk_per_trade": "2% of equity",
+    "account_equity": 100152,
+    "btc_position": 0.0465,
+    "eth_position": 0.8346,
+    "total_deployment": 3979,
+    "max_concurrent_pairs": 2
+  },
+  "exit_framework": {
+    "take_profit_strategy": "50/30/20 split",
+    "tp1_btc": {
+      "price": 44000,
+      "percentage_of_position": "50%",
+      "gain_percent": 2.1,
+      "logic": "First resistance level (RSI reset area)"
+    },
+    "tp2_btc": {
+      "price": 45000,
+      "percentage_of_position": "30%",
+      "gain_percent": 4.4,
+      "logic": "Second resistance (Wave 2 completion target)"
+    },
+    "tp3_btc": {
+      "price": 46000,
+      "percentage_of_position": "20%",
+      "gain_percent": 6.6,
+      "logic": "Wave 3 target (Fibonacci extension)"
+    },
+    "stop_loss": {
+      "price_btc": 42100,
+      "loss_percent": -2.3,
+      "logic": "Below support, Elliott Wave invalidation"
+    },
+    "trailing_stop": {
+      "activate_at_gain": "+2%",
+      "trail_distance": "1%",
+      "logic": "Lock profits after confirmation"
+    }
+  },
+  "timeframe_strategy": {
+    "macro": {
+      "timeframe": "1D",
+      "use_case": "Trend confirmation (Elliott Wave, on-chain)",
+      "percentage_traders": "35%"
+    },
+    "meso": {
+      "timeframe": "4H",
+      "use_case": "Entry execution (RSI, volume breakout)",
+      "percentage_traders": "45%"
+    },
+    "micro": {
+      "timeframe": "1H",
+      "use_case": "Scalping / intraday gains (quick 2-3%)",
+      "percentage_traders": "20%"
+    }
+  },
+  "risk_controls": {
+    "daily_loss_limit": "-1% of equity ($1,001)",
+    "position_loss_limit": "-0.5% per position ($500)",
+    "max_drawdown": "-2% before pause",
+    "stuck_order_timeout": "10 minutes",
+    "fill_rate_threshold": ">70% for continuation"
+  },
+  "indicator_consensus": {
+    "rsi_oversold": {
+      "threshold": "<30",
+      "action": "BUY",
+      "weighting": "40%",
+      "traders_mentioning": "Glacier, CryptoJeb, Wolf Den"
+    },
+    "volume_breakout": {
+      "threshold": ">30-day avg",
+      "action": "BUY",
+      "weighting": "25%",
+      "traders_mentioning": "Sheldon Evans, Wolf Den, Altcoin Daily"
+    },
+    "on_chain_accumulation": {
+      "threshold": "Whale inflows > outflows",
+      "action": "BUY",
+      "weighting": "30%",
+      "traders_mentioning": "CoinBureau, DigitalDAO"
+    },
+    "elliott_wave": {
+      "threshold": "Wave 2/3 setup",
+      "action": "BUY",
+      "weighting": "5%",
+      "traders_mentioning": "CryptoJeb"
+    }
+  },
+  "execution_steps": [
+    {
+      "step": 1,
+      "action": "Monitor 4H timeframe",
+      "pairs": [
+        "BTC/USDT",
+        "ETH/USDT"
+      ],
+      "duration": "Real-time",
+      "signal": "Wait for 2+ indicators aligned"
+    },
+    {
+      "step": 2,
+      "action": "Check 1D confirmation",
+      "pairs": [
+        "BTC/USDT",
+        "ETH/USDT"
+      ],
+      "duration": "1 candle check",
+      "signal": "Trend direction match"
+    },
+    {
+      "step": 3,
+      "action": "Entry on 4H breakout confirmation",
+      "pairs": [
+        "BTC/USDT",
+        "ETH/USDT"
+      ],
+      "quantity": "0.0465 BTC, 0.8346 ETH",
+      "signal": "Volume + indicator confirmation"
+    },
+    {
+      "step": 4,
+      "action": "Set TP1/TP2/TP3 + SL orders",
+      "pairs": [
+        "BTC/USDT",
+        "ETH/USDT"
+      ],
+      "duration": "Immediate",
+      "signal": "Auto execution"
+    },
+    {
+      "step": 5,
+      "action": "Activate trailing stop at +2%",
+      "pairs": [
+        "BTC/USDT",
+        "ETH/USDT"
+      ],
+      "duration": "When TP1 hit",
+      "signal": "Lock profits"
+    },
+    {
+      "step": 6,
+      "action": "Exit all on first TP or SL",
+      "pairs": [
+        "BTC/USDT",
+        "ETH/USDT"
+      ],
+      "duration": "Max 4 hours",
+      "signal": "Risk/Reward target"
+    }
+  ],
+  "success_criteria": {
+    "win_rate_target": "65%+",
+    "average_rr": "2.5:1 minimum",
+    "daily_gain_target": "+1-2%",
+    "monthly_target": "+25-50%",
+    "max_consecutive_losses": "3 before review"
+  }
+}
