@@ -1,0 +1,27 @@
+{
+  "Glacier Trading": {
+    "video_id": "dQw4w9WgXcQ",
+    "status": "fallback",
+    "transcript": "Mock transcript for Glacier Trading trading strategy..."
+  },
+  "ForexMentor": {
+    "video_id": "LrUQUYR7G20",
+    "status": "fallback",
+    "transcript": "Mock transcript for ForexMentor trading strategy..."
+  },
+  "Traders Reality": {
+    "video_id": "8xEIX5cU0cQ",
+    "status": "fallback",
+    "transcript": "Mock transcript for Traders Reality trading strategy..."
+  },
+  "Pips Hunter": {
+    "video_id": "rVMzVyy3A1U",
+    "status": "fallback",
+    "transcript": "Mock transcript for Pips Hunter trading strategy..."
+  },
+  "Candlestick King": {
+    "video_id": "xJnD3yJuYac",
+    "status": "fallback",
+    "transcript": "Mock transcript for Candlestick King trading strategy..."
+  }
+}

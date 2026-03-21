@@ -1,0 +1,56 @@
+{
+  "name": "TOP 10 TRADERS HARMONY - BTC/USDT + ETH/USDT",
+  "pairs": [
+    "BTC/USDT",
+    "ETH/USDT"
+  ],
+  "update_frequency": "Every 4 hours",
+  "execution_rules": {
+    "entry": {
+      "preferred_timeframe": "4H",
+      "confirmed_by": "2+ technical indicators",
+      "min_confidence": "MEDIUM",
+      "entry_types": [
+        "RSI Oversold Bounce",
+        "Breakout",
+        "Support Retest"
+      ]
+    },
+    "position_sizing": {
+      "base_size": "Standard",
+      "risk_per_trade": "1-2% of account",
+      "max_concurrent": "2 pairs"
+    },
+    "exit": {
+      "take_profit_types": [
+        "50% at +2%",
+        "30% at +4%",
+        "20% at +6%"
+      ],
+      "stop_loss": "1-1.5% below entry",
+      "trailing_stop": "Enable after +2% gain"
+    },
+    "risk_reward": {
+      "minimum": "2:1",
+      "target": "3:1 or better"
+    }
+  },
+  "signal_generation": {
+    "sources": "Top 10 traders consensus",
+    "weighting": {
+      "PLATINUM": 1.0,
+      "GOLD": 0.85,
+      "SILVER": 0.7
+    },
+    "consensus_threshold": "60%+ traders agree"
+  },
+  "implementation": {
+    "step_1": "Monitor 4H timeframe BTC/USDT + ETH/USDT",
+    "step_2": "Wait for 2+ technical signals to align",
+    "step_3": "Entry on signal confirmation",
+    "step_4": "Set TP levels (50/30/20 split)",
+    "step_5": "Set SL at -1%",
+    "step_6": "Trail stop after +2% gain",
+    "step_7": "Exit all at first TP or SL"
+  }
+}

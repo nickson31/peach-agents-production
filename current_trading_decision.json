@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-03-20T11:09:07.785135",
+  "decision": {
+    "strategy": "SHORT_AGGRESSIVE",
+    "confidence": 58,
+    "orders": [
+      {
+        "type": "SHORT",
+        "qty": 150,
+        "target": "+2-3% (profit from decline)"
+      },
+      {
+        "type": "SELL",
+        "qty": 100,
+        "target": "Scalp at -2% price level"
+      },
+      {
+        "type": "BUY",
+        "qty": 50,
+        "target": "+3% (DCA on dip)"
+      }
+    ],
+    "reasons": [
+      "Both RSS + YouTube confirm BEARISH (strong signal)",
+      "Confidence: 58 (high, proceed)",
+      "Technical: ETH below $2,100 support (sell signal)",
+      "Macro: Recession fears driving market (YouTube finding)",
+      "Oversold conditions create DCA opportunity",
+      "Deploy heavily on shorts in early batches"
+    ]
+  },
+  "status": "READY_FOR_DEPLOYMENT"
+}

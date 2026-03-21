@@ -12,10 +12,6 @@
     "transcriptapi": {
       "version": "1.4.1",
       "installedAt": 1773926161038
-    },
-    "edison-youtube-full": {
-      "version": "1.0.0",
-      "installedAt": 1774130350737
     }
   }
 }

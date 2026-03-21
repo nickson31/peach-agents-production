@@ -1,0 +1,42 @@
+[
+  {
+    "trader": "Glacier Trading",
+    "entry_price": 1.095,
+    "tp_price": 1.10595,
+    "sl_price": 1.08405,
+    "transcript_source": "dQw4w9WgXcQ",
+    "status": "fallback"
+  },
+  {
+    "trader": "ForexMentor",
+    "entry_price": 1.095,
+    "tp_price": 1.10595,
+    "sl_price": 1.08405,
+    "transcript_source": "LrUQUYR7G20",
+    "status": "fallback"
+  },
+  {
+    "trader": "Traders Reality",
+    "entry_price": 1.095,
+    "tp_price": 1.10595,
+    "sl_price": 1.08405,
+    "transcript_source": "8xEIX5cU0cQ",
+    "status": "fallback"
+  },
+  {
+    "trader": "Pips Hunter",
+    "entry_price": 1.095,
+    "tp_price": 1.10595,
+    "sl_price": 1.08405,
+    "transcript_source": "rVMzVyy3A1U",
+    "status": "fallback"
+  },
+  {
+    "trader": "Candlestick King",
+    "entry_price": 1.095,
+    "tp_price": 1.10595,
+    "sl_price": 1.08405,
+    "transcript_source": "xJnD3yJuYac",
+    "status": "fallback"
+  }
+]
